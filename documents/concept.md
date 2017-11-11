@@ -1,0 +1,3 @@
+# Concept 
+
+The majority has the experience of losing item, base on [the research from Mozy](https://mozy.co.uk/about/news/reports/lost-and-found), “the average value of a lost item is $176.25 and the average person irretrievably loses $95.78 of stuff each year”. Our idea is to address the daily life issue with mobile device and bluetooth technique. By attaching a sensor to the belongings, the user can get notifications whenever the items are far away from them, and aiming to reduce the possibility of losing item.
