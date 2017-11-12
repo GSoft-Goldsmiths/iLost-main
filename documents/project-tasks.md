@@ -20,6 +20,16 @@ More so ever, our approach to major tasks are completely different. Even though 
 
 **Identify milestones, both internal and as external deliverables for your project.** 
 
-> *milestones- moments that have a significance in the development of an project.
+> * milestones- moments that have a significance in the development of an project.
 
-> *stakeholders- any internal or external source which has an interest in the business/product.
+> * stakeholders- any internal or external source which has an interest in the business/product.
+
+---
+## Milestones
+
+* Proposal (Descember 12th)
+* Software Development Prototype (January 7th)
+* Presentation to prospective employers (January 11th)
+* Software Development Finish (March 5th)
+* Presentation (March 9th)
+* Final Report (March 21th)
