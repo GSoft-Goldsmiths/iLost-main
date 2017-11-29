@@ -7,3 +7,6 @@ When starting the process of concept development for our software project, we qu
 ## Concept Introduction
 
 This contemporary problem inclined us to develop an item tracking application. Our original intention for the app was to have it to inform the owner that they are about to leave a belonging behind by sending a notification to their phone when they reach a certain distance away from the item. To carry out this concept, we needed a means for the app to communicate with the lost possession. We also wanted to ensure that the tracking device was discreet; hence our group set its focus on Bluetooth stickers. Bluetooth stickers seemed to be a natural choice because they’re lightweight, making them easy to carry around, which prevents the concept from becoming a nuisance to the user. Some other reasons why we thought it was the appropriate choice for our project include how inexpensive and easily obtainable these items can be.
+
+[1] Mozy Lost Items Statistics
+https://mozy.co.uk/about/news/reports/lost-and-found
