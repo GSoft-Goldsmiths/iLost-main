@@ -1,4 +1,4 @@
-# iLost: a universal unlimited range tracker
+# iLost: a universal unlimited range tracker v2.0
 
 The majority has the experience of losing item, base on [the research from Mozy](https://mozy.co.uk/about/news/reports/lost-and-found), “the average value of a lost item is $176.25 and the average person irretrievably loses $95.78 of stuff each year”. Our idea is to address the daily life issue with mobile device and bluetooth technique. By attaching a sensor to the belongings, the user can get notifications whenever the items are far away from them, and aiming to reduce the possibility of losing item.
 
@@ -33,19 +33,31 @@ We have undertaken a unique Hybrid approach; our task now is to build a working 
 
 •	User interacts with iOS/Android app on their smartphone or wearable.
 
-•	App adapts to the type of user and their needs. A student or office worker may have the tracker attached to their keys, laptop bag etc. when the user leaves the area of the item range (30m radius for example) that is being tracked, their smartphone/wearable will warn them by vibration/sound.
+• ***App adapts to the type of user and their needs***.A student or office worker may have the tracker attached to their keys, laptop bag etc. when the user leaves the area of the item range (30m radius) that is being tracked, their smartphone/wearable will warn them by vibration/sound - preventing loss in the first place.
 
-•	In long range situations, you can leave the tracker in the car. The user may be travelling a long distance away from the car (unknown area, parking overnight, leaving at the airport and travelling to another country etc..) the cellular module will turn on in the tracker and use nearby cell towers to triangulate a location.
+•	In long range situations, as an example, you can leave the tracker in their car. The user may be travelling a long distance away from the car (unknown area, parking overnight, leaving at the airport and travelling to another country etc..) the cellular modem, will turn on in the tracker and use nearby cell towers to triangulate a location-
 
-•	This location data can be transmitted via 2G/3G to a server (which will be using skyhook) which we will be running. The server then transmits the data back to the user smartphone/wearable.
+•	- This cellular location data can be transmitted via 2G/3G to a Hologram cloud server. The Hologram cloud server then connects to the users smartphone/wearable app, notifying the user where their item/tracker.
 
-•	In a long range situation, when the user gets closer to the tracker, roughly 40 meters. The app on the user’s smartphone/wearable sends a request to our server, the server then sends a signal to the tracker to turn on the Bluetooth module and look for the user’s smartphone/wearable thus providing a more precise location, especially in an chaotic urban environment. 
+•	In a long range situation, when the user gets closer to the tracker, less than 40 meters. The app on the user’s smartphone/wearable sends a request to Hologram cloud server, the server then sends a message to the tracker to turn on the Bluetooth module and look for the user’s smartphone/wearable thus providing a more precise location, especially in an chaotic urban environment or indoor multi-level environment. 
 
-•	iTraq had an estimated battery life of 2 – 3 years with cellular. Bluetooth trackers have an estimated 1-year battery life. Our tracker will have a non-replaceable Lithium polymer battery and will have safe battery operating time of 1 year.
+•	Cell tower triangulation, is made possible by the Hologram Nova modem which connects to Hologram cloud server. The Hologram Cloud server then connects back to the iLost app.
 
-•	Our server will be based on Linux system and use Skyhook for the cell tower triangulation. 
+•	Hologram Global SIM Card (2G/3G) is pre-installed on the tracker for cellular tracking capability. 
 
-•	Dimensions of the finished iLost product: 85 x 65 x 7 mm.
+•	Why do we need the Hologram framework ?
+  * AUTOMATIC CARRIER SWITCHING - Hologram SIMs are designed to connect to the best cell signal available.
+  * NO CONTRACTS - we can order as many sims and scale at any level, the data costs are cheap and stay cheap.
+  * NO CARRIER NEGOTIATIONS - this would not possible without the connections and resources that Hologram has.
+  * Ive already tried cellular triangulation with the Hologram SDK, its straightforward and simple.
 
-•	SIM card pre-installed for cellular tracking capability. 
+•	iTraq had an estimated battery life of 2 – 3 years using cellular. Bluetooth trackers have an estimated 1-year battery life. Our tracker will have a non-replaceable Lithium polymer battery and will have safe battery operating time of 1 year.
+
+• Working tracker prototype will consist of a raspberry pi zero with an attached Hologram nova modem and a battery pack for portability.
+
+• possible Dimensions of the finished iLost product: 85 x 65 x 7 mm, battery life 1 year.
+
+PLEASE REFER TO CONCEPT DIAGRAMS 
+
+
 
