@@ -1,11 +1,15 @@
 # Diagrams
+## Final Concept Diagram v2.0
 
-## Final Concept Diagram 
+![](assets/iLost_final_concept_v2.0_short_range.jpg)
+
+![](assets/iLost_final_concept_v2.0_long_range.jpg)
+
+## Final Concept Diagram v1.0
 
 ![](assets/iLost_short_range.jpg)
 
 ![](assets/iLost_long_range.jpg)
-
 
 ## User Case Diagram (Normal Use Case)
 
