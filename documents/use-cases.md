@@ -1,4 +1,59 @@
-# Use Scenarios
+# Use Cases
+
+## Actors
+
+* User
+* iLost App
+* Hologram Cloud
+* Trackers
+
+## Use Case Index
+
+ID| Name | Primary Actor |
+|---|---|---|
+1 |Log trackers | User
+2 |Check Trackers | User
+3 |Notify User the tracker is missing | iLost App
+4 |Track Trackers | User
+5 |Setting safe place | User
+6 |Register account | User
+7 |Identify user | User
+
+## Use case 1: Log trackers
+
+* Description: Log trackers' information to the iLost application.
+* Basic Flow: 
+  1. User links the mobile with the tracker with blooth to activate it.
+  1. User input the trackers information to the application.
+* Alternative Flows:
+
+## Use case 2: Check trackers positions
+* Basic Flow
+* Alternative Flows
+
+## Use case 3: Track Trackers
+* Basic Flow
+* Alternative Flows
+
+## Use case 4: Notify User that the tracker is missing
+* Basic Flow
+* Alternative Flows
+
+## Use case 5: Setting safe place
+* Basic Flow
+* Alternative Flows
+
+> Extends
+## Use case 6: Register account
+Basic Flow
+Alternative Flows
+
+## Use case 7: Identify user
+Basic Flow
+Alternative Flows
+
+
+---
 
 ## Register Use Case Scenario
 
