@@ -1,5 +1,16 @@
 # 11.Bibilography
 
+## User Need Overview & Concept Introduction
+[1] Mozy.co.uk. (2012). Lost & Found – Data Loss Research – Mozy.uk. [online] Available at: https://mozy.co.uk/about/news/reports/lost-and-found [Accessed 1 Dec. 2017].
+
+## Data gathering and requirements
+
+## Functional Specification
+
+## Ethical audit 
+
+## Design
+
 ## Prototyping
 - C. Platt, Encyclopedia of electronic components volume 1. Sebastopol, CA: Maker Media, 2012.
 - C. Platt, Encyclopedia of electronic components volume 2. Sebastopol, CA: Maker Media, 2014.
@@ -7,4 +18,10 @@
 - P. Horowitz and W. Hill, The art of electronics. Cambridge: Cambridge University Press, 2015.
 - J. Sutherland, Scrum: the art of doing twice the work in half the time. London: RH Business Books, 2015.
 
+## Technical Architecture
 
+## Evaluation Plan
+
+## Project management
+
+## Conclusion
