@@ -70,13 +70,13 @@ Slack, Trello, Google Spread Sheet and Github are our main project management to
 |---|---|
 Slask | Inner communication.
 Trello | Divides and assigns weekly tasks. (depreciated)
--  | Records weekly meeting notes.
-Google Spread Sheet| Progress tracking form.
- - | Gantt Chart.
- - | Project Tasks List.
-Github | Manage source code and report with fixed work flow.
-- | Use issue feature to track developing progress.
-- | Record weekly reports.
+|  | Records weekly meeting notes.
+|Google Spread Sheet| Progress tracking form.
+|  | Gantt Chart.
+|  | Project Tasks List.
+|Github | Manage source code and report with fixed work flow.
+|  | Use issue feature to track developing progress.
+|  | Record weekly reports.
 
 After start using Github to record our weekly reports and cooperate on proposal, the necessity of using Trello is redecuded. Becasue Github has most of the featuers we need from Trello, such as lists, labels, and milestones are all on Github, Trello may be replaced by it completely.
 
