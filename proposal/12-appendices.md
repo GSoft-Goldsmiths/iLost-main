@@ -175,9 +175,9 @@ If you want to update any document or source code in the repository, please foll
 
 ### 1.Issue
 
-Before you start to work on either document or sourcode, make sure you **browse the issue section** to see if there is already an existing issue related to what you're going to work on. If you found one, than go to [step 2-1](#2-1-check-out-the-branch). 
+Before you start to work on either document or source code, make sure you **browse the issue section** to see if there is already an existing issue related to what you're going to work on. If you found one, than go to [step 2-1](#2-1-check-out-the-branch). 
 
-If there is no such issue you're looking for, **create a new one then**. Condense the title and add more details in the description. Add the correct lable to it and assignees as well. 
+If there is no such issue you're looking for, **create a new one then**. Condense the title and add more details in the description. Add the correct label to it and assignees as well. 
 
 > [Read more about the issue labels](#issue-labels)
 
@@ -185,7 +185,7 @@ If there is no such issue you're looking for, **create a new one then**. Condens
 
 Check out the corresponding branch on your local working space. If the issue you found is `#13`, then the branch name should be like `issue-#13-xxxx`. `xxxx` can be `fix` or `update`.
 
-### 2-2. Create a new aranch based on that issue.
+### 2-2. Create a new branch based on that issue.
 
 If you can't find the issue about what you need to work on, create a new one on your own. Here is the naming convention:
 
