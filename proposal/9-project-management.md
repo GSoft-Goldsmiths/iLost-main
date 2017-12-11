@@ -54,7 +54,7 @@ With the project tasks sheet and estimated working duration, we produce the Gant
 
 ## Weekly Routine
 
-We use a week as a minimum developing unit to measure and schedule the developing process, which is more feasible than using day and more preciser than using a month. There are two working slots and two meeting weekly.
+We use a week as a minimum developing unit to measure and schedule the developing process, which is more feasible than using day and more precise than using a month. There are two working slots and two meeting weekly.
 
 |Time| Task | Task Description | Total Duration |
 |---|---|---|---|
@@ -65,11 +65,11 @@ Friday to Monday | Individual Working Slot 2 | Improve one the working result ba
 
 The meeting notes can be found in the appendices 9-2
 
-## Progres Tracking Form
+## Progress Tracking Form
 
 ![Progress Tracking Form Sample](assets/9-progress-tracking-form.jpg)
 
-In order to track the resource usage easily, we implement Google spread sheet, which allows our group mates to record their efforts and categorise their working status.
+To track the resource usage easily, we created Google spread sheet, which allows our group members to record their efforts and categorise their working status.
 
 Label Name | Description
 |---|---|
@@ -84,7 +84,7 @@ Please read find the full progress tracking form and charts in appendices 9-3 an
 
 ## Project Management Tools
 
-Slack, Trello, Google Spread Sheet and Github are our main project management tools to fulfil various developing needs.
+Slack, Trello, Google Spread Sheet and GitHub are our main project management tools to fulfil various developing needs.
 
 | Platform | Usage
 |---|---|
@@ -94,13 +94,13 @@ Slack, Trello, Google Spread Sheet and Github are our main project management to
 | Google Spread Sheet| Progress tracking form.
 | Google Spread Sheet | Gantt Chart.
 | Google Spread Sheet | Project Tasks List.
-| Github | Manage source code and report with fixed workflow.
-| Github | Use issue feature to track developing progress.
-| Github | Record weekly reports.
+| GitHub | Manage source code and report with fixed workflow.
+| GitHub | Use issue feature to track developing progress.
+| GitHub | Record weekly reports.
 
-After using Github to record our weekly reports and cooperate on proposal, it's not necessary to use Trello. Because Github has most of the features we need from Trello, such as lists, labels, and milestones are all on Github. We are considering to replace Trello with Github completely in the next stage.
+After using GitHub to record our weekly reports and cooperate on proposal, it's not necessary to use Trello. Because GitHub has most of the features we need from Trello, such as lists, labels, and milestones are all on GitHub. We are considering to replace Trello with GitHub completely in the next stage.
 
-We have set up a specific workflow and standard to maintain our commitment format and readability. Please find more details about Github repository and workflow in appendices 9-5 and 9-6.
+We have set up a specific workflow and standard to maintain our commitment format and readability. Please find more details about GitHub repository and workflow in appendices 9-5 and 9-6.
 
 ## Roles
 
