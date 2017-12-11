@@ -1,9 +1,8 @@
 # 3.Functional Specification
-FUNCTIONAL REQUIREMENT (What it needs to do)
+
 Our product has the ability to prevent the loss of personal belongings as well as, retrieve lost belongings.
-HOW DOES IT DO THAT?
 We will accomplish this through a hybrid approach, utilizing small computers and the precision of short range wireless technology as well as long range wireless technology (essentially unlimited range). Given different scenarios, these technologies will alternately adapt according to the users need. Through the medium of software application, the user will be able to interact with the tracker on the tagged item.
-WHAT DOES THE APPLICATION EXACTLY DO?
+
 The application will allow sending requests to the server for generating a new account in order to store a new users’ data in the database. It will also consent updating account details, retrieve existing users’ data from the server once the application has acknowledged sign in details. Customers then can register item/s of interest that needs to be tracked; 
 this can be done by selecting from an existing items list as well as adding a new item label to be tracked.
  
