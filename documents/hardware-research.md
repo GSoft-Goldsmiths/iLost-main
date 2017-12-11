@@ -99,3 +99,5 @@ SkyHook is only part of the product, a tracker still needs to interact with SkyH
 SkyHook data is stored in the United States raising privacy concerns, however SkyHook has “Skyhook has certified to the EU-U.S. Privacy Shield Framework for the transfer of Personal Information from the EEA to the United States” so we can still deploy using SkyHook
 ### https://www.privacyshield.gov/participant?id=a2zt0000000KzW8AAK&status=Active 21/11/17   21:15
 
+## TESTING estimote
+
