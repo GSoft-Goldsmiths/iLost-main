@@ -2,7 +2,7 @@
 
 ## Project Cycle
 
-Our project cycle contains five process groups of Initiation, Planning, Execution, Control, Closeout<sup>[1]</sup>.
+Our project cycle contains the five process groups of Initiation, Planning, Execution, Control and the Closeout<sup>[1]</sup>.
 
 * Initiation: confirming the project concept, personas and user needs.
 * Planning: researching technology and developing the proposal.
@@ -88,7 +88,7 @@ Slack, Trello, Google Spread Sheet and GitHub are our main project management to
 
 | Platform | Usage
 |---|---|
-| Slask | Inner communication.
+| Slack | Inner communication.
 | Trello | Divides and assigns weekly tasks. (depreciated)
 | Trello | Records weekly meeting notes.
 | Google Spread Sheet| Progress tracking form.
