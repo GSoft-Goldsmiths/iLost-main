@@ -99,3 +99,55 @@ SkyHook is only part of the product, a tracker still needs to interact with SkyH
 SkyHook data is stored in the United States raising privacy concerns, however SkyHook has “Skyhook has certified to the EU-U.S. Privacy Shield Framework for the transfer of Personal Information from the EEA to the United States” so we can still deploy using SkyHook
 ### https://www.privacyshield.gov/participant?id=a2zt0000000KzW8AAK&status=Active 21/11/17   21:15
 
+
+## RFID (Radio Frequency Identification) systems 
+
+Passive RFID systems use tags with no internal power source and instead are powered by the electromagnetic energy transmitted from an RFID reader.
+
+Made up of two main components – the tag’s antenna and the microchip or integrated circuit.
+
+There are three main frequencies within which passive RFID tags operate:
+125 – 134 KHz – Low Frequency (LF) range : 1 – 10 centimeters.
+13.56 MHz – High Frequency (HF) & Near-Field Communication (NFC)			range: 1 centimeter up to 1 meter.
+865 – 960 MHz – Ultra High Frequency (UHF)  range:  5 – 6 meters
+
+
+## Pros of Passive RFID:
+Smaller tags
+Much cheaper tags (starting from £1 - £20+) 
+Thinner/more flexible tags
+Higher range of tag options
+Tags can last a lifetime without a battery (depending on the wear and tear)
+
+## Cons of Passive RFID:
+The tag can be read only at short distances.
+Passive tags have difficulty sending data through liquids or metal.
+The orientation of a passive RFID tag must be just right or the reader won't locate it.
+
+
+## Active RFID systems use battery-powered RFID tags that continuously broadcast their own signal (like a cell phone).
+
+Made up of three essential parts – a reader (or interrogator), antenna, and a tag.
+
+
+There are two main frequencies used by active systems – 433 MHz and 915 MHz
+
+ Pros of Active RFID Tags:
+
+Extremely Long Read Range
+Increased tag abilities with partnered technologies (GPS, sensors, etc.)
+Extremely Rugged tag options
+It can have more memory to, store more data.
+Cons of Passive RFID:	
+Sensitive to harsh environment
+Costs more (starting from 15/20£ a piece)
+Larger size and weight.
+
+## Conclusions:
+Either RFID system has advantages and disadvantages of their own, depending on needs. 
+
+Speaking for our purpose an active ultra-wideband (UWB) RFID system, would be able to determine a tagged objects location within few inches. But UWB tags are really expensive.
+
+A passive UHF RFID system can provide about 5 - 10 metres of read range (distance from which a reader can communicate with tag). These can tell the tag is within a read field, but not specifically where within the field.
+
+Passive RFID system uses something called Received Signal Strength Indicator (RSSI) to determine how close the tagged object is to the RFID interrogator. RSSI can’t tell if tag is, for example 20 cm away, but it can tell if tagged object is getting closer or further away.
