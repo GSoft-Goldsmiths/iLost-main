@@ -151,3 +151,25 @@ Speaking for our purpose an active ultra-wideband (UWB) RFID system, would be ab
 A passive UHF RFID system can provide about 5 - 10 metres of read range (distance from which a reader can communicate with tag). These can tell the tag is within a read field, but not specifically where within the field.
 
 Passive RFID system uses something called Received Signal Strength Indicator (RSSI) to determine how close the tagged object is to the RFID interrogator. RSSI can’t tell if tag is, for example 20 cm away, but it can tell if tagged object is getting closer or further away.
+
+
+## Arduino GPS
+
+There are many Arduino GPS hardwares out in the market that are buyable. The prices of the GPS Arduino hardwares depends on usually the spec that they have. The hardware will be incorporated with the other features that our initial product will carry. Looking into the market, not one GPS Arduino hardware is perfect, however some excel above all the others. Popular builds so far for the Arduino GPS have been the Copernicus, LS23060, D2523, SUP500F, MN5010 (uMini) and EM-406A. All if not most GPS, are connected via satellites, to get a broad understanding of how each of these look and what they display on a map it is best recommend to configure Google 2D Maps along with a side to side 2D analysis. 
+
+The one flaw that these GPS Arduino hardwares have is that inside a structure the signal might not give off an accurate pinpoint location.
+
+Image Source: https://www.sparkfun.com/tutorial/GPSTracking/gpsinside-M.jpg
+
+This image shows why at first call someone should not use a GPS Arduino hardware inside as signals are distraught. Also why someone should not try to access a area inside a structure even if they are outside. The different colours are the different modules that are mentioned above and how they react to finding a location from inside a structure or a location in the structure. However, there is a likely solution for this. You can attach other elements to the Arduino GPS hardware, a user will have to program a solution on how to make the signals content and not overly responsive. This is only for
+being able to use the Arduino GPS hardware from inside a structure. Coding something to pinpoint a location within a structure is far more complicated.
+
+
+| Name of Modules  |Price   |Pro's   |Con's   |
+|---|---|---|---|
+| Copernicus  | £56 | - Basic Understanding of code, at least be able to code serial or TTL. - One of the most accurate and reliable modules. - It evaluates data in all conditions.   | A good understanding of electrical prototyping as user will need to know how much power is required, what each pin does, how to hook up the hardware, etc.   |
+| LS23060  | £45 | - This requires a good understanding of code, at least be able to code serial or TTL. -Tracks longitude and latitude in all conditions. -This module also has a good evaluation in all conditions.   | - A well understanding of electrical prototyping due to users needing to know how much power is required, what all the pins do, and how to hook up the hardware, etc. - User should be able to solder to a high standard as this is a small hardware. - Users might need to make their own cable. |
+| D2523  | £60  | - This requires a well round understanding of code, at least be able to code serial or TTL. - Good at places where it is hard to get a signal due to certain conditions such as a high source of dielectric materials. - Excellent latitude and longitude when the sky is clear. Similarly with data evaluation.  | A well understanding of electrical prototyping due to users needing to know how much power is required, what all the pins do, and how to hook up the hardware, etc. - User should be able to solder to a high standard as this is a small hardware. - Users might need to make their own cable.|
+| SUP500F  | £35 | - The hardware (module) is very small. - Due to its size, it also does not take too much power. | - Not having a lot of power can also be an disadvantage. |
+| MN5010 (uMini) | £55 | - This hardware is also very small, therefore it does not take up a lot of space. - Allows both hot start and cold start. | - Connection is not as accurate as it uses chip antenna. |
+| EM-406A  | £48 | - Allows for all 3 start up times.  | - Requires and will take up a lot of power. - Likely to be interference due to it connecting via chip antenna.  |
