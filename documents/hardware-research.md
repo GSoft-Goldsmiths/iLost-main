@@ -28,6 +28,25 @@ In a system that uses an active transponder tag, the reader (like passive system
 ### Beacons
 In a system that uses an active beacon tag, the tag will not wait to hear the reader’s signal. Instead, true to its name, the tag will ‘beacon’, or send out its specific information every 3 – 5 seconds. Beacon tags are very common in the oil and gas industry, as well as mining and cargo tracking applications. Active tag’s beacons can be read hundreds of meters away, but, in order to conserve battery life, they may be set to a lower transmit power in order to reach around 100 meters read range.
 
+### Estimote
+An Estimote Beacon is a small, wireless device, when placed in a physical space, it broadcasts tiny radio signals to smart devices.
+
+Estimote Beacon is like a small computer. Its 32-bit ARM® Cortex M0 CPU is accompanied by accelerometer, temperature sensor, and what is most important—2.4 GHz radio using Bluetooth 4.0 Smart, also known as BLE or Bluetooth low energy. This is able to provide mobile devices in range with information about their location and state.
+
+
+Estimote is an iBeacon-compatible hardware transmitters, using the idea of smart objects that work as transmitter to broadcast digital data using Bluetooth Smart protocols:
+	
+	•	Eddystone UID
+	•	Generic Advertiser
+	•	Nearable
+	•	Estimote Monitoring
+	iBeacon
+
+
+
+iBeacon is a Bluetooth advertising protocol designed by Apple, with native support in iOS, a specification that tells what data, and in what format, a Bluetooth beacon needs to advertise.
+Estimote Monitoring is the default protocol in both Location and Proximity Beacons and it was built as a mix of Estimote Location and iBeacon, taking the best features of both protocols. It offers various improvements in accuracy and beacon detection and is currently the most reliable protocol
+
 ### Pros
 
 * Extremely Long Read Range
