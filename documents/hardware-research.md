@@ -40,7 +40,7 @@ Estimote is an iBeacon-compatible hardware transmitters, using the idea of smar
 	•	Generic Advertiser
 	•	Nearable
 	•	Estimote Monitoring
-	iBeacon
+	•	iBeacon
 
 
 
