@@ -4,7 +4,7 @@
 
 ![Project Diagram All](assets/9-project-diagram-all.jpg)
 
-Our project cycle contains five process groups of Execution<sup>[1]</sup> and three milestones  at the end of some of the developing process. "Initiation" and "planning" two stages are before the proposal submission, "execution" is for developing the actual product, "control" is for project management and "closeout" is the for the final presentation and report.
+Our project cycle contains five process groups<sup>[1]</sup> and three milestones at the end of some of the developing process. "Initiation" and "planning" two stages are before the proposal submission, "execution" is for developing the actual product, "control" is for project management and "closeout" is the for the final presentation and report.
 
 ### Stage descriptions
 
