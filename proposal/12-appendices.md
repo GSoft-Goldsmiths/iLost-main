@@ -37,10 +37,21 @@
 
 # 9. Project management
 
+
 ## 9-1 Project Tasks List
+
 ![](assets/12-9-1-project-tasks-list.jpg)
 
 ## 9-2 Meeting notes
+
+### Weekly Routine
+
+|Time| Task | Task Description | Total Duration |
+|---|---|---|---|
+Tuesday Morning | Lab Meeting | Report everyone's previous working status and plan for the Individual Working Slot 1. | 1 hour
+Tuesday to Thursday | Individual Working Slot 1 | Working on the plan discussed in Lab Meeting. | 4 hours
+Friday Noon | Supervised Meeting | Report the working result and consult with the supervisor. | 0.5 hour
+Friday to Monday | Individual Working Slot 2 | Improve one the working result based on the Supervised Meeting. |  4 hours
 
 ### Supervised Meeting - 7/12/2017
 
@@ -141,6 +152,13 @@
 
 ## 9-3 Progress Tracking Form (until 10/12)
 
+Label Name | Description
+|---|---|
+WBS Code | Work break down code, which indicates the category of the work for.
+Date | The working date.
+Status | The detail of the work.
+Resource Name(hour) | Usage of the resource(s) in hours.
+
 ![](assets/12-9-3-progress-tracking-form.jpg)
 
 ## 9-4 Progress Tracking Charts (until 10/12)
@@ -153,7 +171,21 @@
 
 ![](assets/12-9-4-progress-tracking-chart-sum.jpg)
 
-## 9-5 Github Directories
+## 9-5 Project Management Tools Details
+
+| Platform | Usage
+|---|---|
+| Slask | Inner communication.
+| Trello | Divides and assigns weekly tasks. (depreciated)
+| Trello | Records weekly meeting notes.
+| Google Spread Sheet| Progress tracking form.
+| Google Spread Sheet | Gantt Chart.
+| Google Spread Sheet | Project Tasks List.
+| Github | Manage source code and report with fixed workflow.
+| Github | Use issue feature to track developing progress.
+| Github | Record weekly reports.
+
+## 9-6 Github Directories
 
 * `/documents`: The reports for each week progress.
 * `/proposal`: Paragraphs for each section of our first report
@@ -161,7 +193,7 @@
 * `/presentations`: Slides for the presentation in March.
 * `/final-report`: Paragraphs for the final report.
 
-## 9-6 Github Work Flow
+## 9-7 Github Work Flow
 
 If you want to update any document or source code in the repository, please follow **the work flow** and the **naming convention** to maintain the consistency.
 
@@ -263,6 +295,33 @@ Here are the categories of the issue labels, one issue can be assigned **one or 
 | proposal           | related to the proposal content.                                                       |
 | weekly documents   | weekly unsorted records.                                                               |
 | report             | anything related to text, including `final report`, `proposal` and `weekly documents`. |
+
+## 9-8 Roles
+
+### Project Manager
+
+* Members
+  * Jheng-Hao
+  * Hussein
+* Duties
+  * Lead the discussion lab meeting and supervised meeting.
+  * Divide tasks.
+  * Monitor developing progress.
+  * Maintain workflow and Github repository.
+
+### Project Member
+
+* Members
+  * Muhammad
+  * Thairan
+  * Dylan
+  * Mahmudul
+  * Hussein
+  * Mariano
+* Duties
+  * Contribute to overall project objectives.
+  * Complete individual task.
+
 
 ---
 
