@@ -22,6 +22,7 @@
 
 ## Evaluation Plan
 
-## Project management
+# Project management
+[1]I. Mukri, Project management professional (PMP), 1st ed. [Kanata, Ont.]: Beacon Associates Publications, 2004, p. 2.
 
 ## Conclusion
