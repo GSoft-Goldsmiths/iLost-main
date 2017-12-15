@@ -4,7 +4,7 @@
 [1] Mozy.co.uk. (2012). Lost & Found – Data Loss Research – Mozy.uk. [online] Available at: https://mozy.co.uk/about/news/reports/lost-and-found [Accessed 1 Dec. 2017].
 
 ## Data gathering and requirements
-[3] phone, T. and Tile, I. (2017). Tile - Find lost keys & phone on the App Store. [online] App Store. Available at: https://itunes.apple.com/us/app/tile-find-lost-keys-phone/id664939913?mt=8 [Accessed 7 Nov. 2017].
+[1] phone, T. and Tile, I. (2017). Tile - Find lost keys & phone on the App Store. [online] App Store. Available at: https://itunes.apple.com/us/app/tile-find-lost-keys-phone/id664939913?mt=8 [Accessed 7 Nov. 2017].
 ## Functional Specification
 
 ## Ethical audit 
