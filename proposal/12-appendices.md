@@ -6,6 +6,128 @@
 
 # 2. Data gathering and requirements
 
+## Survey Data
+![](assets/2-survey.jpg)
+![](assets/2-survey2.jpg)
+![](assets/2-survey3.jpg)
+![](assets/2-survey4.jpg)
+![](assets/2-survey5.jpg)
+![](assets/2-survey6.jpg)
+![](assets/2-survey7.jpg)
+![](assets/2-survey8.jpg)
+
+## Stakeholders Report
+
+Stakeholders 
+Stakeholders, correlate to anyone that is interested into the product or organisation both internally and externally. 
+	
+Internal stakeholders
+(Direct influence in the business or product)
+
+As our group are the developers of the product, immediately we have direct stake into the product. What do we want to achieve? What we want the outcome to be? How will we market our product? Along with the benefits that the product will have on the clientele/users. The first question to ask is why have we choose upon this project. The project being to create a tag, that will connect via bluetooth. Giving the ability to the users, to tag any important item they are likely to misplace. The tag alerts the user when they have surpassed a certain range, giving us the indication that we need to go back and get that product. The idea was submitted by a group member and thought about by everyone with in the group. We have chosen this idea as we all mislay items usually on a day to day basis. Giving us the attestation to go ahead with this idea as, this is a common issue that occurs with not just us but others. An objective, and the outcome we want to see is to get less people losing items, either temporarily or for good. 
+
+The current team has a group leader picked upon by the group to ensure everything gets done. However, on top of the team leader we have a supervisor. Someone with expertise and great knowledge already in the tech world. Tim, our supervisor will help us drive to the completion of our project along with giving intel and feedback along the way. He is onboard with the idea, as he believes the concept is something that hasn't really been put forward into the market, yet anything similar to it has not established itself to a wide range of people. This tells us that no product similar has broken into the marketing, giving us the ability too. Tim has shown interest due to these regards. 
+
+External Stakeholders
+(Anyone outside the organisation or direct users that have influence in the business or product)
+
+Another stakeholder that we have to consider in the future, when the product is established is the government. The government can benefit from the product in a vast amount of ways. However, we ourselves can gain a lender to furthermore develop the product, if we decide to carry this idea furthermore forward. Introducing the product into the market with the right promotion and marketing could lead to the government lending funds. The idea can benefit the government in such a way that, theft of user items are less likely to occur due to the product having a GPS chip. The government will also benefit if we recruit other users as it opens a door for employment. Recruiting, benefits both the recruiter and the new employees, as we share different point of views and skills. Allowing both sides of the party to pick up new skills. Not only is this a benefit for the government but also our current team. 
+
+Our target market currently has been reached out to mainly young adults between the ages of 20 and older. As most market research has been conducted in and around Goldsmiths University of London, we could also say teenagers are another source who will look at investing in our product. As a student, myself one item that I seem to keep losing or forgetting are my keys. Our product will be of interest to the target market as they will have a product which will help them keep safe any item they want. This is convenient as it saves time for users, as they don't have to worry about losing the product and taking the time to search for it. Also, displacing a product and somehow permanently losing it requires people to reinvest into that product. This allows users to also not have to worry about extra costs due to their carelessness. Theft as mentioned before occurs with certain items, such as phones, credit cards, etc. Having the item tagged will allow users to see if they have lost the product or if it was stolen as well. Allowing buyers to retrieve the item or report it. 
+
+## MARKET RESEARCH
+
+I’ve collected the following data going through the actual product websites and other tech related websites as well as going through customer reviews on amazon and google reviews from users who purchased and used these products.
+
+Following items work better in densely populated places like cities.
+
+Product name: TILE  
+product website: https://www.thetileapp.com/en-gb/
+
+http://www.techadvisor.co.uk/review/digital-home/second-generation-tile-review-bluetooth-tag-3575574/ 
+
+PROS: waterproof (splashes and rain), 
+small design
+works via crowd-sourcing. (Tiles communicate with one another, effectively having other users helping you find what you've lost)
+Track last location
+Ring the alarm things that has the tile on.
+
+
+CONS: only iOS, 
+$19.95/ £20 maybe a little overpriced
+Non-replaceable battery
+	-estimated to last a year 
+(but many customers complains lasting no more than 6 months)
+	Privacy invasive software 
+-company can and will use the demographic information it collects on you in any way it wants including sharing it with partners. 
+-company can find out where u eat, go church, jog etc.
+-anyone else who has app, and is near you, will report your location through their phone
+
+What can be improved?
+Decrease the price range perhaps.
+Increase ring volume 
+Use a bigger battery 
+Fix privacy problems
+
+
+Product name: TrackR Bravo (or StickR TrackR) 
+product website: https://www.thetrackr.com/ 
+
+PROS: available for both iOS and Android
+	Small design
+Crowd Source Tracking (similar to tile) if out of range and another TrackR user
+gets close to it, will help locate it on your phone
+	Ring misplaced item 
+	Easy replaceable battery 
+
+CONS: $25/£25 maybe a little overpriced for target users
+	The application doesn’t always give accurate information regarding items location
+	Too short range (because of bluetooth?)
+	The ring tone is quiet, customers complain not being to hear even if nearby
+	Complains about Short battery life
+	Bluetooth not encrypted (?) therefore privacy issues
+   		-which average person may not encounter
+
+
+What can be improved?
+Decrease the price range perhaps.
+Increase ring volume 
+Use a bigger battery 
+Fix privacy problems
+
+
+Product name: Estimote beacons
+product website: https://estimote.com/ 
+
+http://blog.lemberg.co.uk/ibeacon-pros-and-cons-where-begin-programming 
+
+What is it?
+Beacons: low energy short range bluetooth transmitter that push notifications to mobile devices that have a designated app for the location.
+
+Anybody has a certain app on devices, whenever they come near these devices(beacons) they get a notification, allows to authenticate presence, send contextual notifications, display proximity-based content
+
+PROS:  Notifies whenever client enters/leaves the tagged  zone (with a beacon) 
+-	allows to authenticate presence, 
+-	send contextual notifications, 
+-	display proximity-based content
+Fairly easy to implement
+	Low energy consumption (approximately 2 years)
+
+CONS: Safety, once user approves opening of a beacon group, they will open
+ without restrictions.
+Cannot determine the exact location of the user.
+	Might require some programming knowledge
+
+
+CONCLUSIONS: 
+The competing products have advantages as well a disadvantages. 
+We can learn from the customers complains and try to improve the user experience from those. For example one core issue is privacy.
+ A problem that more or less all the above products have. As Hussein suggested.
+
+‘privacy may be a concern but we can leverage this as our USP (Unique Selling Point) all data (names and location of items) is stored locally on the phone/watch - its not on the "cloud" and can easily be encrypted’  by Hussein Farakhani.
+
+Also a solution regarding battery life, as many don’t seem to be long lasting.
+
 ---
 
 # 3. Functional Specification
