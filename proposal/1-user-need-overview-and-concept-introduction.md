@@ -2,7 +2,7 @@
 
 ## User Need Overview
 
-We began our process of conceptual development by questioning fellow students about some of the everyday issues they encounter to aid us in coming up with an idea capable of mitigating a specific need. During these conversations, the group found that losing personal belongings in both private and public places was a common occurrence. According to research from Mozy, the average value of a lost item is £131.67; the average person irretrievably loses £71.55 of goods each year. As a result of the average person losing over £60 worth of possessions each year; billions are being lost.<sup>[1]</sup> To satisfy the needs of our users, we focused on finding a way to circumvent the loss of items; we determined that developing an item loss prevention app would be appropriate.
+For our software project we wanted to find a way to aid users by creating an app capable of mitigating a specific need. To start the process of conceptual development, we questioned students about the everyday issues they encounter to help get us started. During these conversations, we found that losing personal belongings in both private and public places was a common occurrence. According to research from Mozy, the average value of a lost item is £131.67; the average person irretrievably loses £71.55 of goods each year. As a result of the average person losing over £60 worth of possessions each year; billions are being lost.<sup>[1]</sup> To satisfy the needs of our users, we focused on finding a way to circumvent the loss of items; we determined that developing an item loss prevention app would be appropriate.
 
 ## Concept Introduction
 
