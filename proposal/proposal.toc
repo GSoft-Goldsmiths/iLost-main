@@ -1,0 +1,185 @@
+\contentsline {section}{\numberline {1}User Need Overview \& Concept Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Subsection}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {subsection}{\numberline {1.2}Concept Introduction}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {2}Data Gathering and Requirements}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{4}
+\contentsline {section}{\numberline {3}Functional Specification}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {section}{\numberline {4}Ethical Audits}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {section}{\numberline {5}Design}{6}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {5.1}Use cases diagram}{7}
+\contentsline {subsection}{\numberline {5.2}Sequence Diagram}{8}
+\contentsline {subsection}{\numberline {5.3}Activity Diagram}{9}
+\contentsline {subsection}{\numberline {5.4}User Interface}{10}
+\contentsline {section}{\numberline {6}Prototyping}{12}
+\contentsline {subsection}{\numberline {6.1}Singular approach}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {6.2}Hybrid Approach}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {6.3}Current Prototype}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {section}{\numberline {7}Technical Architecture}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {7.1}Logical View}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{16}
+\contentsline {subsection}{\numberline {7.2}Development View}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {subsection}{\numberline {7.3}Physical View}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {section}{\numberline {8}Evaluation Plan}{17}
+\contentsline {subsection}{\numberline {8.1}Hardware}{17}
+\contentsline {subsection}{\numberline {8.2}Hardware}{18}
+\contentsline {section}{\numberline {9}Project Management}{18}
+\contentsline {subsection}{\numberline {9.1}Project Cycle}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {9.2}Gantt Chart}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {9.3}Project Management Tools}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {9.4}Roles}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {paragraph}{}{22}
+\contentsline {section}{\numberline {10}Conclusion}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {section}{Appendices}{23}
+\contentsline {section}{\numberline {A}Use Case Flow}{23}
+\contentsline {subsection}{\numberline {A.1}Log trackers}{23}
+\contentsline {paragraph}{Basic Flow}{23}
+\contentsline {paragraph}{Alternative Flows}{24}
+\contentsline {subsection}{\numberline {A.2}Monitor Tracker}{24}
+\contentsline {paragraph}{Basic Flow}{24}
+\contentsline {paragraph}{Alternative Flows}{24}
+\contentsline {subsection}{\numberline {A.3}Track Item}{24}
+\contentsline {paragraph}{Basic Flow}{24}
+\contentsline {subsection}{\numberline {A.4}Send position data}{25}
+\contentsline {paragraph}{Basic Flow}{25}
+\contentsline {paragraph}{Alternative Flows}{25}
+\contentsline {subsection}{\numberline {A.5}Register account}{25}
+\contentsline {paragraph}{Basic Flow}{25}
+\contentsline {paragraph}{Alternative Flows}{25}
+\contentsline {subsection}{\numberline {A.6}Login account}{25}
+\contentsline {paragraph}{Basic Flow}{25}
+\contentsline {paragraph}{Alternative Flows}{26}
+\contentsline {section}{\numberline {B}Hardware Research}{26}
+\contentsline {subsection}{\numberline {B.1}Bluetooth Component module}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{Main features and benefits}{26}
+\contentsline {subsection}{\numberline {B.2}Active RFID tag}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{27}
+\contentsline {paragraph}{Transponders}{27}
+\contentsline {paragraph}{Beacons}{27}
+\contentsline {paragraph}{Estimote}{27}
+\contentsline {paragraph}{}{27}
+\contentsline {paragraph}{}{27}
+\contentsline {paragraph}{}{28}
+\contentsline {paragraph}{Pros}{28}
+\contentsline {subsection}{\numberline {B.3}IBeacon Technology (Bluetooth Low Energy Tags)}{28}
+\contentsline {subsubsection}{\numberline {B.3.1}Accessibility}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {paragraph}{Pros}{28}
+\contentsline {paragraph}{Cons}{28}
+\contentsline {paragraph}{Range}{28}
+\contentsline {paragraph}{Accuracy}{28}
+\contentsline {paragraph}{Security}{28}
+\contentsline {subparagraph}{Pros}{28}
+\contentsline {subparagraph}{Cons}{29}
+\contentsline {paragraph}{Cost}{29}
+\contentsline {subsection}{\numberline {B.4}Bluetooth 5}{29}
+\contentsline {subsection}{\numberline {B.5}Cellular}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{29}
+\contentsline {paragraph}{}{30}
+\contentsline {subsection}{\numberline {B.6}Acoustic Location}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {subsection}{\numberline {B.7}Hybrid Server Side – SkyHook implementation}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{30}
+\contentsline {paragraph}{}{31}
+\contentsline {subsection}{\numberline {B.8}RFID (Radio Frequency Identification) systems}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {paragraph}{Pros}{31}
+\contentsline {paragraph}{Cons}{31}
+\contentsline {paragraph}{}{31}
+\contentsline {paragraph}{Pros}{31}
+\contentsline {paragraph}{Conclusions}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {subsection}{\numberline {B.9}Arduino GPS}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{33}
+\contentsline {section}{\numberline {C}Project Tasks List}{35}
+\contentsline {section}{\numberline {D}Weekly Routine}{38}
+\contentsline {section}{\numberline {E}Meeting Notes}{38}
+\contentsline {paragraph}{Supervised Meeting \- 7/12/201}{38}
+\contentsline {paragraph}{Lab Meeting \- 5/12/17}{38}
+\contentsline {paragraph}{Supervised Meeting \- 30/11/201}{38}
+\contentsline {paragraph}{Supervised Meeting \- 24/11/201}{39}
+\contentsline {paragraph}{Lab Meeting \- 21/11/201}{39}
+\contentsline {paragraph}{Supervised Meeting \- 17/11/201}{39}
+\contentsline {paragraph}{Supervised Meeting \- 03/11/201}{39}
+\contentsline {paragraph}{Meeting with Pete \- 31/10/201}{40}
+\contentsline {paragraph}{Supervised Meeting \- 27/10/201}{40}
+\contentsline {paragraph}{Supervised Meeting \- 20/10/201}{40}
+\contentsline {paragraph}{Extra Meeting \- 19/10/201}{41}
+\contentsline {section}{\numberline {F}Progress Tracking Form}{42}
+\contentsline {section}{\numberline {G}Progress Tracking Charts}{43}
+\contentsline {section}{\numberline {H}Project Management Tools Details}{44}
+\contentsline {section}{\numberline {I}Github Directories}{44}
+\contentsline {section}{\numberline {J}Github Workflow}{45}
+\contentsline {paragraph}{tl:dr}{45}
+\contentsline {paragraph}{1. Issue}{45}
+\contentsline {paragraph}{}{45}
+\contentsline {paragraph}{2-1. Check out the branch}{45}
+\contentsline {paragraph}{2-2. Create a new branch based on that issue}{46}
+\contentsline {paragraph}{issue\-\#[ISSUE NUMBER]-[ACTION]}{46}
+\contentsline {paragraph}{3. Work}{46}
+\contentsline {paragraph}{4. Commit}{46}
+\contentsline {paragraph}{e.g. Update the report}{47}
+\contentsline {paragraph}{e.g. Fix a bug}{47}
+\contentsline {paragraph}{5 Push \& pull request}{47}
+\contentsline {subsection}{\numberline {J.1}Issue labels}{47}
+\contentsline {section}{\numberline {K}Roles}{47}
+\contentsline {paragraph}{Project Manager}{47}
+\contentsline {paragraph}{Project Members}{48}
