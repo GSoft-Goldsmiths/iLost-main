@@ -3,7 +3,7 @@
 #### What is the concept (what is iLost) ?
 
 - final concept document answers this question, please make sure you've read it well !
-  - GSoft/documents/final-concept.md
+  - [concept - pls read me](final-concept.md)
 
 - talk about our unique protocol:
 
@@ -22,16 +22,23 @@
 
 
 #### what role did the conceptual prototype have in the project ?
-// add answer here
+// add answer here - (hussein: i don't know how to answer this)
 
 
 #### what influence did stakeholder feedback have in the project ?
-// add answer here
-
+// add answer here - (hussein: i don't know how to answer this)
 
 
 ####  What role did the functional prototype have in the project ?
-// add answer here
+// add answer here - i will answer this
+• we went through 10 different tecnologies to reach point were we are now:
+  • [hardware reaserch](hardware-research.md)
+  
+• singular approaches evoled into a hybrid approach we have now
+  
+• we evaluted all the advantages and disadvantages of the technologies listed in [hardware reaserch document](hardware-research.md) at each technology assesed wether this technology could fulfil the use cases.
+
+• the functional protoyping is what made our product iLost evolve to reach a point where its unique compared to our competitors (it exclusively uses cellular for long range and bluetooth at short range) 
 
 
 #### - What technical architecture and technology will be used to realise the project ?
