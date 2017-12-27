@@ -6,4 +6,5 @@
 
 * [Hologram Global IoT SIM Card](https://hologram.io/store/developer-global-iot-sim-card)
 
-* 5v powerbank
+* [UPS(uninterruptible power supply)](https://shop.pimoroni.com/products/piz-uptime-ups-and-power-mobility-for-pi-zero)
+- UPS not required at this stage, prototype can work without it for now. 
