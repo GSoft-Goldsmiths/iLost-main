@@ -30,22 +30,26 @@
 
 
 ####  What role did the functional prototype have in the project ?
-// add answer here - i will answer this
-• we went through 10 different tecnologies to reach point were we are now:
-  • [hardware reaserch](hardware-research.md)
-  
-• singular approaches evoled into a hybrid approach we have now
-  
-• we evaluted all the advantages and disadvantages of the technologies listed in [hardware reaserch document](hardware-research.md) at each technology assesed wether this technology could fulfil the use cases.
 
-• the functional protoyping is what made our product iLost evolve to reach a point where its unique compared to our competitors (it exclusively uses cellular for long range and bluetooth at short range) 
+• we went through 10 different tecnologies to reach point were we are now:
+  - [hardware reaserch](hardware-research.md)
+  
+• singular approaches evolved into a hybrid approach we have now
+  
+• we evaluated all the advantages and disadvantages of the technologies listed in [hardware reaserch document](hardware-research.md) at each technology assesed wether this technology could fulfil the use cases.
+
+• the functional prototyping is what made our product iLost evolve to reach a point where its unique compared to our competitors (it exclusively uses cellular for long range and bluetooth at short range) 
+
+• we now are in the process of making a full working prototype which would not be possible without the functional prototype (a lot of time has been saved by narrowing down on technolgies we need to fulfil the use cases)
 
 
 #### - What technical architecture and technology will be used to realise the project ?
-//add answer here
-- notes on hologram and the hologram nova cellular modem
 
-- notes on the physical tracker is a raspberry pi zero
+- We will be using the Hologram Cellular platform
+
+- Hologram provides a cellular modem called Hologram Nova
+
+- the tracker will be a raspberry pi zero which is connected to the Hologram nova, this is the most efficient setup so far that will acomplish short range and longe range tracking
 
 - notes frontend/UI smartphone app
 
