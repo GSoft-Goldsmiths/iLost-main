@@ -1,1 +1,6 @@
 # Presentation
+
+## Todos
+
+* Slides
+* Scripts
