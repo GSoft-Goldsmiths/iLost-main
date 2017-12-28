@@ -51,8 +51,11 @@
 
 - the tracker will be a raspberry pi zero which is connected to the Hologram nova, this is the most efficient setup so far that will acomplish short range and longe range tracking
 
-- notes frontend/UI smartphone app
+- Android app will be the user interface (App adapts to the type of user and their needs)
 
+- All android smartphones have an bluetooth module and the ability to geo-locate itself. thats all we need
+
+(Hussein: do you guys know of any other technology we will be using ?)
 
 
 
