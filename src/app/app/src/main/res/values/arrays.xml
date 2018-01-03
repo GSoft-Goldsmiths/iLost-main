@@ -1,0 +1,7 @@
+<resources>
+    <integer-array name="activity_welcome_icon">
+        <item>@drawable/ic_welcome_icon_ilost</item>
+        <item>@drawable/ic_welcome_icon_tracker</item>
+        <item>@drawable/ic_welcome_icon_heart</item>
+    </integer-array>
+</resources>
