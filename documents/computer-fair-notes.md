@@ -22,11 +22,21 @@
 
 
 #### what role did the conceptual prototype have in the project ?
-// add answer here - (hussein: i don't know how to answer this)
 
+summary of our conceptual process:
+
+1 - reminder app that stops you from forgetting your item in the first place
+
+2 - added the ability to find the location of the item at short range
+
+3 - added long range capabilities , item can be found if stolen
+
+4 - added feature where the app now adapts to the user and the app can now track item worldwide
+
+•	conceptual prototyping influenced what our users needed and helped us decide which functional prototyping path would fulfil users needs
 
 #### what influence did stakeholder feedback have in the project ?
-// add answer here - (hussein: i don't know how to answer this)
+// add answer here - (hussein: i still don't know how to answer this, can someone pls answer this)
 
 
 ####  What role did the functional prototype have in the project ?
@@ -54,8 +64,3 @@
 - Android app will be the user interface (App adapts to the type of user and their needs)
 
 - All android smartphones have an bluetooth module and the ability to geo-locate itself. thats all we need
-
-(Hussein: do you guys know of any other technology we will be using ?)
-
-
-
