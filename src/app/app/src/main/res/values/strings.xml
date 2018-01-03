@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">iLost</string>
     <string name="activity_welcome_icon_content_description">Icon</string>
+    <string name="carousel_navigation_dot">Carousel navigation dot</string>
+    <string name="button_register">Register</string>
     <string name="lorem_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ea iste laborum minus nisi.</string>
     <string name="lorem_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium commodi consectetur dolorum eos ex explicabo illum incidunt laudantium, minima modi officia, pariatur provident quae quos sint, sunt veritatis vero?</string>
 </resources>
