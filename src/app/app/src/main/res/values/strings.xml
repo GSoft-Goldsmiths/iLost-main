@@ -1,13 +1,6 @@
 <resources>
     <string name="app_name">iLost</string>
-    <string-array name="activity_welcome_title">
-        <item>iLost</item>
-        <item>Never lost anything</item>
-        <item>Made with love</item>
-    </string-array>
-    <string-array name="activity_welcome_subtitle">
-        <item>Lorem ipsum dolor 1 sit amet, consectetur adipisicing elit. Autem deleniti et .</item>
-        <item>Lorem ipsum dolor 2 sit amet, consectetur adipisicing elit. Autem deleniti et .</item>
-        <item>Lorem ipsum dolor 3 sit amet, consectetur adipisicing elit. Autem deleniti et .</item>
-    </string-array>
+    <string name="activity_welcome_icon_content_description">Icon</string>
+    <string name="lorem_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ea iste laborum minus nisi.</string>
+    <string name="lorem_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium commodi consectetur dolorum eos ex explicabo illum incidunt laudantium, minima modi officia, pariatur provident quae quos sint, sunt veritatis vero?</string>
 </resources>
