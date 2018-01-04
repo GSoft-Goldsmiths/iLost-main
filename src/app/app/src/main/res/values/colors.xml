@@ -6,4 +6,5 @@
     <color name="colorBackground">#DDF1F3</color>
     <color name="colorPrimaryLight">#559BA5</color>
     <color name="colorPrimaryBright">#42C5E6</color>
+    <color name="grayLight">#ababab</color>
 </resources>

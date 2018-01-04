@@ -1,6 +1,6 @@
 package com.gsoft.ilost;
 
-import android.content.res.ColorStateList;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
@@ -161,5 +161,13 @@ public class WelcomeActivity extends AppCompatActivity {
             // Show 3 total pages.
             return total_section_num;
         }
+    }
+
+    /**
+     * Handler for register button
+     */
+    public void onRegisterButtonClick (View view) {
+        Intent intent = new Intent(this, RegisterActivity.class);
+        this.startActivity(intent);
     }
 }
