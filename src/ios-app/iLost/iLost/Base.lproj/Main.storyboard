@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,23 +14,96 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iLost" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F7q-Se-vX6">
-                                <rect key="frame" x="139" y="53" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Item" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1h-nN-3tw">
+                                <rect key="frame" x="154" y="54.000000000000007" width="106" height="31.333333333333336"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.0" green="0.57647058823529407" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aml-Ct-sJG">
+                                <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="NEW" image="tab-bar-add" id="IKL-fG-3pW"/>
+                                    <tabBarItem title="TRACK" image="tab-bar-track" id="x95-x9-wVA"/>
+                                    <tabBarItem title="SETTINGS" image="tab-bar-settings" id="TsL-9a-wXs"/>
+                                </items>
+                            </tabBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IJl-po-tNK">
+                                <rect key="frame" x="132" y="145.33333333333334" width="150" height="200.00000000000003"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="log-item-icon-camera" translatesAutoresizingMaskIntoConstraints="NO" id="x93-in-j0n">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="hJT-ks-XFu"/>
+                                            <constraint firstAttribute="height" constant="150" id="kUy-hL-f9h"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="uGK-Tq-NtI" appends="YES" id="kZO-Qa-2Yg"/>
+                                        </connections>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Item's Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZy-zX-LdB">
+                                        <rect key="frame" x="0.0" y="169.99999999999997" width="150" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8O-xv-4W4">
+                                <rect key="frame" x="115" y="616" width="184" height="36"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.70588235294117641" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Dds-FU-wNK"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="DONE"/>
+                                <connections>
+                                    <action selector="toNextView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NuW-8X-qxp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Aml-Ct-sJG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="062-l6-5L6"/>
+                            <constraint firstItem="Aml-Ct-sJG" firstAttribute="top" secondItem="R8O-xv-4W4" secondAttribute="bottom" constant="35" id="6qi-69-rXC"/>
+                            <constraint firstItem="IJl-po-tNK" firstAttribute="top" secondItem="S1h-nN-3tw" secondAttribute="bottom" constant="60" id="8hP-Lr-yI6"/>
+                            <constraint firstItem="Aml-Ct-sJG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="G8z-Bx-fzc"/>
+                            <constraint firstItem="S1h-nN-3tw" firstAttribute="centerX" secondItem="IJl-po-tNK" secondAttribute="centerX" id="Id8-da-DzO"/>
+                            <constraint firstItem="S1h-nN-3tw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="NFp-CA-9Sf"/>
+                            <constraint firstAttribute="trailing" secondItem="Aml-Ct-sJG" secondAttribute="trailing" id="XaE-s8-hwW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R8O-xv-4W4" secondAttribute="trailing" constant="115" id="kmm-Zs-IOP"/>
+                            <constraint firstItem="IJl-po-tNK" firstAttribute="centerX" secondItem="Aml-Ct-sJG" secondAttribute="centerX" id="t98-E8-5S2"/>
+                            <constraint firstItem="R8O-xv-4W4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="xAC-Wp-cbB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="itemNameTextField" destination="QZy-zX-LdB" id="cqT-a3-5Xb"/>
+                        <outlet property="newItemViewTitle" destination="S1h-nN-3tw" id="vSf-kc-XW9"/>
+                        <outlet property="photoImageView" destination="x93-in-j0n" id="GHa-Vb-ogN"/>
+                        <outlet property="photoImageViewTagGesture" destination="uGK-Tq-NtI" id="eFI-lY-WV8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="uGK-Tq-NtI">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="kGs-7r-GLK"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="36" y="31.934032983508249"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="log-item-icon-camera" width="150" height="150"/>
+        <image name="tab-bar-add" width="33" height="33"/>
+        <image name="tab-bar-settings" width="33" height="33"/>
+        <image name="tab-bar-track" width="33" height="33"/>
+    </resources>
 </document>
