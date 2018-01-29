@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class AddNewItemViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     // MARK: Properties
     
@@ -29,7 +29,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         
         // Make the image round corner, 75 is half of the round icon size
         photoImageView.layer.cornerRadius = 75
-        photoImageView.layer.masksToBounds = true
+        photoImageView.layer.masksToBounds = true        
+        
     }
 
     override func didReceiveMemoryWarning() {
