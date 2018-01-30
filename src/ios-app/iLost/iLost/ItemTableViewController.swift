@@ -12,6 +12,7 @@ class ItemTableViewController: UITableViewController {
 
     // MARK: Properties
     var items = [Item]()
+    @IBOutlet weak var itemTableView: UITableView!
     
     // MARK: Private methods
     
@@ -38,21 +39,15 @@ class ItemTableViewController: UITableViewController {
         items += [sampleItem1, sampleItem2, sampleItem3]
         
     }
-    
-    // Add the table header
-    private func loadTableHeaderView() {
-//        var headerView: UIView = UIView
         
-        
-        
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Load the sample data
         loadSampleItems()
+        
+        self.itemTableView.delegate = self
+        self.itemTableView.dataSource = self
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

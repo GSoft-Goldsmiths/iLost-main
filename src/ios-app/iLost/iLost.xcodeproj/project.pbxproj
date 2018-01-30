@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A2967201FE90500D83A41 /* ItemListViewController.swift */; };
 		36B9F17E201EA4F900394FEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F17D201EA4F900394FEA /* Item.swift */; };
 		36B9F185201F331E00394FEA /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F184201F331E00394FEA /* ItemTableViewCell.swift */; };
 		36B9F187201F3CED00394FEA /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F186201F3CED00394FEA /* ItemTableViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362A2967201FE90500D83A41 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		36B9F17D201EA4F900394FEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		36B9F184201F331E00394FEA /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		36B9F186201F3CED00394FEA /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				36E52579201BB1D900436836 /* AddNewItemViewController.swift */,
 				36B9F184201F331E00394FEA /* ItemTableViewCell.swift */,
 				36E5257B201BB1D900436836 /* Main.storyboard */,
+				362A2967201FE90500D83A41 /* ItemListViewController.swift */,
 				36E52581201BB1D900436836 /* Assets.xcassets */,
 				36E52583201BB1D900436836 /* LaunchScreen.storyboard */,
 				36E52586201BB1D900436836 /* Info.plist */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36B9F17E201EA4F900394FEA /* Item.swift in Sources */,
+				362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */,
 				36E5257A201BB1D900436836 /* AddNewItemViewController.swift in Sources */,
 				36B9F185201F331E00394FEA /* ItemTableViewCell.swift in Sources */,
 				36E52580201BB1D900436836 /* iLost.xcdatamodeld in Sources */,
