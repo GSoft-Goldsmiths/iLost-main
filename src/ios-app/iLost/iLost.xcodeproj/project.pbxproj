@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A2967201FE90500D83A41 /* ItemListViewController.swift */; };
+		3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */; };
 		36B9F17E201EA4F900394FEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F17D201EA4F900394FEA /* Item.swift */; };
 		36B9F185201F331E00394FEA /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F184201F331E00394FEA /* ItemTableViewCell.swift */; };
 		36B9F187201F3CED00394FEA /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F186201F3CED00394FEA /* ItemTableViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		362A2967201FE90500D83A41 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		36B9F17D201EA4F900394FEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		36B9F184201F331E00394FEA /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		36B9F186201F3CED00394FEA /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				36E52586201BB1D900436836 /* Info.plist */,
 				36E5257E201BB1D900436836 /* iLost.xcdatamodeld */,
 				36B9F186201F3CED00394FEA /* ItemTableViewController.swift */,
+				3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */,
 			);
 			path = iLost;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				36B9F185201F331E00394FEA /* ItemTableViewCell.swift in Sources */,
 				36E52580201BB1D900436836 /* iLost.xcdatamodeld in Sources */,
 				36B9F187201F3CED00394FEA /* ItemTableViewController.swift in Sources */,
+				3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */,
 				36E52578201BB1D900436836 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

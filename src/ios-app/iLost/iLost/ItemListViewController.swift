@@ -46,8 +46,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
         // Load the sample data
         loadSampleItems()
         itemListTableView.delegate = self
-        itemListTableView.dataSource = self
-        
+        itemListTableView.dataSource = self        
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
