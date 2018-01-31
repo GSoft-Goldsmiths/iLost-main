@@ -45,7 +45,6 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
         
         // Load the sample data
         loadSampleItems()
-                
         itemListTableView.delegate = self
         itemListTableView.dataSource = self
         
@@ -101,19 +100,16 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
             
             // Fetches the appropriate item for the data source layout
             let item = items[indexPath.row]
-            cell.nameLabel.text = "item.name"
+            cell.nameLabel.text = item.name
             cell.itemPhotoImageView.image = item.photo
-
             
-            
-            // Adds round corner to the cell and image photo
-            cell.itemPhotoImageView.layer.cornerRadius = 25
-            cell.itemPhotoImageView.layer.masksToBounds = true
-            cell.layer.cornerRadius = 25
-            cell.layer.masksToBounds = true
-            
+            // Adds corner to the content view
+            cell.itemContentView.layer.cornerRadius = 25
+            cell.itemContentView.layer.masksToBounds = true
             return cell
     }
+    
+    
 
 
 }
