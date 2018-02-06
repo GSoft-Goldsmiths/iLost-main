@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C99340BCB77365041BB82BA /* Pods_iLost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6E2A5901E75792A32168D6 /* Pods_iLost.framework */; };
+		3605F19E2023374400FB6909 /* ItemLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F19D2023374400FB6909 /* ItemLocation.swift */; };
 		362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A2967201FE90500D83A41 /* ItemListViewController.swift */; };
 		3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */; };
+		36ACF171202A3C47009C07FE /* cloudData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ACF170202A3C47009C07FE /* cloudData.swift */; };
 		36B9F17E201EA4F900394FEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F17D201EA4F900394FEA /* Item.swift */; };
-		36B9F185201F331E00394FEA /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F184201F331E00394FEA /* ItemTableViewCell.swift */; };
-		36B9F187201F3CED00394FEA /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F186201F3CED00394FEA /* ItemTableViewController.swift */; };
+		36B9F185201F331E00394FEA /* ItemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F184201F331E00394FEA /* ItemListTableViewCell.swift */; };
+		36E18E88202A319E00DCC6A1 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E18E87202A319E00DCC6A1 /* awsconfiguration.json */; };
 		36E52578201BB1D900436836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E52577201BB1D900436836 /* AppDelegate.swift */; };
 		36E5257A201BB1D900436836 /* AddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E52579201BB1D900436836 /* AddNewItemViewController.swift */; };
 		36E5257D201BB1D900436836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E5257B201BB1D900436836 /* Main.storyboard */; };
@@ -20,6 +23,8 @@
 		36E52585201BB1D900436836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E52583201BB1D900436836 /* LaunchScreen.storyboard */; };
 		36E52590201BB1D900436836 /* iLostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E5258F201BB1D900436836 /* iLostTests.swift */; };
 		36E5259B201BB1D900436836 /* iLostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E5259A201BB1D900436836 /* iLostUITests.swift */; };
+		6317CB48B9D9EF2879FDA1BF /* Pods_iLostUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0B07DB99D66116F835F956 /* Pods_iLostUITests.framework */; };
+		979B95E32DAA5F3EF4A953E7 /* Pods_iLostTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E807C8EEE3B9D36B31DC6A6 /* Pods_iLostTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112DD024F5442B63DF491877 /* Pods-iLost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLost.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLost/Pods-iLost.release.xcconfig"; sourceTree = "<group>"; };
+		3605F19D2023374400FB6909 /* ItemLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLocation.swift; sourceTree = "<group>"; };
 		362A2967201FE90500D83A41 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		36ACF170202A3C47009C07FE /* cloudData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudData.swift; sourceTree = "<group>"; };
 		36B9F17D201EA4F900394FEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		36B9F184201F331E00394FEA /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
-		36B9F186201F3CED00394FEA /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		36B9F184201F331E00394FEA /* ItemListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListTableViewCell.swift; sourceTree = "<group>"; };
+		36E18E87202A319E00DCC6A1 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
 		36E52574201BB1D900436836 /* iLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E52577201BB1D900436836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E52579201BB1D900436836 /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +67,14 @@
 		36E52596201BB1D900436836 /* iLostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E5259A201BB1D900436836 /* iLostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLostUITests.swift; sourceTree = "<group>"; };
 		36E5259C201BB1D900436836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E807C8EEE3B9D36B31DC6A6 /* Pods_iLostTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLostTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0B07DB99D66116F835F956 /* Pods_iLostUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLostUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6E2A5901E75792A32168D6 /* Pods_iLost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802344D283B2E6F35C57E86B /* Pods-iLostTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLostTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLostTests/Pods-iLostTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D435CA030CA9434AC2025505 /* Pods-iLostTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLostTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLostTests/Pods-iLostTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D2E48ACBF4B6C2A34E9088 /* Pods-iLostUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLostUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLostUITests/Pods-iLostUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF7B64B074CBB4D089CC6208 /* Pods-iLostUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLostUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLostUITests/Pods-iLostUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDE0D838B3E170A84E5DCA72 /* Pods-iLost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLost/Pods-iLost.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C99340BCB77365041BB82BA /* Pods_iLost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979B95E32DAA5F3EF4A953E7 /* Pods_iLostTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,16 +98,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6317CB48B9D9EF2879FDA1BF /* Pods_iLostUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F43E21300021E687FF5E71D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0D838B3E170A84E5DCA72 /* Pods-iLost.debug.xcconfig */,
+				112DD024F5442B63DF491877 /* Pods-iLost.release.xcconfig */,
+				802344D283B2E6F35C57E86B /* Pods-iLostTests.debug.xcconfig */,
+				D435CA030CA9434AC2025505 /* Pods-iLostTests.release.xcconfig */,
+				E5D2E48ACBF4B6C2A34E9088 /* Pods-iLostUITests.debug.xcconfig */,
+				EF7B64B074CBB4D089CC6208 /* Pods-iLostUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		362CA3D32024E8AF007E2023 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				36ACF170202A3C47009C07FE /* cloudData.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		362CA3D42024E8D4007E2023 /* Item List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				362A2967201FE90500D83A41 /* ItemListViewController.swift */,
+				36B9F184201F331E00394FEA /* ItemListTableViewCell.swift */,
+			);
+			path = "Item List View Controller";
+			sourceTree = "<group>";
+		};
+		362CA3D52024E8EA007E2023 /* Add New Item View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36E52579201BB1D900436836 /* AddNewItemViewController.swift */,
+			);
+			path = "Add New Item View Controller";
+			sourceTree = "<group>";
+		};
+		362CA3D62024E949007E2023 /* Item Details View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */,
+			);
+			path = "Item Details View Controller";
+			sourceTree = "<group>";
+		};
+		362CA3D72024E986007E2023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				362CA3D82024E98E007E2023 /* Fonts */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		362CA3D82024E98E007E2023 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		36B9F17F201EA50800394FEA /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				36B9F17D201EA4F900394FEA /* Item.swift */,
+				3605F19D2023374400FB6909 /* ItemLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +182,8 @@
 				36E5258E201BB1D900436836 /* iLostTests */,
 				36E52599201BB1D900436836 /* iLostUITests */,
 				36E52575201BB1D900436836 /* Products */,
+				2F43E21300021E687FF5E71D /* Pods */,
+				71B18A1E7817C2FAC701AF54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,18 +200,19 @@
 		36E52576201BB1D900436836 /* iLost */ = {
 			isa = PBXGroup;
 			children = (
+				362CA3D52024E8EA007E2023 /* Add New Item View Controller */,
+				362CA3D32024E8AF007E2023 /* API */,
+				362CA3D62024E949007E2023 /* Item Details View Controller */,
+				362CA3D42024E8D4007E2023 /* Item List View Controller */,
 				36B9F17F201EA50800394FEA /* Models */,
+				362CA3D72024E986007E2023 /* Supporting Files */,
 				36E52577201BB1D900436836 /* AppDelegate.swift */,
-				36E52579201BB1D900436836 /* AddNewItemViewController.swift */,
-				36B9F184201F331E00394FEA /* ItemTableViewCell.swift */,
-				36E5257B201BB1D900436836 /* Main.storyboard */,
-				362A2967201FE90500D83A41 /* ItemListViewController.swift */,
 				36E52581201BB1D900436836 /* Assets.xcassets */,
-				36E52583201BB1D900436836 /* LaunchScreen.storyboard */,
-				36E52586201BB1D900436836 /* Info.plist */,
+				36E18E87202A319E00DCC6A1 /* awsconfiguration.json */,
 				36E5257E201BB1D900436836 /* iLost.xcdatamodeld */,
-				36B9F186201F3CED00394FEA /* ItemTableViewController.swift */,
-				3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */,
+				36E52586201BB1D900436836 /* Info.plist */,
+				36E52583201BB1D900436836 /* LaunchScreen.storyboard */,
+				36E5257B201BB1D900436836 /* Main.storyboard */,
 			);
 			path = iLost;
 			sourceTree = "<group>";
@@ -151,6 +235,16 @@
 			path = iLostUITests;
 			sourceTree = "<group>";
 		};
+		71B18A1E7817C2FAC701AF54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E2A5901E75792A32168D6 /* Pods_iLost.framework */,
+				3E807C8EEE3B9D36B31DC6A6 /* Pods_iLostTests.framework */,
+				6D0B07DB99D66116F835F956 /* Pods_iLostUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E5259F201BB1D900436836 /* Build configuration list for PBXNativeTarget "iLost" */;
 			buildPhases = (
+				3F9FB5A43D68BF611754CCB8 /* [CP] Check Pods Manifest.lock */,
 				36E52570201BB1D900436836 /* Sources */,
 				36E52571201BB1D900436836 /* Frameworks */,
 				36E52572201BB1D900436836 /* Resources */,
+				407D68B9B217FB9405FC0BED /* [CP] Embed Pods Frameworks */,
+				DD4A7423AF00E9EFED6FA9EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E525A2201BB1D900436836 /* Build configuration list for PBXNativeTarget "iLostTests" */;
 			buildPhases = (
+				C4C3130F84454A6CD3FEE4AC /* [CP] Check Pods Manifest.lock */,
 				36E52587201BB1D900436836 /* Sources */,
 				36E52588201BB1D900436836 /* Frameworks */,
 				36E52589201BB1D900436836 /* Resources */,
+				F11E8C87477ED24BB9B5BC5D /* [CP] Embed Pods Frameworks */,
+				08196BFBB235955101F5BE97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E525A5201BB1D900436836 /* Build configuration list for PBXNativeTarget "iLostUITests" */;
 			buildPhases = (
+				BF18C5E40C12AEE42E4F2250 /* [CP] Check Pods Manifest.lock */,
 				36E52592201BB1D900436836 /* Sources */,
 				36E52593201BB1D900436836 /* Frameworks */,
 				36E52594201BB1D900436836 /* Resources */,
+				4D4DC369FC9ABB9CA9C2419C /* [CP] Embed Pods Frameworks */,
+				6D640A1E24009B2AD24EC800 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E18E88202A319E00DCC6A1 /* awsconfiguration.json in Resources */,
 				36E52585201BB1D900436836 /* LaunchScreen.storyboard in Resources */,
 				36E52582201BB1D900436836 /* Assets.xcassets in Resources */,
 				36E5257D201BB1D900436836 /* Main.storyboard in Resources */,
@@ -280,6 +384,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08196BFBB235955101F5BE97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLostTests/Pods-iLostTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F9FB5A43D68BF611754CCB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLost-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		407D68B9B217FB9405FC0BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iLost/Pods-iLost-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLost/Pods-iLost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4DC369FC9ABB9CA9C2419C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLostUITests/Pods-iLostUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D640A1E24009B2AD24EC800 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLostUITests/Pods-iLostUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF18C5E40C12AEE42E4F2250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLostUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C3130F84454A6CD3FEE4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLostTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4A7423AF00E9EFED6FA9EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLost/Pods-iLost-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11E8C87477ED24BB9B5BC5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLostTests/Pods-iLostTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36E52570201BB1D900436836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -288,9 +550,10 @@
 				36B9F17E201EA4F900394FEA /* Item.swift in Sources */,
 				362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */,
 				36E5257A201BB1D900436836 /* AddNewItemViewController.swift in Sources */,
-				36B9F185201F331E00394FEA /* ItemTableViewCell.swift in Sources */,
+				36ACF171202A3C47009C07FE /* cloudData.swift in Sources */,
+				36B9F185201F331E00394FEA /* ItemListTableViewCell.swift in Sources */,
 				36E52580201BB1D900436836 /* iLost.xcdatamodeld in Sources */,
-				36B9F187201F3CED00394FEA /* ItemTableViewController.swift in Sources */,
+				3605F19E2023374400FB6909 /* ItemLocation.swift in Sources */,
 				3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */,
 				36E52578201BB1D900436836 /* AppDelegate.swift in Sources */,
 			);
@@ -456,36 +719,41 @@
 		};
 		36E525A0201BB1D900436836 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE0D838B3E170A84E5DCA72 /* Pods-iLost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6EX2NMDL7;
 				INFOPLIST_FILE = iLost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsoft.iLost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		36E525A1201BB1D900436836 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112DD024F5442B63DF491877 /* Pods-iLost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6EX2NMDL7;
 				INFOPLIST_FILE = iLost/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsoft.iLost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		36E525A3201BB1D900436836 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802344D283B2E6F35C57E86B /* Pods-iLostTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +770,7 @@
 		};
 		36E525A4201BB1D900436836 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435CA030CA9434AC2025505 /* Pods-iLostTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +787,7 @@
 		};
 		36E525A6201BB1D900436836 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D2E48ACBF4B6C2A34E9088 /* Pods-iLostUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +803,7 @@
 		};
 		36E525A7201BB1D900436836 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7B64B074CBB4D089CC6208 /* Pods-iLostUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zBq-fT-OPP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zBq-fT-OPP">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemTableViewCell" rowHeight="360" id="pM2-13-ZjC" customClass="ItemTableViewCell" customModule="iLost" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemTableViewCell" rowHeight="360" id="pM2-13-ZjC" customClass="ItemListTableViewCell" customModule="iLost" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="360"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pM2-13-ZjC" id="0cM-8Q-wdH">
@@ -157,6 +159,9 @@
                         <viewLayoutGuide key="safeArea" id="4oj-TF-JSx"/>
                     </view>
                     <navigationItem key="navigationItem" title="Item Detail" id="cvK-U7-3W7"/>
+                    <connections>
+                        <outlet property="locationMapView" destination="AwW-J9-apB" id="mKH-XM-Ypd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Un-jt-ADM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -184,8 +189,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="hJT-ks-XFu"/>
-                                            <constraint firstAttribute="height" constant="150" id="kUy-hL-f9h"/>
+                                            <constraint firstAttribute="width" constant="150" id="6mu-9V-Y66"/>
+                                            <constraint firstAttribute="width" secondItem="x93-in-j0n" secondAttribute="height" multiplier="1:1" id="Hbi-d4-Foh"/>
+                                            <constraint firstAttribute="height" constant="150" id="V9z-xP-4IJ"/>
                                         </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="uGK-Tq-NtI" appends="YES" id="kZO-Qa-2Yg"/>
@@ -198,6 +204,9 @@
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="x93-in-j0n" firstAttribute="centerX" secondItem="IJl-po-tNK" secondAttribute="centerX" id="mbG-vu-Iez"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8O-xv-4W4">
                                 <rect key="frame" x="115" y="621" width="183" height="36"/>
