@@ -11,10 +11,12 @@
 		3605F19E2023374400FB6909 /* ItemLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F19D2023374400FB6909 /* ItemLocation.swift */; };
 		362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A2967201FE90500D83A41 /* ItemListViewController.swift */; };
 		3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */; };
-		36ACF171202A3C47009C07FE /* cloudData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ACF170202A3C47009C07FE /* cloudData.swift */; };
+		36ACF171202A3C47009C07FE /* aws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ACF170202A3C47009C07FE /* aws.swift */; };
 		36B9F17E201EA4F900394FEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F17D201EA4F900394FEA /* Item.swift */; };
 		36B9F185201F331E00394FEA /* ItemListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F184201F331E00394FEA /* ItemListTableViewCell.swift */; };
-		36E18E88202A319E00DCC6A1 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E18E87202A319E00DCC6A1 /* awsconfiguration.json */; };
+		36BC8AE8203B7AAE00337A0C /* ItemDetailsLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BC8AE7203B7AAE00337A0C /* ItemDetailsLocationTableViewCell.swift */; };
+		36D27D9C2032531600085C1D /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 36D27D9B2032531600085C1D /* awsconfiguration.json */; };
+		36D4A329202C6A51006F917E /* credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4A328202C6A51006F917E /* credentials.swift */; };
 		36E52578201BB1D900436836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E52577201BB1D900436836 /* AppDelegate.swift */; };
 		36E5257A201BB1D900436836 /* AddNewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E52579201BB1D900436836 /* AddNewItemViewController.swift */; };
 		36E5257D201BB1D900436836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E5257B201BB1D900436836 /* Main.storyboard */; };
@@ -49,10 +51,12 @@
 		3605F19D2023374400FB6909 /* ItemLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLocation.swift; sourceTree = "<group>"; };
 		362A2967201FE90500D83A41 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
-		36ACF170202A3C47009C07FE /* cloudData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudData.swift; sourceTree = "<group>"; };
+		36ACF170202A3C47009C07FE /* aws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws.swift; sourceTree = "<group>"; };
 		36B9F17D201EA4F900394FEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		36B9F184201F331E00394FEA /* ItemListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListTableViewCell.swift; sourceTree = "<group>"; };
-		36E18E87202A319E00DCC6A1 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
+		36BC8AE7203B7AAE00337A0C /* ItemDetailsLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsLocationTableViewCell.swift; sourceTree = "<group>"; };
+		36D27D9B2032531600085C1D /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		36D4A328202C6A51006F917E /* credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = credentials.swift; sourceTree = "<group>"; };
 		36E52574201BB1D900436836 /* iLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E52577201BB1D900436836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E52579201BB1D900436836 /* AddNewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +125,8 @@
 		362CA3D32024E8AF007E2023 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				36ACF170202A3C47009C07FE /* cloudData.swift */,
+				36ACF170202A3C47009C07FE /* aws.swift */,
+				36D4A328202C6A51006F917E /* credentials.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */,
+				36BC8AE7203B7AAE00337A0C /* ItemDetailsLocationTableViewCell.swift */,
 			);
 			path = "Item Details View Controller";
 			sourceTree = "<group>";
@@ -175,6 +181,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		36BC8AE4203B791A00337A0C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				362CA3D52024E8EA007E2023 /* Add New Item View Controller */,
+				362CA3D62024E949007E2023 /* Item Details View Controller */,
+				362CA3D42024E8D4007E2023 /* Item List View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		36E5256B201BB1D900436836 = {
 			isa = PBXGroup;
 			children = (
@@ -200,15 +216,13 @@
 		36E52576201BB1D900436836 /* iLost */ = {
 			isa = PBXGroup;
 			children = (
-				362CA3D52024E8EA007E2023 /* Add New Item View Controller */,
+				36BC8AE4203B791A00337A0C /* View Controllers */,
 				362CA3D32024E8AF007E2023 /* API */,
-				362CA3D62024E949007E2023 /* Item Details View Controller */,
-				362CA3D42024E8D4007E2023 /* Item List View Controller */,
 				36B9F17F201EA50800394FEA /* Models */,
 				362CA3D72024E986007E2023 /* Supporting Files */,
 				36E52577201BB1D900436836 /* AppDelegate.swift */,
 				36E52581201BB1D900436836 /* Assets.xcassets */,
-				36E18E87202A319E00DCC6A1 /* awsconfiguration.json */,
+				36D27D9B2032531600085C1D /* awsconfiguration.json */,
 				36E5257E201BB1D900436836 /* iLost.xcdatamodeld */,
 				36E52586201BB1D900436836 /* Info.plist */,
 				36E52583201BB1D900436836 /* LaunchScreen.storyboard */,
@@ -361,7 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E18E88202A319E00DCC6A1 /* awsconfiguration.json in Resources */,
+				36D27D9C2032531600085C1D /* awsconfiguration.json in Resources */,
 				36E52585201BB1D900436836 /* LaunchScreen.storyboard in Resources */,
 				36E52582201BB1D900436836 /* Assets.xcassets in Resources */,
 				36E5257D201BB1D900436836 /* Main.storyboard in Resources */,
@@ -549,13 +563,15 @@
 			files = (
 				36B9F17E201EA4F900394FEA /* Item.swift in Sources */,
 				362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */,
+				36D4A329202C6A51006F917E /* credentials.swift in Sources */,
 				36E5257A201BB1D900436836 /* AddNewItemViewController.swift in Sources */,
-				36ACF171202A3C47009C07FE /* cloudData.swift in Sources */,
+				36ACF171202A3C47009C07FE /* aws.swift in Sources */,
 				36B9F185201F331E00394FEA /* ItemListTableViewCell.swift in Sources */,
 				36E52580201BB1D900436836 /* iLost.xcdatamodeld in Sources */,
 				3605F19E2023374400FB6909 /* ItemLocation.swift in Sources */,
 				3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */,
 				36E52578201BB1D900436836 /* AppDelegate.swift in Sources */,
+				36BC8AE8203B7AAE00337A0C /* ItemDetailsLocationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

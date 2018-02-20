@@ -9,22 +9,33 @@
 import MapKit
 
 class ItemLocation: NSObject, MKAnnotation {
-
+    
     // MARK: Properties
     
-    let title: String?
-    let locationName: String?
-    let coordinate: CLLocationCoordinate2D
-    var subtitle: String? {
-        return locationName
+    var title: String? {
+        if let timeString = time {
+            return "\(timeString) ago"
+        } else {
+            return ""
+        }
     }
+    var subtitle: String? {
+        if let distanceString = distance {
+            return " \(distanceString) away"
+        } else {
+            return ""
+        }
+    }
+    let coordinate: CLLocationCoordinate2D
+    let time: String?
+    let distance: String?
     
     // MARK: Initialisation
     
-    init(title: String, locationName: String, coordinate: CLLocationCoordinate2D) {
-
-        self.title = title
-        self.locationName = locationName
+    init(time: String, distance: String, coordinate: CLLocationCoordinate2D) {
+        
+        self.time = time
+        self.distance = distance
         self.coordinate = coordinate
         super.init()
         

@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import Foundation
+import AWSCore
+import AWSS3
 
 class AddNewItemViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
+    
     // MARK: Properties
     
     @IBOutlet weak var itemNameTextField: UITextField!
@@ -23,21 +26,21 @@ class AddNewItemViewController: UIViewController, UITextFieldDelegate, UIImagePi
         
         // Handle the text field's uer input through delegate callbacks.
         itemNameTextField.delegate = self
-   
+        
         // Enable the gesture recogniser
         photoImageView.isUserInteractionEnabled = true
         
         // Make the image round corner, 75 is half of the round icon size
         photoImageView.layer.cornerRadius = 75
-        photoImageView.layer.masksToBounds = true        
-        
+        photoImageView.layer.masksToBounds = true
+               
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: UITextFieldDelegate
     
     // It calls when a user taps keyboard's return button.
@@ -54,7 +57,7 @@ class AddNewItemViewController: UIViewController, UITextFieldDelegate, UIImagePi
     func textFieldDidEndEditing(_ textField: UITextField) {
         print("New item name: " + textField.text!)
     }
-
+    
     // MARK: UIIMagePickerControllerDelegate
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -95,5 +98,9 @@ class AddNewItemViewController: UIViewController, UITextFieldDelegate, UIImagePi
         print("Done button pressed")
         
     }
+    
+    
+    
+
 }
 
