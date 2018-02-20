@@ -14,14 +14,14 @@ class ItemLocation: NSObject, MKAnnotation {
     
     var title: String? {
         if let timeString = time {
-            return "\(timeString) ago"
+            return "\(timeString)"
         } else {
             return ""
         }
     }
     var subtitle: String? {
         if let distanceString = distance {
-            return " \(distanceString) away"
+            return " \(distanceString) km away"
         } else {
             return ""
         }

@@ -14,7 +14,7 @@ import AWSS3
 /**
  *   Load position data via S3 bucket api and get the position data
  */
-public func loadAllPositionData(handler: @escaping (NSDictionary) -> Void) {
+public func loadAllPositionData(handler: @escaping (NSDictionary) -> Void, completeHandler: @escaping () -> Void) {
     
     let crendetinalsProviders: AWSStaticCredentialsProvider = AWSStaticCredentialsProvider.init(accessKey: aws_accessKey, secretKey: aws_secretKey)
     let configuration: AWSServiceConfiguration = AWSServiceConfiguration.init(region: AWSRegionType.EUWest2, credentialsProvider: crendetinalsProviders)
@@ -25,15 +25,18 @@ public func loadAllPositionData(handler: @escaping (NSDictionary) -> Void) {
     let listRequest: AWSS3ListObjectsRequest = AWSS3ListObjectsRequest()
     listRequest.bucket = aws_bucketName
     
-    s3.listObjects(listRequest).continueOnSuccessWith(block: { (task) -> Void in
+    s3.listObjects(listRequest).continueWith(block: { (task) -> Void in
         if (task.result != nil){
             
             // Get all the data name in the reuslt
             for object in (task.result?.contents)! {
                 if(object.key != nil) {
+                    print("do something before end")
                     getData(bucketName: aws_bucketName, fileName: object.key!, handler: handler)
                 }
             }
+            print("end")
+            completeHandler()
             
         }else{
             print("can't find the bucket.")
@@ -55,13 +58,14 @@ public func getData(bucketName: String, fileName: String, handler: @escaping (NS
     })}
     
     completionHandler = { (task, URL, data, error) -> Void in
-        do {
-            // parse data into json format
-            let jsonData: NSData = data! as NSData
-            let jsonDict = try JSONSerialization.jsonObject(with: jsonData as Data) as! NSDictionary
+        
+        // parse data into json format
+        let dataString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
+        if let string = dataString {
+            let string = string.replacingOccurrences(of: "Location: ", with: "")
+            let jsonDict: NSDictionary = convertStringTODictionary(text: string)!
             handler(jsonDict)
-        } catch {
-            print(error)
+            
         }
     }
     
@@ -76,12 +80,22 @@ public func getData(bucketName: String, fileName: String, handler: @escaping (NS
             }
             
             if let _ = task.result {
-//                print("Download success")
                 // Do something with downloadTask.
                 
             }
             return nil;
     }
     
+}
+
+private func convertStringTODictionary(text: String) -> NSDictionary? {
+    if let data = text.data(using: String.Encoding.utf8) {
+        do {
+            return try JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+    return nil
 }
 

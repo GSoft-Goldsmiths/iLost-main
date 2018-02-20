@@ -18,7 +18,7 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     var itemLocations: [ItemLocation] = [ItemLocation]()
     let cellIdentifier = "historyLocationTableViewCell"
     var locationManager: CLLocationManager!
-    let regionRadius: CLLocationDistance = 10000
+    let regionRadius: CLLocationDistance = 300
     @IBOutlet weak var locationMapView: MKMapView!
     @IBOutlet weak var itemDetailsLocationTableView: UITableView!
     
@@ -33,14 +33,6 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     let itemLocationRecordedDistance = "4 km"
     
     // MARK: Private Methods
-    private func loadSampleLocations() {
-        let sampleItemLocation1 = ItemLocation(time: "3 mins", distance: "3km", coordinate: CLLocationCoordinate2D(latitude: 51.46, longitude: -0.035))
-        let sampleItemLocation2 = ItemLocation(time: "10 mins", distance: "4km", coordinate: CLLocationCoordinate2D(latitude: 51.45, longitude: -0.035))
-        let sampleItemLocation3 = ItemLocation(time: "13 mins", distance: "5km", coordinate: CLLocationCoordinate2D(latitude: 51.44, longitude: -0.035))
-        let sampleItemLocation4 = ItemLocation(time: "10 mins", distance: "6km", coordinate: CLLocationCoordinate2D(latitude: 51.43, longitude: -0.035))
-        itemLocations += [sampleItemLocation1, sampleItemLocation2, sampleItemLocation3, sampleItemLocation4]
-        locationMapView.addAnnotations(itemLocations)
-    }
     
     func centerMapOnLocation (location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
@@ -55,16 +47,6 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
         locationMapView.showsUserLocation = true
     }
     
-    func pinItemLocationOnMap (latitude: Double, longitude: Double) {
-        
-        // Create new Item Location object
-        let item = ItemLocation(time: itemLocationRecordedTime, distance: itemLocationRecordedDistance, coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
-        
-        // add annotation to the map
-        locationMapView.addAnnotation(item)
-        
-    }
-    
     
     // MARK: Main methods
     
@@ -74,25 +56,49 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
         locationManager.startUpdatingLocation()
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //        centerMapOnLocation(location: initLocation)
         itemDetailsLocationTableView.delegate = self
         itemDetailsLocationTableView.dataSource = self
-        loadSampleLocations()
         setupLocationManager()
-        loadAllPositionData { (dist: NSDictionary) in
+        loadAllPositionData(handler: { (dist: NSDictionary) in
+            
             let latitude = Double(dist.object(forKey: "latitude") as! String)!
             let longitude = Double(dist.object(forKey: "longitude") as! String)!
-            let initLocation = CLLocation(latitude: latitude, longitude: longitude)
-            self.centerMapOnLocation(location: initLocation)
-            self.pinItemLocationOnMap(latitude: latitude, longitude: longitude)
+            let date = dist.object(forKey: "date") as! String
+            
+            // parse time data
+            var time = dist.object(forKey: "time") as! String
+            time = time.components(separatedBy: ".000")[0]
+            
+            // get the distance between current location the item location and round make it in KM by dividing it by 1000
+            let disatnce = self.initLocation.distance(from: CLLocation(latitude: latitude, longitude: longitude))/1000 as Double
+            
+            // round to one decimal digit
+            let disatnceStr = String(format: "%.1f", disatnce)
+            
+            let itemLocation = ItemLocation(time: "\(date) - \(time)", distance: disatnceStr, coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
+            
+            self.itemLocations += [itemLocation]
+            self.locationMapView.addAnnotation(itemLocation)
+            self.centerMapOnLocation(location: CLLocation(latitude: latitude, longitude: longitude))
+            print("add location")
+            
+        }) {
+            DispatchQueue.main.async {
+                self.itemDetailsLocationTableView.reloadData()                
+                print("before end")
+            }
             
         }
+        
+        
         // Do any additional setup after loading the view.
         
-        
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -137,6 +143,7 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
             
             // store the row as the index to trigger differnt location navigation
             cell.navigationButtonView.tag = indexPath.row
+            
             return cell
     }
     
