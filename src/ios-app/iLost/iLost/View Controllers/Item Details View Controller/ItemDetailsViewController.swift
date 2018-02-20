@@ -18,7 +18,7 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     var itemLocations: [ItemLocation] = [ItemLocation]()
     let cellIdentifier = "historyLocationTableViewCell"
     var locationManager: CLLocationManager!
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 10000
     @IBOutlet weak var locationMapView: MKMapView!
     @IBOutlet weak var itemDetailsLocationTableView: UITableView!
     
@@ -26,6 +26,7 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     let initLocation = CLLocation(latitude: 51.47427313512371, longitude: -0.03544807434082031)
     
     // temporaty item detail
+    let itemName = "My bag"
     let itemLocationLatitude = 51.4750316
     let itemLocationLongitude = -0.0455983
     let itemLocationRecordedTime = "45 mins"
@@ -124,8 +125,6 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
         UITableViewCell {
             
             // Table view cells are reused and should be dequeued using a cell identifier
-            
-            
             guard let cell: ItemDetailsLocationTableViewCell =  itemDetailsLocationTableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? ItemDetailsLocationTableViewCell else {
                 fatalError("The dequeued cell is not an instance of ItemDetailsLocationTableViewCell")
             }
@@ -135,6 +134,9 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
             let itemLocation = itemLocations[indexPath.row]
             cell.distanceLabelView.text = itemLocation.title
             cell.timeLabelView.text = itemLocation.subtitle
+            
+            // store the row as the index to trigger differnt location navigation
+            cell.navigationButtonView.tag = indexPath.row
             return cell
     }
     
@@ -145,4 +147,28 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
         let location: CLLocation = CLLocation(latitude: targetItemLocation.coordinate.latitude, longitude: targetItemLocation.coordinate.longitude)
         self.centerMapOnLocation(location: location)
     }
+    
+    
+    // trigge the maps app to nagivate to the item
+    @IBAction func navigationButtonAction(_ sender: UIButton) {
+        
+        // use the tag to get the corresponding item location
+        let itemLocation = itemLocations[sender.tag]
+        let regionDistance: CLLocationDistance = 10000
+        let coordinates = itemLocation.coordinate
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        
+        // use driving mode as the default navigation way
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span),
+            MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving
+            ] as [String : Any]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "\(self.itemName)"
+        mapItem.openInMaps(launchOptions: options)
+    }
+
+    
 }
