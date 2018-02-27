@@ -10,6 +10,7 @@
 		2C99340BCB77365041BB82BA /* Pods_iLost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6E2A5901E75792A32168D6 /* Pods_iLost.framework */; };
 		3605F19E2023374400FB6909 /* ItemLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605F19D2023374400FB6909 /* ItemLocation.swift */; };
 		362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A2967201FE90500D83A41 /* ItemListViewController.swift */; };
+		36412F82203CBD7F00EFC1F0 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36412F81203CBD7F00EFC1F0 /* OnBoardingViewController.swift */; };
 		3697B8E32022332E00655F26 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */; };
 		36ACF171202A3C47009C07FE /* aws.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ACF170202A3C47009C07FE /* aws.swift */; };
 		36B9F17E201EA4F900394FEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B9F17D201EA4F900394FEA /* Item.swift */; };
@@ -50,6 +51,7 @@
 		112DD024F5442B63DF491877 /* Pods-iLost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLost.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLost/Pods-iLost.release.xcconfig"; sourceTree = "<group>"; };
 		3605F19D2023374400FB6909 /* ItemLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLocation.swift; sourceTree = "<group>"; };
 		362A2967201FE90500D83A41 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		36412F81203CBD7F00EFC1F0 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		3697B8E22022332E00655F26 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		36ACF170202A3C47009C07FE /* aws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aws.swift; sourceTree = "<group>"; };
 		36B9F17D201EA4F900394FEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		36412F80203CBD2E00EFC1F0 /* OnBoarding View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36412F81203CBD7F00EFC1F0 /* OnBoardingViewController.swift */,
+			);
+			path = "OnBoarding View Controller";
+			sourceTree = "<group>";
+		};
 		36B9F17F201EA50800394FEA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +194,7 @@
 		36BC8AE4203B791A00337A0C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				36412F80203CBD2E00EFC1F0 /* OnBoarding View Controller */,
 				362CA3D52024E8EA007E2023 /* Add New Item View Controller */,
 				362CA3D62024E949007E2023 /* Item Details View Controller */,
 				362CA3D42024E8D4007E2023 /* Item List View Controller */,
@@ -564,6 +575,7 @@
 				36B9F17E201EA4F900394FEA /* Item.swift in Sources */,
 				362A2968201FE90500D83A41 /* ItemListViewController.swift in Sources */,
 				36D4A329202C6A51006F917E /* credentials.swift in Sources */,
+				36412F82203CBD7F00EFC1F0 /* OnBoardingViewController.swift in Sources */,
 				36E5257A201BB1D900436836 /* AddNewItemViewController.swift in Sources */,
 				36ACF171202A3C47009C07FE /* aws.swift in Sources */,
 				36B9F185201F331E00394FEA /* ItemListTableViewCell.swift in Sources */,

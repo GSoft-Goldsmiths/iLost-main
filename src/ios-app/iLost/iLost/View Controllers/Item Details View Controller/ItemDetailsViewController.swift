@@ -27,10 +27,6 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     
     // temporaty item detail
     let itemName = "My bag"
-    let itemLocationLatitude = 51.4750316
-    let itemLocationLongitude = -0.0455983
-    let itemLocationRecordedTime = "45 mins"
-    let itemLocationRecordedDistance = "4 km"
     
     // MARK: Private Methods
     
@@ -59,7 +55,6 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        centerMapOnLocation(location: initLocation)
         itemDetailsLocationTableView.delegate = self
         itemDetailsLocationTableView.dataSource = self
         setupLocationManager()
@@ -84,12 +79,11 @@ class ItemDetailsViewController: UIViewController, UITableViewDelegate, UITableV
             self.itemLocations += [itemLocation]
             self.locationMapView.addAnnotation(itemLocation)
             self.centerMapOnLocation(location: CLLocation(latitude: latitude, longitude: longitude))
-            print("add location")
+            self.itemDetailsLocationTableView.reloadData()
             
         }) {
-            DispatchQueue.main.async {
-                self.itemDetailsLocationTableView.reloadData()                
-                print("before end")
+            DispatchQueue.main.sync {
+                self.itemDetailsLocationTableView.reloadData()
             }
             
         }

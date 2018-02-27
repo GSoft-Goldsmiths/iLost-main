@@ -31,11 +31,9 @@ public func loadAllPositionData(handler: @escaping (NSDictionary) -> Void, compl
             // Get all the data name in the reuslt
             for object in (task.result?.contents)! {
                 if(object.key != nil) {
-                    print("do something before end")
                     getData(bucketName: aws_bucketName, fileName: object.key!, handler: handler)
                 }
             }
-            print("end")
             completeHandler()
             
         }else{
