@@ -47,6 +47,8 @@ Subsequently, we tried to implement the iLost Bluetooth feature with the Android
 
 We also looked at other Bluetooth products on the market, such as most headphones. They were also plagued with stability issues (such as signal not receiving or pairing breaking), if we were to implement the Bluetooth feature we would need experienced developers who specialise in implementing reliable Bluetooth communications between user apps and physical computing devices. Unfortunately, there is also no library or service (like Hologram) which simplifies the Bluetooth stack. 
 
+Moreover, we experimented with other Bluetooth based technologies, to find a replacement. We tested and built mock-ups using the estimote beacon (a Bluetooth tracker, used in upcoming retail and asset tracking), this did not fit our use case, as it increased unnecessary cost and complications to the user. Another novel Bluetooth tracker which failed the use case was the puck.js (a small Bluetooth tracker that can programmed using JavaScript) although a novel concept we did not possess enough technical skill to be able to program the Puck to detect read Bluetooth signals specifically emitting from the raspberry Pi. 
+
 [insert picture of raspberry pi 3 model B with hologram nova attached]
 
 Our next step, was to implement the Cellular functionality of the iLost tracker. The cellular functionality consists of a cellular modem (called Hologram Nova) provided by the company Hologram. The Hologram Nova, via USB is attached to the raspberry pi (for testing and early prototyping we used the Raspberry pi 3 model B) and this what we refer to as the iLost tracker. We manged to establish a protocol to communicate with the iLost tracker.
