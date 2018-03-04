@@ -1,24 +1,27 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {2}Development Record}{2}
-\contentsline {section}{\numberline {3}Formative Evaluation}{2}
-\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{2}
-\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{2}
-\contentsline {subsubsection}{\numberline {3.1.2}Location, Setup and Participants}{2}
-\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{2}
-\contentsline {subsubsection}{\numberline {3.1.4}iOS app v0.10 Evaluation}{2}
-\contentsline {subsubsection}{\numberline {3.1.5}iOS app v0.11 Evaluation}{2}
-\contentsline {subsubsection}{\numberline {3.1.6}iOS app v0.12 Evaluation}{2}
-\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{2}
-\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{2}
-\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{3}
-\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{3}
-\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{3}
-\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{3}
-\contentsline {subsection}{\numberline {3.3}Conclusion}{3}
-\contentsline {section}{\numberline {4}Design and Implementation}{3}
-\contentsline {section}{\numberline {5}QUality Assurance}{3}
-\contentsline {section}{\numberline {6}Summative Evaluation}{3}
-\contentsline {section}{Appendices}{3}
-\contentsline {section}{\numberline {A}Tasks Divided}{3}
+\contentsline {section}{\numberline {3}Formative Evaluation}{3}
+\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{3}
+\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{3}
 \contentsline {paragraph}{}{3}
-\contentsline {section}{\numberline {B}Progress Tracking Form}{3}
+\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {subsubsection}{\numberline {3.1.4}iOS app v0.10 Evaluation}{3}
+\contentsline {subsubsection}{\numberline {3.1.5}iOS app v0.11 Evaluation}{3}
+\contentsline {subsubsection}{\numberline {3.1.6}iOS app v0.12 Evaluation}{3}
+\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{4}
+\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{4}
+\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{4}
+\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{4}
+\contentsline {subsection}{\numberline {3.3}Conclusion}{4}
+\contentsline {section}{\numberline {4}Design and Implementation}{5}
+\contentsline {section}{\numberline {5}QUality Assurance}{5}
+\contentsline {section}{\numberline {6}Summative Evaluation}{5}
+\contentsline {section}{Appendices}{5}
+\contentsline {section}{\numberline {A}Tasks Divided}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {section}{\numberline {B}Progress Tracking Form}{5}
