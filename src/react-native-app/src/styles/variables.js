@@ -24,7 +24,7 @@ export const style = {
   button: {
     height: 36,
     width: 90,
-    margin: 20,
+    marginVertical: 20,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: color.main,

@@ -21,7 +21,7 @@ export default class AuthLoadingView extends React.Component {
     try {
       const isOnBoarded = await AsyncStorage.getItem('isOnBoarded');
       if (isOnBoarded) {
-        console.log("is onboarded");
+        console.log("is on boarded");
         const isRegistered = await AsyncStorage.getItem('isRegistered');
         if (isRegistered) {
           console.log("is registered");

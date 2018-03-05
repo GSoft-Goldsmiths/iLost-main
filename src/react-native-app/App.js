@@ -105,13 +105,19 @@ const SwitchStack = SwitchNavigator(
   },
 );
 
-
 export default class App extends React.Component {
   constructor() {
+    {{}}
     super();
     this.state = {
       fontLoaded: false,
     };
+
+    // prevent device rotated mess up Layout
+    Expo.ScreenOrientation.allow(
+      Expo.ScreenOrientation.Orientation.PORTRAIT_UP,
+    );
+
   }
 
   /**

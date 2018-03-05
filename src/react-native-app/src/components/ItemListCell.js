@@ -1,47 +1,67 @@
 import React from 'react';
-import { Image, Text, TouchableOpacity, View } from 'react-native';
-import { mainFontBold } from '../styles/variables';
+import { Dimensions, Image, Text, TouchableOpacity, View } from 'react-native';
+import { color, mainFontBold } from '../styles/variables';
 
 export const ItemListCell = ({ name, itemPressHandler, id, imageSource }) => (
-  <TouchableOpacity
-    onPress={() => itemPressHandler(name, id)}
-    style={style.container}
-  >
-
-    <Image style={style.image} source={imageSource}/>
-    <View style={style.textContainer}>
-      <Text style={style.text}>{name}</Text>
-    </View>
-  </TouchableOpacity>
+  <View style={{ paddingHorizontal: 10 }}>
+    <TouchableOpacity
+      onPress={() => itemPressHandler(name, id)}
+      style={style.container}
+    >
+      <View style={style.textContainer}>
+        <Text style={style.text}>{name}</Text>
+      </View>
+      <View style={style.imageContainer}>
+        <Image
+          resizeMode="cover"
+          style={style.image}
+          source={imageSource}
+        />
+      </View>
+    </TouchableOpacity>
+  </View>
 );
 
-const cellHeight = 250;
+const { width, height } = Dimensions.get('window');
+const cellHeight = height / 2;
+const cellWidth = width * 0.8;
 
 const style = {
   container: {
     height: cellHeight,
-    width: '100%',
     marginVertical: 20,
     borderRadius: 25,
+    flex: 1,
+    backgroundColor: color.background,
+    flexDirection: 'column-reverse',
     shadowColor: '#000',
-    maxWidth: '100%',
-    maxHeight: '100%',
-    overflow: 'hidden',
+    shadowOffset: { width: 0, height: 11 },
+    shadowOpacity: 0.5,
+    shadowRadius: 5,
   },
   textContainer: {
-    backgroundColor: '#efefef',
-    height: 120,
-    zIndex: 123,
+    flex: 1,
+    paddingVertical: 15,
+    paddingHorizontal: 5,
   },
   text: {
-    fontSize: 40,
+    fontSize: 20,
+    color: color.main,
     fontFamily: mainFontBold,
     right: 5,
     bottom: 5,
     textAlign: 'right',
   },
-  image: {
+  imageContainer: {
+    flex: 5,
     height: cellHeight,
-    width: 'auto',
+    maxWidth: cellWidth,
+    borderTopRightRadius: 25,
+    borderTopLeftRadius: 25,
+    overflow: 'hidden',
+  },
+  image: {
+    height: '100%',
+    maxWidth: cellWidth,
   },
 };

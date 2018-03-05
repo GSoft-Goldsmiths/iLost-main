@@ -60,7 +60,6 @@ class ItemListView extends React.Component {
         style={style.container}>
 
         <FlatList
-          style={{ paddingHorizontal: 10 }}
           showsVerticalScrollIndicator={false}
           data={itemListData}
           renderItem={({ item: { name, id, imageSource } }) => (
