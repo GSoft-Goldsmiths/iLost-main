@@ -1,5 +1,5 @@
 import React from 'react';
-import { style } from '../styles/variables';
+import { mainFontBold, style } from '../styles/variables';
 import { Text, TouchableHighlight } from 'react-native';
 
 export default ({ text, handler }) => (
@@ -7,6 +7,6 @@ export default ({ text, handler }) => (
     style={style.button}
     onPress={() => handler()}
   >
-    <Text style={{ color: '#fff' }}>{text}</Text>
+    <Text style={{ color: '#fff', fontFamily: mainFontBold }}>{text}</Text>
   </TouchableHighlight>
 );

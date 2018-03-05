@@ -55,6 +55,8 @@ const AppStack = StackNavigator(
 
   },
   {
+    // TODO: delete this after finishing add item UI
+    initialRouteName: 'AddItemModal',
     mode: 'modal',
     headerMode: 'none',
   },
@@ -101,7 +103,8 @@ const SwitchStack = SwitchNavigator(
     OnBoarding: OnBoardingStack,
   },
   {
-    initialRouteName: 'AuthLoading',
+    //initialRouteName: 'AuthLoading',
+    initialRouteName: 'App',
   },
 );
 

@@ -3,6 +3,7 @@ import { AsyncStorage, Button, FlatList, View, } from 'react-native';
 import { withNavigation } from 'react-navigation';
 import { ItemListCell } from '../components/ItemListCell';
 import { style } from '../styles/variables';
+import { sampleItemList } from '../contents/sampleData';
 
 class ItemListView extends React.Component {
 
@@ -11,7 +12,7 @@ class ItemListView extends React.Component {
       id: 123,
     });
     return {
-      title: 'HOMEY',
+      title: 'Item List',
       headerRight: (
         <Button onPress={rightButtonHandler} title="＋" color="#fff"/>
       ),
@@ -34,34 +35,13 @@ class ItemListView extends React.Component {
   };
 
   render() {
-    const itemListData = [
-      {
-        key: 0,
-        name: 'school bag',
-        id: 0,
-        imageSource: require('../../assets/images/sampleItems/sample1.jpg'),
-      },
-      {
-        key: 1,
-        name: 'traveling bag',
-        id: 1,
-        imageSource: require('../../assets/images/sampleItems/sample2.jpg'),
-      },
-      {
-        key: 2,
-        name: 'another bag',
-        id: 2,
-        imageSource: require('../../assets/images/sampleItems/sample3.jpg'),
-      },
-    ];
-
     return (
       <View
         style={style.container}>
 
         <FlatList
           showsVerticalScrollIndicator={false}
-          data={itemListData}
+          data={sampleItemList}
           renderItem={({ item: { name, id, imageSource } }) => (
             <ItemListCell
               imageSource={imageSource}

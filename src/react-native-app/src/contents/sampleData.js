@@ -1,4 +1,4 @@
-const markers =[
+const sampleMarkers = [
   {
     coordinate: {
       latitude: 51.47427313512371,
@@ -25,6 +25,28 @@ const markers =[
   },
 ];
 
+const sampleItemList = [
+  {
+    key: 0,
+    name: 'school bag',
+    id: 0,
+    imageSource: require('../../assets/images/sampleItems/sample1.jpg'),
+  },
+  {
+    key: 1,
+    name: 'traveling bag',
+    id: 1,
+    imageSource: require('../../assets/images/sampleItems/sample2.jpg'),
+  },
+  {
+    key: 2,
+    name: 'another bag',
+    id: 2,
+    imageSource: require('../../assets/images/sampleItems/sample3.jpg'),
+  },
+];
+
 export {
-  markers
+  sampleMarkers,
+  sampleItemList,
 };

@@ -10,7 +10,7 @@ import {
 import { color, mainFontBold, style } from '../styles/variables';
 import Map from '../components/Map';
 import Button from '../components/Button';
-import { markers } from '../contents/sampleData';
+import { sampleMarkers } from '../contents/sampleData';
 
 export default class DetailsScreen extends React.Component {
 
@@ -19,15 +19,14 @@ export default class DetailsScreen extends React.Component {
     return {
       title: params ? params.name : 'item name',
     };
-
   };
 
   constructor(props) {
     super(props);
     this.state = {
-      markers,
+      markers: sampleMarkers,
       region: {
-        ...markers[0].coordinate,
+        ...sampleMarkers[0].coordinate,
         latitudeDelta: 0.0022,
         longitudeDelta: 0.0421,
       },
