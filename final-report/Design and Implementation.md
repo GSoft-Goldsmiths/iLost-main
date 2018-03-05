@@ -83,6 +83,10 @@ We also encrypt this data using AES-256 servers side encryption keys, each recor
 
 Next, we needed to create the UI for the iOS app and Android app. We approached this by keeping everything as minimal and simple as possible for the user. The user would take a picture of their item they want to track, assign a category for it. When the user wants the location of their bag for example they would tap on the on the “[locate]” button, a google map of their item would show along with any information such as directions and distance. 
 
+Migrated to React Native to boost the development efficiency. [expand on this]
+
+[I have migrated the iOS app to *React Native* , which cost me a way less time to build the same functionalities. I think it worths mentioning in this chapter in terms of to meet the time limitation, we found a better way to cut the budget(working hours).][i'll elaborate on this later]
+
 [insert screenshots of iOS and android app]
 
 For our tracker to be useful and satisfy its use cases it had to be portable. When we were testing our tracker, which was a raspberry pi 3 model b, it had be plugged into the mains. We replaced the raspberry pi 3 model b with the raspberry pi zero. The raspberry pi zero is 2x smaller than the raspberry pi 3, uses much less power and still uses the same operating system (so all the Bash scripts and configurations still worked) 
