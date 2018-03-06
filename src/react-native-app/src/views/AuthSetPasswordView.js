@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 import { fullPageView, style, } from '../styles/variables';
 import PasswordInput from '../components/PasswordInput';
+import { sampleItemList } from '../contents/sampleData';
 
 export default class AuthSetPasswordView extends React.Component {
 
@@ -21,15 +22,21 @@ export default class AuthSetPasswordView extends React.Component {
   }
 
   _setPasswordAsync = async () => {
-    const updatingDate = [
-      ['isRegistered', 'true'],
-      ['password', this.state.password],
-      ['userToken', String(Date.now())],
-    ];
     try {
-      await AsyncStorage.setItem('isRegistered', 'true');
-      await AsyncStorage.setItem('password', this.state.password);
-      await AsyncStorage.setItem('userToken', String(Date.now()));
+
+      // TODO: migrate all these storage methods to a single API file
+      // store user authentication data
+      // store the sample data at the same time
+      const user = {
+        auth: {
+          isRegistered: true,
+          password: this.state.password,
+          userToken: String(Date.now()),
+        },
+        items: sampleItemList,
+      };
+
+      await AsyncStorage.mergeItem('user', JSON.stringify(user));
       this.props.navigation.navigate('AddTouchId');
 
     } catch (error) {
@@ -72,7 +79,6 @@ export default class AuthSetPasswordView extends React.Component {
         }
       }
     }
-
 
   }
 

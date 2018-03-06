@@ -10,19 +10,11 @@ export default class AuthAddTouchIdView extends React.Component {
     super(props);
   }
 
-  // send user back to previous page if the mobile has no fingerprint sensor
-  async componentWillMount() {
-    //const hasTouchId = await Expo.Fingerprint.hasHardwareAsync();
-    //const hasFingerprintSaved = await Expo.Fingerprint.isEnrolledAsync();
-    //if (!hasTouchId || !hasFingerprintSaved) {
-    //  this.props.navigation.nativate('AuthFinishedModal');
-    //}
-  }
-
   _setTouchId = async () => {
     // setup permission
     try {
-      await AsyncStorage.setItem('useTouchId', 'true');
+      const user = { auth: { useTouchId: true } };
+      await AsyncStorage.mergeItem('user', JSON.stringify(user));
       this.props.navigation.navigate('AuthFinished');
     } catch (error) {
       console.log(error);
@@ -31,7 +23,8 @@ export default class AuthAddTouchIdView extends React.Component {
 
   _skipTouchId = async () => {
     try {
-      await AsyncStorage.setItem('useTouchId', 'false');
+      const user = { auth: { useTouchId: false } };
+      await AsyncStorage.mergeItem('user', JSON.stringify(user));
       this.props.navigation.navigate('AuthFinished');
     } catch (error) {
       console.log(error);

@@ -2,25 +2,35 @@ import React from 'react';
 import { Dimensions, Image, Text, TouchableOpacity, View } from 'react-native';
 import { color, mainFontBold } from '../styles/variables';
 
-export const ItemListCell = ({ name, itemPressHandler, id, imageSource }) => (
-  <View style={{ paddingHorizontal: 10 }}>
-    <TouchableOpacity
-      onPress={() => itemPressHandler(name, id)}
-      style={style.container}
-    >
-      <View style={style.textContainer}>
-        <Text style={style.text}>{name}</Text>
-      </View>
-      <View style={style.imageContainer}>
-        <Image
-          resizeMode="cover"
-          style={style.image}
-          source={imageSource}
-        />
-      </View>
-    </TouchableOpacity>
-  </View>
-);
+export const ItemListCell = ({
+                               name,
+                               cellPressHandler,
+                               id,
+                               imageSource,
+                               locations,
+                               index,
+                             }) => {
+  return (
+    <View style={{ paddingHorizontal: 10 }}>
+      <TouchableOpacity
+        onPress={() => cellPressHandler(name, id, locations, imageSource,
+          index)}
+        style={style.container}
+      >
+        <View style={style.textContainer}>
+          <Text style={style.text}>{name}</Text>
+        </View>
+        <View style={style.imageContainer}>
+          <Image
+            resizeMode="cover"
+            style={style.image}
+            source={{ uri: imageSource, isStatic: true }}
+          />
+        </View>
+      </TouchableOpacity>
+    </View>
+  );
+};
 
 const { width, height } = Dimensions.get('window');
 const cellHeight = height / 2;
@@ -63,5 +73,6 @@ const style = {
   image: {
     height: '100%',
     maxWidth: cellWidth,
+    width: cellWidth,
   },
 };

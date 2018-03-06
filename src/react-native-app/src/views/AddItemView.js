@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  AsyncStorage,
   Dimensions,
   Image,
   ImagePickerIOS,
@@ -8,6 +9,7 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
   View,
+  Keyboard,
 } from 'react-native';
 import Button from '../components/Button';
 import {
@@ -20,9 +22,6 @@ import {
 
 const CAMERA_ICON = require('../../assets/images/icons/camera.png');
 
-/**
- * TODO: store the file into asyncStorage as a json string
- */
 export default class AddItemView extends React.Component {
 
   constructor(props) {
@@ -34,9 +33,13 @@ export default class AddItemView extends React.Component {
   }
 
   _addImage = () => {
-    ImagePickerIOS.openSelectDialog({}, (uri) => {
-      this.setState({ photoURI: uri });
-    }, () => {});
+    ImagePickerIOS.openSelectDialog({},
+      (uri) => {
+        this.setState({ photoURI: uri });
+      },
+      () => {
+        console.log('handle selecting cancel here');
+      });
 
   };
 
@@ -44,8 +47,28 @@ export default class AddItemView extends React.Component {
     this.setState({ itemName: text });
   };
 
-  _saveButtonHandler = () => {
-    alert('item is saved');
+  _saveButtonHandler = async () => {
+    console.log('item is saved');
+    // get current items
+    try {
+
+      const user = JSON.parse(await AsyncStorage.getItem('user'));
+      if (user) {
+        const newItem = {
+          id: user.items.length + 1,
+          trackerID: user.items.length + 1,
+          name: this.state.itemName,
+          image: this.state.photoURI,
+          locations: [],
+        };
+        user.items = [newItem, ...user.items];
+        await AsyncStorage.mergeItem('user', JSON.stringify(user));
+        this.props.navigation.goBack();
+      }
+    } catch (error) {
+      console.log(error);
+    }
+
     //this.props.navigation.setParams({ otherParam: 'updated' });
   };
 
@@ -55,40 +78,42 @@ export default class AddItemView extends React.Component {
     const imageSource = photoURI ? { uri: photoURI } : CAMERA_ICON;
 
     return (
-      <View style={styles.container}>
-        <View style={{ flex: 3, alignItems: 'center', }}>
-          <Text style={styles.title}>New Item</Text>
+      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+        <View style={styles.container}>
+          <View style={{ flex: 3, alignItems: 'center', }}>
+            <Text style={styles.title}>New Item</Text>
 
-          <TouchableWithoutFeedback
-            onPress={() => this._addImage()}
-          >
-            <Image
-              style={styles.image}
-              source={imageSource}
+            <TouchableWithoutFeedback
+              onPress={() => this._addImage()}
+            >
+              <Image
+                style={styles.image}
+                source={imageSource}
+              />
+            </TouchableWithoutFeedback>
+
+            <TextInput
+              placeholder="Item Name"
+              onChangeText={(text) => this._handleTextInputChange(text)}
+              maxLength={16}
+              value={itemName}
+              style={styles.textInput}
             />
-          </TouchableWithoutFeedback>
 
-          <TextInput
-            placeholder="Item Name"
-            onChangeText={(text) => this._handleTextInputChange(text)}
-            maxLength={16}
-            value={itemName}
-            style={styles.textInput}
-          />
-
+          </View>
+          <View style={{ flex: 1 }}>
+            <Button
+              text="OK"
+              handler={() => this._saveButtonHandler()}
+            />
+            <TouchableOpacity
+              onPress={() => this.props.navigation.goBack()}
+            >
+              <Text style={styles.cancelButton}>CANCEL</Text>
+            </TouchableOpacity>
+          </View>
         </View>
-        <View style={{ flex: 1 }}>
-          <Button
-            text="OK"
-            handler={() => this._addImage()}
-          />
-          <TouchableOpacity
-            onPress={() => this.props.navigation.goBack()}
-          >
-            <Text style={styles.cancelButton}>CANCEL</Text>
-          </TouchableOpacity>
-        </View>
-      </View>
+      </TouchableWithoutFeedback>
     );
   }
 }

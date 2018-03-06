@@ -2,35 +2,49 @@ import React from 'react';
 import {
   Dimensions,
   FlatList,
+  Linking,
   Text,
   TouchableHighlight,
   View,
-  Linking,
 } from 'react-native';
 import { color, mainFontBold, style } from '../styles/variables';
 import Map from '../components/Map';
 import Button from '../components/Button';
-import { sampleMarkers } from '../contents/sampleData';
+import { Icon } from 'react-native-elements';
 
 export default class DetailsScreen extends React.Component {
 
-  static navigationOptions = ({ navigation, navigationOptions }) => {
+  static navigationOptions = ({ navigation }) => {
     const { params } = navigation.state;
+    const rightButtonHandler = () => navigation.navigate('EditItemModal', params);
     return {
       title: params ? params.name : 'item name',
+      headerRight: (
+        <Icon
+          name="edit"
+          type="materialIcons"
+          onPress={rightButtonHandler}
+          color="#fff"
+          iconStyle={{ paddingHorizontal: 10 }}
+        />
+      ),
     };
   };
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      markers: sampleMarkers,
+  componentWillMount() {
+    const { locations } = this.props.navigation.state.params;
+    const initialRegion = locations.length > 0 ? locations[0].coordinate : {
+      latitude: 51.47427313512371,
+      longitude: -0.03544807434082031,
+    };
+    this.setState({
+      locations,
       region: {
-        ...sampleMarkers[0].coordinate,
+        ...initialRegion,
         latitudeDelta: 0.0022,
         longitudeDelta: 0.0421,
       },
-    };
+    });
   }
 
   _updateRegion = (coordinate) => {
@@ -45,15 +59,15 @@ export default class DetailsScreen extends React.Component {
 
   _navigate = (itemName, coordinate) => {
     // dirflg=r, set default transport type to public transit
-    Linking.openURL(`http://maps.apple.com/?daddr=${coordinate.latitude},${coordinate.longitude}&dirflg=r`);
+    Linking.openURL(
+      `http://maps.apple.com/?daddr=${coordinate.latitude},${coordinate.longitude}&dirflg=r`);
   };
 
   render() {
 
     const { params } = this.props.navigation.state;
     const { itemId, name } = params ? params : {};
-    const { markers, region } = this.state;
-
+    const { locations, region } = this.state;
     return (
       <View style={{
         ...style.container,
@@ -61,12 +75,12 @@ export default class DetailsScreen extends React.Component {
         justifyContent: 'flex-start',
         paddingTop: 220,
       }}>
-        <Map region={region} markers={markers}/>
+        <Map region={region} markers={locations}/>
 
         <FlatList
           style={styles.flatList}
           showsVerticalScrollIndicator={false}
-          data={markers}
+          data={locations}
           keyExtractor={(item, index) => index}
           ListHeaderComponent={<ListHeader title="Location History"/>}
           renderItem={({ index, item }) => {

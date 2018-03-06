@@ -12,7 +12,7 @@ import AuthSetPasswordView from './src/views/AuthSetPasswordView';
 import OnBoardingPagesView from './src/views/OnBoardingPagesView';
 import AuthAddTouchIdView from './src/views/AuthAddTouchIdView';
 import AuthFinishedView from './src/views/AuthFinishedView';
-import { color } from './src/styles/variables';
+import { color, mainFont, mainFontBold } from './src/styles/variables';
 
 /**
  * TODO: Use router instead of stack navigator
@@ -33,9 +33,11 @@ const MainStack = StackNavigator(
         backgroundColor: color.main,
         paddingHorizontal: 5,
       },
-      headerTintColor: '#ffffff',
+      headerTintColor: '#fff',
       headerTitleStyle: {
         fontWeight: 'bold',
+        fontFamily: mainFontBold,
+        fontSize: 20,
       },
     },
   },
@@ -56,7 +58,6 @@ const AppStack = StackNavigator(
   },
   {
     // TODO: delete this after finishing add item UI
-    initialRouteName: 'AddItemModal',
     mode: 'modal',
     headerMode: 'none',
   },

@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   AsyncStorage,
-  Button,
   Keyboard,
   TouchableWithoutFeedback,
   View,
@@ -27,9 +26,8 @@ export default class AuthSignInView extends React.Component {
       /**
        * if touch id is setup, use it as the first method to authenticate.
        */
-      const useTouchId = await AsyncStorage.getItem('useTouchId');
-
-      if (useTouchId === 'true') {
+      const user = JSON.parse(await AsyncStorage.getItem('user'));
+      if (user.auth.userTouchId) {
         const result = await Expo.Fingerprint.authenticateAsync(
           'Please authenticate to log in to iLost');
         if (result.success) {
@@ -37,7 +35,7 @@ export default class AuthSignInView extends React.Component {
         } else {
           this.setState({ isTouchIdChecked: true });
         }
-      }else{
+      } else {
         this.setState({ isTouchIdChecked: true });
       }
     } catch (error) {
@@ -52,7 +50,14 @@ export default class AuthSignInView extends React.Component {
    */
   _loginSucceedAsync = async () => {
     try {
-      await AsyncStorage.setItem('userToken', 'abc');
+
+      const user = {
+        auth: {
+          userToken: String(Date.now()),
+        },
+      };
+
+      await AsyncStorage.mergeItem('user', JSON.stringify(user));
       this.props.navigation.navigate('AuthLoading');
     } catch (error) {
       console.log(error);
@@ -64,7 +69,8 @@ export default class AuthSignInView extends React.Component {
     /**
      * check if password is correct
      */
-    const registeredPassword = await AsyncStorage.getItem('password');
+    const user = JSON.parse(await AsyncStorage.getItem('user'));
+    const registeredPassword = user.auth.password;
     if (registeredPassword === this.state.password) {
       this._loginSucceedAsync();
     } else {

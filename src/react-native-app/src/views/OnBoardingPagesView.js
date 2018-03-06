@@ -27,7 +27,9 @@ export default class OnBoardingPagesView extends React.Component {
 
   _navigateToSetPassword = async () => {
     try {
-      await AsyncStorage.setItem('isOnBoarded', 'true');
+
+      const user ={ auth: { isOnBoarded: true } };
+      await AsyncStorage.mergeItem('user', JSON.stringify(user));
       this.props.navigation.navigate('AuthLoading');
     } catch (error) {
       console.log(error);
