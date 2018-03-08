@@ -33,7 +33,7 @@ export default class AuthLoadingView extends React.Component {
           if (user.auth.isRegistered) {
             console.log('is registered');
             this.props.navigation.navigate(
-              user.auth.userToken ? 'App' : 'Auth');
+              user.auth.userToken ? 'App' : 'SignIn');
           } else {
             console.log('is not registered');
             this.props.navigation.navigate('SetPassword');

@@ -16,7 +16,8 @@ export default class DetailsScreen extends React.Component {
 
   static navigationOptions = ({ navigation }) => {
     const { params } = navigation.state;
-    const rightButtonHandler = () => navigation.navigate('EditItemModal', params);
+    const rightButtonHandler = () => navigation.navigate('EditItemModal',
+      { ...params, type: 'edit' });
     return {
       title: params ? params.name : 'item name',
       headerRight: (
@@ -37,6 +38,7 @@ export default class DetailsScreen extends React.Component {
       latitude: 51.47427313512371,
       longitude: -0.03544807434082031,
     };
+
     this.setState({
       locations,
       region: {

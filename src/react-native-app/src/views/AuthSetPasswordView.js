@@ -95,8 +95,8 @@ export default class AuthSetPasswordView extends React.Component {
     const { stage, message, password, reEnterPassword } = this.state;
 
     const title = stage === 'enterPassword'
-      ? 'Enter 4-digit passcode'
-      : 'Re-enter 4-digit passcode';
+      ? 'Enter a new 4-digit passcode'
+      : 'Re-enter the 4-digit passcode again';
 
     const textInputValue = stage === 'enterPassword'
       ? password : reEnterPassword;
@@ -115,10 +115,11 @@ export default class AuthSetPasswordView extends React.Component {
             placeholder="◯ ◯ ◯ ◯"
             handleTextChange={this._handleChangeText}
             value={textInputValue}
-            message={this.state.message}
+            message={message}
           />
         </View>
       </TouchableWithoutFeedback>
     );
   }
 }
+

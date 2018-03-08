@@ -94,7 +94,6 @@ export default class AuthSignInView extends React.Component {
       <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
         <View
           style={{ ...style.container, ...fullPageView.withKeyboardContainer, }}>
-
           <PasswordInput
             imageSource={require('../../assets/images/icons/iLost.png')}
             value={this.state.password}

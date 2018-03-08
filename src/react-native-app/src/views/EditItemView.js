@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  AlertIOS,
   AsyncStorage,
   Dimensions,
   Image,
@@ -10,7 +11,9 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native';
-import Button from '../components/Button';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+import { Icon } from 'react-native-elements';
+
 import {
   color,
   fullPageView,
@@ -18,8 +21,7 @@ import {
   mainFontBold,
   style,
 } from '../styles/variables';
-
-const CAMERA_ICON = require('../../assets/images/icons/camera.png');
+import Button from '../components/Button';
 
 export default class EditItemView extends React.Component {
 
@@ -29,16 +31,27 @@ export default class EditItemView extends React.Component {
       id: null,
       photoURI: null,
       itemName: '',
+      // type = ['add', edit']
+      type: 'add',
     };
   }
 
   componentWillMount() {
-    const { name, id, imageSource } = this.props.navigation.state.params;
+    const { name, id, imageSource, type = 'add' } = this.props.navigation.state.params;
     this.setState({
       id,
+      type,
       itemName: name,
       photoURI: imageSource,
     });
+  }
+
+  componentWillUpdate(nextProps, nextState, nextContext) {
+
+  }
+
+  componentWillReceiveProps(nextProps, nextContext) {
+
   }
 
   _addImage = () => {
@@ -56,55 +69,87 @@ export default class EditItemView extends React.Component {
   };
 
   _saveButtonHandler = async () => {
-    // get current items
-    try {
-      const { index } = this.props.navigation.state.params;
-      const user = JSON.parse(await AsyncStorage.getItem('user'));
 
-      if (user) {
-        user.items[index] = {
-          ...user.items[index],
-          name: this.state.itemName,
-          image: this.state.photoURI,
-        };
-        await AsyncStorage.mergeItem('user', JSON.stringify(user));
-        this.props.navigation.goBack();
+    if (this._isInputsValidated()) {
+      try {
+        const { index } = this.props.navigation.state.params;
+        const user = JSON.parse(await AsyncStorage.getItem('user'));
+        if (user) {
+          if (this.state.type === 'edit') {
+            user.items[index] = {
+              ...user.items[index],
+              name: this.state.itemName,
+              image: this.state.photoURI,
+            };
+          } else {
+            const newItem = {
+              id: user.items.length + 1,
+              trackerID: user.items.length + 1,
+              name: this.state.itemName,
+              image: this.state.photoURI,
+              locations: [],
+            };
+            user.items = [newItem, ...user.items];
+          }
+          await AsyncStorage.mergeItem('user', JSON.stringify(user));
+          this.props.navigation.goBack();
+        }
+      } catch (error) {
+        console.log(error);
       }
-    } catch (error) {
-      console.log(error);
+    }
+  };
+
+  _isInputsValidated = () => {
+    if (!this.state.photoURI) {
+      AlertIOS.alert('Please add a new photo of your item');
+      return false;
     }
 
+    if (!this.state.itemName) {
+      AlertIOS.alert('Please add a name for your item');
+      return false;
+    }
+    return true;
   };
 
   render() {
-    const { params } = this.props.navigation.state;
-    const { photoURI, itemName } = this.state;
-    const imageSource = photoURI ? { uri: photoURI } : CAMERA_ICON;
+    const { photoURI, itemName, type } = this.state;
+    const { height, width } = Dimensions.get('window');
+    const title = type === 'edit' ? 'Edit Item' : 'Add Item';
+    const imageProfile = photoURI ? (
+      <TouchableWithoutFeedback onPress={() => this._addImage()}>
+        <Image style={styles.image} source={{ uri: photoURI }}/>
+      </TouchableWithoutFeedback>
+    ) : (
+      <Icon
+        color="#fff"
+        name="camera"
+        size={width / 7}
+        type="font-awesome"
+        containerStyle={styles.image}
+        onPress={() => this._addImage()}
+      />
+    );
 
     return (
-      <View style={styles.container}>
-        <View style={{ flex: 3, alignItems: 'center', }}>
-          <Text style={styles.title}>Edit Item</Text>
+      <KeyboardAwareScrollView style={styles.container} extraHeight={200}>
+        <View style={{ flex: 3, alignItems: 'center', paddingBottom: 80 }}>
+          <Text style={styles.title}>{title}</Text>
 
-          <TouchableWithoutFeedback
-            onPress={() => this._addImage()}
-          >
-            <Image
-              style={styles.image}
-              source={imageSource}
-            />
-          </TouchableWithoutFeedback>
+          {imageProfile}
 
           <TextInput
-            placeholder="Item Name"
+            placeholder="Enter name here"
             onChangeText={(text) => this._handleTextInputChange(text)}
             maxLength={16}
             value={itemName}
             style={styles.textInput}
+            returnKeyLabel="DONE"
           />
 
         </View>
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, alignItems: 'center', }}>
           <Button
             text="OK"
             handler={() => this._saveButtonHandler()}
@@ -115,7 +160,7 @@ export default class EditItemView extends React.Component {
             <Text style={styles.cancelButton}>CANCEL</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </KeyboardAwareScrollView>
     );
   }
 }
@@ -124,18 +169,19 @@ const { height, width } = Dimensions.get('window');
 
 const styles = {
   container: {
+    minHeight: height,
+    backgroundColor: '#9a9',
     ...style.container,
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: 100,
-    paddingBottom: 50,
-    flex: 1,
-    maxHeight: height,
   },
   title: {
     ...fullPageView.title,
   },
   textInput: {
+    borderBottomColor: color.main,
+    borderBottomWidth: 1,
     fontFamily: mainFont,
     fontSize: 20,
     textAlign: 'center',
@@ -147,7 +193,8 @@ const styles = {
     width: width / 2.5,
     height: width / 2.5,
     marginTop: 50,
-    marginBottom: 20,
+    backgroundColor: '#bbb',
+    marginBottom: 30,
   },
   buttonsContainer: {
     flexShrink: 1,

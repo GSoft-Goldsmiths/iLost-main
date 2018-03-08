@@ -4,7 +4,6 @@ import { Font } from 'expo';
 
 import ItemListView from './src/views/ItemListView';
 import ItemDetailView from './src/views/ItemDetailView';
-import AddItemView from './src/views/AddItemView';
 import EditItemView from './src/views/EditItemView';
 import AuthSignInView from './src/views/AuthSignInView';
 import AuthLoadingView from './src/views/AuthLoadingView';
@@ -12,19 +11,15 @@ import AuthSetPasswordView from './src/views/AuthSetPasswordView';
 import OnBoardingPagesView from './src/views/OnBoardingPagesView';
 import AuthAddTouchIdView from './src/views/AuthAddTouchIdView';
 import AuthFinishedView from './src/views/AuthFinishedView';
-import { color, mainFont, mainFontBold } from './src/styles/variables';
+import { color, mainFontBold } from './src/styles/variables';
 
 /**
  * TODO: Use router instead of stack navigator
  */
 const MainStack = StackNavigator(
   {
-    ItemList: {
-      screen: ItemListView,
-    },
-    ItemDetail: {
-      screen: ItemDetailView,
-    },
+    ItemList: { screen: ItemListView, },
+    ItemDetail: { screen: ItemDetailView, },
   },
   {
     initialRouteName: 'ItemList',
@@ -45,16 +40,8 @@ const MainStack = StackNavigator(
 
 const AppStack = StackNavigator(
   {
-    Main: {
-      screen: MainStack,
-    },
-    AddItemModal: {
-      screen: AddItemView,
-    },
-    EditItemModal: {
-      screen: EditItemView,
-    },
-
+    Main: { screen: MainStack, },
+    EditItemModal: { screen: EditItemView, },
   },
   {
     // TODO: delete this after finishing add item UI
@@ -65,18 +52,10 @@ const AppStack = StackNavigator(
 
 const AuthStack = StackNavigator(
   {
-    SignIn: {
-      screen: AuthSignInView,
-    },
-    SetPassword: {
-      screen: AuthSetPasswordView,
-    },
-    AddTouchId: {
-      screen: AuthAddTouchIdView,
-    },
-    AuthFinished: {
-      screen: AuthFinishedView,
-    },
+    SetPassword: { screen: AuthSetPasswordView, },
+    SignIn: { screen: AuthSignInView, },
+    AddTouchId: { screen: AuthAddTouchIdView, },
+    AuthFinished: { screen: AuthFinishedView, },
   },
   {
     mode: 'card',
@@ -86,9 +65,7 @@ const AuthStack = StackNavigator(
 
 const OnBoardingStack = StackNavigator(
   {
-    OnBoarding: {
-      screen: OnBoardingPagesView,
-    },
+    OnBoarding: { screen: OnBoardingPagesView, },
   },
   {
     mode: 'modal',
@@ -104,14 +81,12 @@ const SwitchStack = SwitchNavigator(
     OnBoarding: OnBoardingStack,
   },
   {
-    //initialRouteName: 'AuthLoading',
-    initialRouteName: 'App',
+    initialRouteName: 'AuthLoading',
   },
 );
 
 export default class App extends React.Component {
   constructor() {
-    {{}}
     super();
     this.state = {
       fontLoaded: false,

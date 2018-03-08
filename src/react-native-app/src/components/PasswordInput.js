@@ -2,63 +2,70 @@ import React from 'react';
 import { Image, Text, TextInput } from 'react-native';
 import { color, fullPageView, mainFontBold } from '../styles/variables';
 
-export default ({
-                  value,
-                  message,
-                  placeholder,
-                  handleTextChange,
-                  handleSubmit,
-                  imageSource,
-                  title,
-                  imageStyle,
-                }) => {
+export default class PasswordInput extends React.Component {
+  static _input;
 
-  const Title = title ? (
-    <Text style={{
-      ...fullPageView.title,
-      fontSize: 20,
-      fontFamily: mainFontBold,
-      textAlign: 'center',
-    }}>
-      {title}
-    </Text>
-  ) : null;
+  constructor(props) {
+    super(props);
+    console.log('THISIS the PASSWORD INPUT');
+  }
 
-  return [
-    <Image
-      key='image'
-      style={{ ...fullPageView.image, ...imageStyle }}
-      source={imageSource}
-    />,
-    <Text
-      key='title'
-      style={{
-      ...fullPageView.title,
-      fontSize: 20,
-      fontFamily: mainFontBold,
-      textAlign: 'center',
-    }}>
-      {title}
-    </Text>
-    ,
-    <TextInput
-      key='textInput'
-      caretHidden
-      autoFocus
-      enablesReturnKeyAutomatically
-      maxLength={4}
-      keyboardType="numeric"
-      style={{ height: 40, textAlign: 'center', fontSize: 20 }}
-      secureTextEntry={true}
-      onChangeText={(text) => handleTextChange(text)}
-      placeholder={placeholder}
-      value={value}
-      onSubmitEditing={(text) => handleSubmit(text)}
-    />,
-    <Text
-      key='message'
-      style={{ color: color.danger, textAlign: 'center' }}>
-      {message}
-    </Text>,
-  ];
+  componentDidMount() {
+    console.log('DID MOUNT');
+  }
+
+  render() {
+
+    const {
+            value,
+            message,
+            placeholder,
+            handleTextChange,
+            handleSubmit,
+            imageSource,
+            title,
+            imageStyle,
+          } = this.props;
+
+    const Title = title ? <Text style={styles.title}>{title}</Text> : null;
+
+    return [
+      <Image
+        key='image'
+        style={{ ...fullPageView.image, ...imageStyle }}
+        source={imageSource}
+      />,
+      Title,
+      <TextInput
+        ref={input => this._input = input}
+        caretHidden
+        autoFocus
+        maxLength={4}
+        keyboardType="numeric"
+        style={styles.textInput}
+        secureTextEntry={true}
+        onChangeText={(text) => handleTextChange(text)}
+        placeholder={placeholder}
+        value={value}
+        onSubmitEditing={(text) => handleSubmit(text)}
+        onFocus={() => {console.log('It\'s focused now');}}
+      />,
+      <Text
+        key='message'
+        style={styles.message}>
+        {message}
+      </Text>,
+    ];
+  }
 }
+
+const styles = {
+  title: {
+    ...fullPageView.title,
+    fontSize: 20,
+    fontFamily: mainFontBold,
+    textAlign: 'center',
+  },
+  textInput: { height: 40, textAlign: 'center', fontSize: 20 },
+  message: { color: color.danger, textAlign: 'center' },
+};

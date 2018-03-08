@@ -1,15 +1,25 @@
 import React from 'react';
-import { ActionSheetIOS, AsyncStorage, FlatList, View, } from 'react-native';
+import {
+  ActionSheetIOS,
+  AsyncStorage,
+  FlatList,
+  View,
+  AlertIOS,
+} from 'react-native';
 import { withNavigation } from 'react-navigation';
 import { ItemListCell } from '../components/ItemListCell';
-import { style } from '../styles/variables';
+import { color, mainFontBold, style } from '../styles/variables';
 import { Icon } from 'react-native-elements';
 
 class ItemListView extends React.Component {
 
+  static willFocusSubscription;
+
   static navigationOptions = ({ navigation }) => {
     const params = navigation.state.params || {};
-    const rightButtonHandler = () => navigation.navigate('AddItemModal', {});
+    const rightButtonHandler = () => navigation.navigate('EditItemModal', {
+      type: 'add',
+    });
 
     const leftButtonLongPressHandler = () => {
 
@@ -33,23 +43,33 @@ class ItemListView extends React.Component {
           type="entypo"
           underlayColor="transparent"
           onPress={rightButtonHandler}
-          color="#fff"
+          color={color.main}
           iconStyle={{ paddingHorizontal: 10 }}
         />
       ),
       headerLeft: (
         <Icon
-          name="refresh"
+          name="menu"
           type="ionicons"
           underlayColor="transparent"
-          onPress={() => params.refresh()}
-          onLongPress={leftButtonLongPressHandler}
+           onPress={leftButtonLongPressHandler}
           onLong
-          color="#fff"
+          color={color.main}
           iconStyle={{ paddingHorizontal: 10 }}
         />
       ),
       headerBackTitle: null,
+      headerStyle: {
+        backgroundColor: '#fff',
+        paddingHorizontal: 5,
+      },
+      headerTintColor: color.main,
+      headerTitleStyle: {
+        fontWeight: 'bold',
+        fontFamily: mainFontBold,
+        fontSize: 20,
+        paddingTop: 20,
+      },
     };
   };
 
@@ -59,14 +79,21 @@ class ItemListView extends React.Component {
       items: [],
       refreshing: false,
     };
-    this.props.navigation.setParams({ hi: 'hi' });
   }
 
-  componentWillMount = async () => {
-    this.props.navigation.setParams({ refresh: this._refreshItemList });
-    this.props.navigation.setParams({ resetAccount: this._resetAccountAsync });
-    this.props.navigation.setParams({ signOut: this._signOutAsync });
-    this._refreshItemList();
+  componentWillMount = () => {
+    const { navigation } = this.props;
+    navigation.setParams({ refresh: this._refreshItemList});
+    navigation.setParams({ resetAccount: this._resetAccountAsync });
+    navigation.setParams({ signOut: this._signOutAsync });
+    this.willFocusSubscription = navigation.addListener('willFocus',
+      () => this._refreshItemList());
+
+    AlertIOS.alert("We have prepare the sample data for you to run the test.")
+  };
+
+  componentDidUnMount = () => {
+    this.willFocusSubscription.remove();
   };
 
   _refreshItemList = async () => {
@@ -99,8 +126,7 @@ class ItemListView extends React.Component {
 
   render() {
     return (
-      <View
-        style={style.container}>
+      <View style={style.container}>
         <FlatList
           refreshing={this.state.refreshing}
           onRefresh={this._refreshItemList}
@@ -114,6 +140,7 @@ class ItemListView extends React.Component {
               name={name}
               cellPressHandler={this._listCellClickHandler}
               id={id}
+              keyExtractor={(item, index) => item.name}
             />
           )}
         />
