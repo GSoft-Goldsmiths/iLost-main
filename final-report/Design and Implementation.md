@@ -79,6 +79,12 @@ We then decided to use the amazon s3 servers which are scalable (servers can be 
 
 We also encrypt this data using AES-256 servers side encryption keys, each record is encrypted with a unique key, even the key itself is regularly encrypted. This service is provided by amazon.
 
+Post-Snowden age, we understand users are concerned about privacy. All data that is stored on Amazon servers are automatically encrypted AES-256 servers side encryption keys. We only store longitude, latitude and time data, for 14 days. Its saves us space and cost, to not store data permanently.
+
+Location data such as longitude and latitude is metadata, its ambiguous not content that can identify the users personal information. The purpose of the Amazon server is only required to provide data back to the user. Also, each tracker has unique ID number, personal information is not identifiable from the data. 
+
+We cannot guarantee compliance with UK Data protection act, due to the legal complexity of having the Amazon operating servers globally as well as the Hologram nova having to operate with many network carriers globally. Ideally, with more funding we would be able to consult with legal professionals. 
+
 [insert diagram of current stack: user app – s3 server – Hologram cloud – tracker]
 
 Next, we needed to create the UI for the iOS app and Android app. We approached this by keeping everything as minimal and simple as possible for the user. The user would take a picture of their item they want to track, assign a category for it. When the user wants the location of their bag for example they would tap on the on the “[locate]” button, a google map of their item would show along with any information such as directions and distance. 
@@ -93,7 +99,7 @@ For our tracker to be useful and satisfy its use cases it had to be portable. Wh
 
 We first tried to use small power banks to power the tracker (normally used for mobile phones) to test the average power consumption of the tracker. The tracker requires 130 mA. Using power banks is not practical for the user, so instead we tested lithium-ion batteries, these were slim and provided more power… [not finished yet]
 
-Moreover,  a physical case was needed for the tracker which would satisfy the user use cases. The case needed to be durable, simple and functional enough to be attached to a bag. A prototype was created using MDF wood, that was interlocking. [not finished yet]
+Moreover,  a physical case was needed for the tracker which would satisfy the user use cases. The case needed to be durable, simple and functional enough to be attached to a bag. A prototype was created using MDF wood, that was interlocking. [this is finished yet, not sure if there will be more to come ...]
 
 [insert diagram of proposed case]
 
