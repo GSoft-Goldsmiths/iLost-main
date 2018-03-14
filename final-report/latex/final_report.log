@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  1 MAR 2018 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  14 MAR 2018 06:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -179,64 +179,140 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box33
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count114
+\calc@Bcount=\count115
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count116
+\calc@Cskip=\skip56
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen127
+\AM@pageheight=\dimen128
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box34
+\AM@global@opts=\toks23
+\AM@toc@title=\toks24
+\c@AM@survey=\count117
+\AM@templatesizebox=\box35
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csvsimple/csvsimple.sty
 Package: csvsimple 2016/07/01 version 1.20 LaTeX CSV file processing
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks25
-))) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+\pgfkeys@tmptoks=\toks27
+))) (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count114
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/shellesc.sty
+\etb@tempcnta=\count118
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
 \csv@file=\read2
-\c@csvinputline=\count115
-\c@csvrow=\count116
-\c@csvcol=\count117
+\c@csvinputline=\count119
+\c@csvrow=\count120
+\c@csvcol=\count121
 \csv@out=\write3
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count122
+\Gm@cntv=\count123
+\c@Gm@tempcnt=\count124
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@layoutwidth=\dimen133
+\Gm@layoutheight=\dimen134
+\Gm@layouthoffset=\dimen135
+\Gm@layoutvoffset=\dimen136
+\Gm@dimlist=\toks28
 )
 (./final_report.aux)
 \openout1 = `final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-\c@lstlisting=\count118
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+\c@lstlisting=\count125
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen125
-\scratchbox=\box34
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen126
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count126
+\scratchdimen=\dimen137
+\scratchbox=\box36
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen138
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -244,9 +320,6 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -290,6 +363,50 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box37
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.45377pt
+* modes: 
+* h-part:(L,W,R)=(43.36243pt, 496.32925pt, 43.36243pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=496.32925pt
+* \textheight=700.50687pt
+* \oddsidemargin=-14.4538pt
+* \evensidemargin=-28.90756pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=18.06749pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 [1
 
@@ -305,30 +422,115 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `final_report.toc'.
 
- [1] [2] [3] [4]
-Underfull \hbox (badness 2126) in paragraph at lines 87--88
-\OT1/cmr/m/n/12 2012. [On-line]. Avail-able: https://www.nngroup.com/articles/h
-ow-
+ [1] [2]
+<../assets/usability-test-task-list.png, id=16, 1720.4275pt x 594.22pt>
+File: ../assets/usability-test-task-list.png Graphic file (type png)
+
+<use ../assets/usability-test-task-list.png>
+Package pdftex.def Info: ../assets/usability-test-task-list.png used on input l
+ine 55.
+(pdftex.def)             Requested size: 496.32925pt x 171.42174pt.
+ [3 <../assets/usability-test-task-list.png>]
+<../assets/usability-test-success-rates.png, id=22, 1072.005pt x 341.275pt>
+File: ../assets/usability-test-success-rates.png Graphic file (type png)
+
+<use ../assets/usability-test-success-rates.png>
+Package pdftex.def Info: ../assets/usability-test-success-rates.png used on inp
+ut line 92.
+(pdftex.def)             Requested size: 496.32925pt x 158.00385pt.
+
+<../assets/usability-test-ios-v010-improvements.png, id=23, 765.86125pt x 618.3
+1pt>
+File: ../assets/usability-test-ios-v010-improvements.png Graphic file (type png
+)
+ <use ../assets/usability-test-ios-v010-improvements.png>
+Package pdftex.def Info: ../assets/usability-test-ios-v010-improvements.png use
+d on input line 103.
+(pdftex.def)             Requested size: 347.42896pt x 280.4918pt.
+ [4 <../assets/usability-test-success-rates.png>] [5 <../assets/usability-test-
+ios-v010-improvements.png>] [6]
+Underfull \hbox (badness 1024) in paragraph at lines 134--135
+\OT1/cmr/m/n/12 able: https://www.nngroup.com/articles/success-rate-the-simples
+t-usability-metric/. [Ac-
  []
 
-[5] (./final_report.aux) ) 
+
+<../assets/usability-test-consent-form-example.pdf, id=36, 598.235pt x 846.1612
+5pt>
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+ <use ../assets/usability-test-consent-form-example.pdf>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
+ on input line 143.
+(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
+ on input line 143.
+(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+
+<../assets/usability-test-consent-form-example.pdf, id=39, page=1, 598.235pt x 
+846.16125pt>
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+ <use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 143.
+(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 143.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [7]
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 143.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 143.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 143.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [8 <../assets/usability-test-consent-form-example.pdf
+
+pdfTeX warning: pdflatex (file ../assets/usability-test-consent-form-example.pd
+f): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', typ
+e <array>); ignored.
+>] [9] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 5508 strings out of 492995
- 94480 string characters out of 6132704
- 163378 words of memory out of 5000000
- 8998 multiletter control sequences out of 15000+600000
+ 7273 strings out of 492995
+ 121120 string characters out of 6132704
+ 201863 words of memory out of 5000000
+ 10715 multiletter control sequences out of 15000+600000
  9750 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,4n,46p,866b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on final_report.pdf (6 pages, 64970 bytes).
+ 44i,18n,46p,1082b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb>
+Output written on final_report.pdf (10 pages, 343620 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
