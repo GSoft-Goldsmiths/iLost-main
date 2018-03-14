@@ -1,6 +1,7 @@
 # Design Stage
 
 Our final design for the iLost tracker consists of an Android app and a Raspberry pi with the attached Hologram Nova. The User interacts with the Android app, whereas the raspberry pi provides the short-range capability of the Bluetooth and the Hologram Nova cellular modem attached to the raspberry pi provides the long-range capability.
+
 Short range is defined as less than 30 metres from the target and long-range is defined as above 30 metres to 400 km and beyond. 
 
 [insert picture of tracker concept at January ]
@@ -27,7 +28,9 @@ Also, in the design stage we realised that our tracker can be developed into an 
 
 # Implementation Stage
 
-We initially designed the user app to be hosted on the Android platform, instead we implemented the user app on both the iOS and the Android platform. We did this for two reasons. Firstly, from market research, roughly 50% of users do not have an Android smartphone. Secondly, developing the Android app allows us to have a plan B, in case we cannot develop the iOS app in time or if there are compatibility issues with the tracker. The Android and iOS app both have different programming languages and paradigms. 
+We initially designed the user app to be hosted on the Android platform, instead we implemented the user app on both the iOS and the Android platform. We did this for two reasons. Firstly, from market research, roughly 53% of users do not have an Android smartphone. Secondly, developing the Android app allows us to have a plan B, in case we cannot develop the iOS app in time or if there are compatibility issues with the tracker. The Android and iOS app both have different programming languages and paradigms. 
+
+[makret researc link: https://www.statista.com/statistics/262179/market-share-held-by-mobile-operating-systems-in-the-united-kingdom/]
 
 The reason why we developed an Android/iOS app instead of a web app, is that as part of the iLost design, the user needs notifications in real-time (when an item has been left behind). Real-time notifications are not currently possible with web apps.
 
@@ -79,19 +82,25 @@ We then decided to use the amazon s3 servers which are scalable (servers can be 
 
 We also encrypt this data using AES-256 servers side encryption keys, each record is encrypted with a unique key, even the key itself is regularly encrypted. This service is provided by amazon.
 
+[insert diagram of current stack: user app – s3 server – Hologram cloud – tracker]
+
 Post-Snowden age, we understand users are concerned about privacy. All data that is stored on Amazon servers are automatically encrypted AES-256 servers side encryption keys. We only store longitude, latitude and time data, for 14 days. Its saves us space and cost, to not store data permanently.
 
 Location data such as longitude and latitude is metadata, its ambiguous not content that can identify the users personal information. The purpose of the Amazon server is only required to provide data back to the user. Also, each tracker has unique ID number, personal information is not identifiable from the data. 
 
 We cannot guarantee compliance with UK Data protection act, due to the legal complexity of having the Amazon operating servers globally as well as the Hologram nova having to operate with many network carriers globally. Ideally, with more funding we would be able to consult with legal professionals. 
 
-[insert diagram of current stack: user app – s3 server – Hologram cloud – tracker]
-
 Next, we needed to create the UI for the iOS app and Android app. We approached this by keeping everything as minimal and simple as possible for the user. The user would take a picture of their item they want to track, assign a category for it. When the user wants the location of their bag for example they would tap on the on the “[locate]” button, a google map of their item would show along with any information such as directions and distance. 
 
-Migrated to React Native to boost the development efficiency. [expand on this]
+However, we migrated from the iOS app being built in the swift language to React Native. React Native is framework that allows developers to build mobile apps for both the iOS and android platform using JavaScript and the React framework. 
 
-[I have migrated the iOS app to *React Native* , which cost me a way less time to build the same functionalities. I think it worths mentioning in this chapter in terms of to meet the time limitation, we found a better way to cut the budget(working hours).][i'll elaborate on this later]
+At the beginning of the project, our iOS developer team did not have experience with using the Swift language and associated frameworks. We spent 3 - 4 weeks building a basic application which only had a tab bar view to switch between pages, and only half of the user interface components were functional. 
+
+Due to the limited development time, we searched for an alternative method that would reduce development time. We found that React Native and Flutter were good alternatives to develop native mobile applications. React Native was chosen because it was more mature than Flutter, which was relatively unstable as it had just been released. Unexpectedly, only three days were required to develop the same application, which the iOS team spent almost a month to build, in React Native. Switching to React Native was a good decision as it significantly shortened the development time providing us more time to do usability tests.
+
+The iOS team also had previous experience in developing React web applications, where React shares the same component-based concept and reactive function programming paradigm with React Native. Also, React Native uses JavaScript which we were more familiar with, so it was relatively easier for us to develop the application.
+
+The Swift API had many noteworthy changes from Swift 2.0 to 4.0 which is the latest version (we were developing with latest version), so whenever we encountered an issue, it was difficult to search for the solution for the latest version of Swift. The official documentation of Swift was also quite ambiguous, it lacked working examples. This led to a steep of learning curve when developing in Swift. On the other hand, React Native had better documentations and community support. The official documentation was explained clearly with good working examples, there were more community-built components can be approached easily as well, this improved the developing experience and made it easier.
 
 [insert screenshots of iOS and android app]
 
@@ -99,9 +108,9 @@ For our tracker to be useful and satisfy its use cases it had to be portable. Wh
 
 We first tried to use small power banks to power the tracker (normally used for mobile phones) to test the average power consumption of the tracker. The tracker requires 130 mA. Using power banks is not practical for the user, so instead we tested lithium-ion batteries, these were slim and provided more power… [not finished yet]
 
-Moreover,  a physical case was needed for the tracker which would satisfy the user use cases. The case needed to be durable, simple and functional enough to be attached to a bag. A prototype was created using MDF wood, that was interlocking. [this is finished yet, not sure if there will be more to come ...]
+Moreover, a physical case was needed for the tracker which would satisfy the user use cases. The case needed to be durable, simple and functional enough to be attached to a bag. A prototype was created using MDF wood, that was interlocking. [this is not finished yet, not sure if there will be more to come ...]
 
-[insert diagram of proposed case]
+[insert diagram of concept case]
 
 [insert image of prototype case]
 
