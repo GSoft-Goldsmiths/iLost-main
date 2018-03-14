@@ -124,7 +124,7 @@ export default class EditItemView extends React.Component {
     ) : (
       <Icon
         color="#fff"
-        name="camera"
+        name="photo"
         size={width / 7}
         type="font-awesome"
         containerStyle={styles.image}

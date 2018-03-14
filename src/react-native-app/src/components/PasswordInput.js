@@ -2,61 +2,49 @@ import React from 'react';
 import { Image, Text, TextInput } from 'react-native';
 import { color, fullPageView, mainFontBold } from '../styles/variables';
 
-export default class PasswordInput extends React.Component {
-  static _input;
+export default ({
+                  value,
+                  message,
+                  placeholder,
+                  handleTextChange,
+                  handleSubmit,
+                  imageSource,
+                  title,
+                  imageStyle,
+                }) => {
 
-  constructor(props) {
-    super(props);
-    console.log('THISIS the PASSWORD INPUT');
-  }
+  const Title = title
+    ? <Text key="title" style={styles.title}>{title}</Text>
+    : null;
 
-  componentDidMount() {
-    console.log('DID MOUNT');
-  }
-
-  render() {
-
-    const {
-            value,
-            message,
-            placeholder,
-            handleTextChange,
-            handleSubmit,
-            imageSource,
-            title,
-            imageStyle,
-          } = this.props;
-
-    const Title = title ? <Text style={styles.title}>{title}</Text> : null;
-
-    return [
-      <Image
-        key='image'
-        style={{ ...fullPageView.image, ...imageStyle }}
-        source={imageSource}
-      />,
-      Title,
-      <TextInput
-        ref={input => this._input = input}
-        caretHidden
-        autoFocus
-        maxLength={4}
-        keyboardType="numeric"
-        style={styles.textInput}
-        secureTextEntry={true}
-        onChangeText={(text) => handleTextChange(text)}
-        placeholder={placeholder}
-        value={value}
-        onSubmitEditing={(text) => handleSubmit(text)}
-        onFocus={() => {console.log('It\'s focused now');}}
-      />,
-      <Text
-        key='message'
-        style={styles.message}>
-        {message}
-      </Text>,
-    ];
-  }
+  return [
+    <Image
+      key='image'
+      style={{ ...fullPageView.image, ...imageStyle }}
+      source={imageSource}
+    />,
+    Title,
+    <TextInput
+      key="textInput"
+      ref={input => this._input = input}
+      caretHidden
+      autoFocus
+      maxLength={4}
+      keyboardType="numeric"
+      style={styles.textInput}
+      secureTextEntry={true}
+      onChangeText={(text) => handleTextChange(text)}
+      placeholder={placeholder}
+      value={value}
+      onSubmitEditing={(text) => handleSubmit(text)}
+      onFocus={() => {console.log('It\'s focused now');}}
+    />,
+    <Text
+      key='message'
+      style={styles.message}>
+      {message}
+    </Text>,
+  ];
 }
 
 const styles = {

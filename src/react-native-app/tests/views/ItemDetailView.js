@@ -1,9 +1,9 @@
 import React from 'react';
-import App from './App';
-
 import renderer from 'react-test-renderer';
 
+import ItemDetailView from '../../src/views/ItemDetailView ';
+
 it('renders without crashing', () => {
-  const rendered = renderer.create(<App />).toJSON();
+  const rendered = renderer.create(<ItemDetailView />).toJSON();
   expect(rendered).toBeTruthy();
 });

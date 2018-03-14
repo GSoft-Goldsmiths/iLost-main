@@ -68,7 +68,6 @@ class ItemListView extends React.Component {
         fontWeight: 'bold',
         fontFamily: mainFontBold,
         fontSize: 20,
-        paddingTop: 20,
       },
     };
   };
@@ -89,7 +88,7 @@ class ItemListView extends React.Component {
     this.willFocusSubscription = navigation.addListener('willFocus',
       () => this._refreshItemList());
 
-    AlertIOS.alert("We have prepare the sample data for you to run the test.")
+    // AlertIOS.alert("We have prepare the sample data for you to run the test.")
   };
 
   componentDidUnMount = () => {
