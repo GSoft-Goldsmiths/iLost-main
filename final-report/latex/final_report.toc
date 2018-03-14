@@ -1,32 +1,43 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {2}Development Record}{2}
-\contentsline {section}{\numberline {3}Formative Evaluation}{3}
-\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{3}
-\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {subsubsection}{\numberline {3.1.4}Evaluations}{4}
-\contentsline {paragraph}{v0.10}{4}
-\contentsline {paragraph}{v0.11}{4}
-\contentsline {paragraph}{v0.12}{5}
-\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{5}
-\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{5}
-\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{5}
-\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{5}
-\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{5}
-\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{6}
-\contentsline {subsection}{\numberline {3.3}Conclusion}{6}
-\contentsline {section}{\numberline {4}Design and Implementation}{7}
-\contentsline {section}{\numberline {5}Quality Assurance}{7}
-\contentsline {section}{\numberline {6}Summative Evaluation}{7}
-\contentsline {section}{Appendices}{7}
-\contentsline {section}{\numberline {A}Development Records}{7}
-\contentsline {subsection}{\numberline {A.1}Tasks Divided}{7}
-\contentsline {subsection}{\numberline {A.2}Progress Tracking Form}{7}
-\contentsline {section}{\numberline {B}Formative Evaluation}{7}
-\contentsline {subsection}{\numberline {B.1}consent Form}{7}
-\contentsline {section}{\numberline {C}Design and Implementation}{9}
-\contentsline {section}{\numberline {D}Quality Assurance}{9}
+\contentsline {subsection}{\numberline {2.1}Technology Selection}{2}
+\contentsline {subsection}{\numberline {2.2}Agile Development}{3}
+\contentsline {subsubsection}{\numberline {2.2.1}Scrum Development}{3}
+\contentsline {subsubsection}{\numberline {2.2.2}Kanban}{4}
+\contentsline {subsection}{\numberline {2.3}Development Process}{5}
+\contentsline {subsubsection}{\numberline {2.3.1}User Stories and Backlogs}{5}
+\contentsline {subsubsection}{\numberline {2.3.2}Progress Tracking Form}{5}
+\contentsline {subsection}{\numberline {2.4}Evaluation}{5}
+\contentsline {paragraph}{Technology Selection}{5}
+\contentsline {paragraph}{Agile Development}{6}
+\contentsline {paragraph}{Development Progress}{6}
+\contentsline {section}{\numberline {3}Formative Evaluation}{7}
+\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsubsection}{\numberline {3.1.4}Evaluation}{8}
+\contentsline {paragraph}{v0.10}{8}
+\contentsline {paragraph}{v0.11}{8}
+\contentsline {paragraph}{v0.12}{9}
+\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{9}
+\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{9}
+\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{9}
+\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{9}
+\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{9}
+\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{10}
+\contentsline {subsection}{\numberline {3.3}Conclusion}{10}
+\contentsline {section}{\numberline {4}Design and Implementation}{11}
+\contentsline {section}{\numberline {5}Quality Assurance}{11}
+\contentsline {section}{\numberline {6}Summative Evaluation}{11}
+\contentsline {section}{Appendices}{11}
+\contentsline {section}{\numberline {A}Development Records}{11}
+\contentsline {subsection}{\numberline {A.1}Tasks Divided}{11}
+\contentsline {subsection}{\numberline {A.2}Progress Tracking Form}{11}
+\contentsline {section}{\numberline {B}Formative Evaluation}{11}
+\contentsline {subsection}{\numberline {B.1}consent Form}{11}
+\contentsline {section}{\numberline {C}Design and Implementation}{13}
+\contentsline {section}{\numberline {D}Quality Assurance}{13}

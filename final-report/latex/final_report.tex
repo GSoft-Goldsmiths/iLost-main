@@ -40,6 +40,108 @@
 
     \section{Introduction}
     \section{Development Record}
+      \subsection{Technology Selection} 
+        % 400 - 500 words
+        During in the implementation stage, we setup a organisation {\bf GSoft} on Github and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows on the figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas then he would join two of the teams. 
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=1\textwidth]{../assets/development-records-teams.png}
+          \caption{Development Teams}
+          \label{fig:Development Teams}
+        \end{figure}
+
+        Each team was responsible for how and what technology to use as long as the production could be made on time. We believed this methodology had these advantages in terms of the limited development time:
+
+        \begin{itemize}
+          \item {React Agilely}:Compare to have a poll with all members of our group, it was agiler to come to the decision within 2 or 3 people within one team. Since each team could react to the situation and resolve the issues in a more efficient way.
+          \item {Specialities differs}: Our group was divided by our interests and specialities, we trusted each team could make the best decision for the whole team with their research and experience. For example, the iOS app team would not interfere how tracker team implemented the physical components at all, and how Android app was implemented would not be the backend/tracker team's concern. All teams were trusted that they would make the best decisions.
+        \end{itemize}
+        
+        Even though the team was separated, but it was important to keep everyone on the same page, so we used several channels on Slack to keep everyone updated. Such as the {\bf iOS channel} was be the place containing all updates related to iOS application development, which shows in figure \ref{fig:Slack iOS Channel}. 
+        
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=1\textwidth]{../assets/development-records-slack-ios-channel.png}
+          \caption{Slack iOS Channel}
+          \label{fig:Slack iOS Channel}
+        \end{figure}
+
+      \subsection{Agile Development} 
+        
+        Our team tried out two agile development methodology, {\bf Scrum} and {\bf Kanban}. Overall, Scrum was not was not really fit our case and Kanban worked fine.
+
+        \subsubsection{Scrum Development}
+        Since we could not actually devote all of our time to develop the application, so it would not be reasonable to do the daily scrum and have a meeting day-to-day for all of us. So in the beginning, we tried to set up a routine to simulate the daily scrum with Slack:
+
+        We defined 3 days as one sprint and whenever a sprint was finished, the team needed to answer three questions in the Scrum channel on Slack:
+        
+        \begin{itemize}
+          \item What did I complete last time that contributed to the team meeting our sprint goal?
+          \item What do I plan to complete this time to contribute to the team meeting our sprint goal?
+          \item Do I see any impediment that could prevent me or the team from meeting our sprint goal?
+        \end{itemize}    
+
+        This was another way to keep everyone updated, but unfortunately, not every team could follow the sprint process and make any progress every three days. Sometimes a team might work for this sprint then stopped for two sprints since other modules might have a deadline or coursework. Hence, this scrum process was not actually conducted properly and stopped after few weeks after started. The records show in figure \ref{fig:Slack Scrum Channel}. 
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=1\textwidth]{../assets/development-records-slack-scrum-channel.png}
+          \caption{Slack Scrum Channel}
+          \label{fig:Slack Scrum Channel}
+        \end{figure}
+        
+        At the middle of the development stage, our supervisor suggested us to meet 2 hours a day and 2 to 4 days a week, work and team and engage the team building, since the progress tracking form showed that the working hours were really unbalanced and some people apparently did not put enough effort into the project. 
+        
+        We made a daily sprint schedule, shows in figure \ref{fig:Daily Sprint}, and followed the time to do work together. Everyone should follow the schedule and spend at least two days a week to work together as a team. It went well and most of us were able to follow the schedule. We worked in RHB306a, 35 Cafe or the whitehead building lab. But since the strike started, the daily sprint stopped again because not all of us were coming to the campus due to the long distance between home and the university. 
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=1\textwidth]{../assets/development-records-daily-sprint.png}
+          \caption{Daily Sprint}
+          \label{fig:Daily Sprint}
+        \end{figure}
+
+        \subsubsection{Kanban}
+          Apart from the Scrum, Kanban was also implemented with the backlogs in our development to demonstrate the development progress. We tried to keep our project management tool simple and easy to approach, so we not only used Github for version control but also for the project feature, which we used it as the Kanban. The iOS  development kanban was shown in \ref{fig:iOS Development Kanban}.
+
+          \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{../assets/development-records-ios-kanban.png}
+            \caption{iOS app Kanban}
+            \label{fig:iOS Development Kanban}
+          \end{figure}
+         
+          Our kanban contained five columns which shows in Table \ref{table:Kanban Columns}:
+          
+          \begin{table}[H]
+            \centering
+              \begin{tabularx}{\textwidth}{l X}
+                \hline
+                Column & Description  \\ \hline
+                Backlogs & The task is scheduled to be develop, but it is possible to be assigned deprecated if it is no longer needed. \\ 
+                To Do & The task is going to be develop.  \\ 
+                In Progress & The task is currently developing  \\ 
+                Done & The task has been completed.   \\ 
+                Deprecated & The task no longer need to be developed.\\                  
+                \hline
+              \end{tabularx}
+              \caption[Table caption text]{Kanban Columns}
+              \label{table:Kanban Columns}
+          \end{table}
+          
+          Apart from the normal columns: To Do, In Progress and Done, we also added {\bf Deprecated} to store the features or tasks did not fit the needs anymore. Kanban gave a nice and clean overview of the current developing process, especially for people from other teams.
+        
+      \subsection{Development Process}
+        % 400 - 500 words
+        \subsubsection{User Stories and Backlogs}
+          Based on the user stories, we setup several backlogs for each user story.
+        \subsubsection{Progress Tracking Form}
+      \subsection{Evaluation}
+        \paragraph{Technology Selection}
+        \paragraph{Agile Development}
+        \paragraph{Development Progress}
+        % 400 - 500 words
     \newpage
     \section{Formative Evaluation}
       % total 1650 words
@@ -85,7 +187,7 @@
           \paragraph{} Firstly, we explained what was our project about and asked participants to sign up the consent form which can be found in appendices \ref{appendix:consent-form}. During the test, the participants were provided an iPhone with the application built-in to test. An observer would guide them through the tasks and the scenarios, then took notes of how the participants reacted to the application. For each task, the observer would record it was successfully completed or failed. The records would help us to build the success rates diagram which helped us to understand which usability needed to be improved\cite{SuccessRates}. 
 
         
-        \subsubsection{Evaluations}
+        \subsubsection{Evaluation}
           
           \begin{figure}[H]
             \centering

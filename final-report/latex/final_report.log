@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  14 MAR 2018 06:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  14 MAR 2018 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -413,124 +413,176 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./final_report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `final_report.toc'.
 
- [1] [2]
-<../assets/usability-test-task-list.png, id=16, 1720.4275pt x 594.22pt>
+ [1]
+<../assets/development-records-teams.png, id=13, 1012.78375pt x 444.66125pt>
+File: ../assets/development-records-teams.png Graphic file (type png)
+
+<use ../assets/development-records-teams.png>
+Package pdftex.def Info: ../assets/development-records-teams.png used on input 
+line 49.
+(pdftex.def)             Requested size: 496.32925pt x 217.90627pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+
+<../assets/development-records-slack-ios-channel.png, id=15, 1378.14874pt x 816
+.04875pt>
+File: ../assets/development-records-slack-ios-channel.png Graphic file (type pn
+g)
+ <use ../assets/development-records-slack-ios-channel.png>
+Package pdftex.def Info: ../assets/development-records-slack-ios-channel.png us
+ed on input line 65.
+(pdftex.def)             Requested size: 496.32925pt x 293.88939pt.
+ [2 <../assets/development-records-teams.png>]
+<../assets/development-records-slack-scrum-channel.png, id=21, 1555.8125pt x 56
+0.0925pt>
+File: ../assets/development-records-slack-scrum-channel.png Graphic file (type 
+png)
+ <use ../assets/development-records-slack-scrum-channel.png>
+Package pdftex.def Info: ../assets/development-records-slack-scrum-channel.png 
+used on input line 89.
+(pdftex.def)             Requested size: 496.32925pt x 178.67775pt.
+ [3 <../assets/development-records-slack-ios-channel.png>]
+<../assets/development-records-daily-sprint.png, id=26, 1112.155pt x 254.9525pt
+>
+File: ../assets/development-records-daily-sprint.png Graphic file (type png)
+ <use ../assets/development-records-daily-sprint.png>
+Package pdftex.def Info: ../assets/development-records-daily-sprint.png used on
+ input line 100.
+(pdftex.def)             Requested size: 496.32925pt x 113.78221pt.
+
+<../assets/development-records-ios-kanban.png, id=27, 1445.4pt x 864.73062pt>
+File: ../assets/development-records-ios-kanban.png Graphic file (type png)
+
+<use ../assets/development-records-ios-kanban.png>
+Package pdftex.def Info: ../assets/development-records-ios-kanban.png used on i
+nput line 110.
+(pdftex.def)             Requested size: 496.32925pt x 296.93375pt.
+ [4 <../assets/development-records-slack-scrum-channel.png> <../assets/developm
+ent-records-daily-sprint.png>] [5 <../assets/development-records-ios-kanban.png
+>] [6]
+<../assets/usability-test-task-list.png, id=41, 1720.4275pt x 594.22pt>
 File: ../assets/usability-test-task-list.png Graphic file (type png)
 
 <use ../assets/usability-test-task-list.png>
 Package pdftex.def Info: ../assets/usability-test-task-list.png used on input l
-ine 55.
+ine 157.
 (pdftex.def)             Requested size: 496.32925pt x 171.42174pt.
- [3 <../assets/usability-test-task-list.png>]
-<../assets/usability-test-success-rates.png, id=22, 1072.005pt x 341.275pt>
+ [7 <../assets/usability-test-task-list.png>]
+<../assets/usability-test-success-rates.png, id=46, 1072.005pt x 341.275pt>
 File: ../assets/usability-test-success-rates.png Graphic file (type png)
 
 <use ../assets/usability-test-success-rates.png>
 Package pdftex.def Info: ../assets/usability-test-success-rates.png used on inp
-ut line 92.
+ut line 194.
 (pdftex.def)             Requested size: 496.32925pt x 158.00385pt.
 
-<../assets/usability-test-ios-v010-improvements.png, id=23, 765.86125pt x 618.3
+<../assets/usability-test-ios-v010-improvements.png, id=47, 765.86125pt x 618.3
 1pt>
 File: ../assets/usability-test-ios-v010-improvements.png Graphic file (type png
 )
  <use ../assets/usability-test-ios-v010-improvements.png>
 Package pdftex.def Info: ../assets/usability-test-ios-v010-improvements.png use
-d on input line 103.
+d on input line 205.
 (pdftex.def)             Requested size: 347.42896pt x 280.4918pt.
- [4 <../assets/usability-test-success-rates.png>] [5 <../assets/usability-test-
-ios-v010-improvements.png>] [6]
-Underfull \hbox (badness 1024) in paragraph at lines 134--135
+ [8 <../assets/usability-test-success-rates.png>] [9 <../assets/usability-test-
+ios-v010-improvements.png>] [10]
+Underfull \hbox (badness 1024) in paragraph at lines 236--237
 \OT1/cmr/m/n/12 able: https://www.nngroup.com/articles/success-rate-the-simples
 t-usability-metric/. [Ac-
  []
 
 
-<../assets/usability-test-consent-form-example.pdf, id=36, 598.235pt x 846.1612
+<../assets/usability-test-consent-form-example.pdf, id=59, 598.235pt x 846.1612
 5pt>
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 143.
+ on input line 245.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 143.
+ on input line 245.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<../assets/usability-test-consent-form-example.pdf, id=39, page=1, 598.235pt x 
+<../assets/usability-test-consent-form-example.pdf, id=62, page=1, 598.235pt x 
 846.16125pt>
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 143.
+e1 used on input line 245.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 143.
+e1 used on input line 245.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [7]
+ [11]
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 143.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
-
-
-<use ../assets/usability-test-consent-form-example.pdf, page 1>
-Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 143.
+e1 used on input line 245.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 143.
+e1 used on input line 245.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [8 <../assets/usability-test-consent-form-example.pdf
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 245.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [12 <../assets/usability-test-consent-form-example.pdf
 
 pdfTeX warning: pdflatex (file ../assets/usability-test-consent-form-example.pd
 f): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', typ
 e <array>); ignored.
->] [9] (./final_report.aux) ) 
+>] [13] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 7273 strings out of 492995
- 121120 string characters out of 6132704
- 201863 words of memory out of 5000000
- 10715 multiletter control sequences out of 15000+600000
+ 7321 strings out of 492995
+ 122771 string characters out of 6132704
+ 203912 words of memory out of 5000000
+ 10755 multiletter control sequences out of 15000+600000
  9750 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,46p,1082b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+</usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on final_report.pdf (10 pages, 343620 bytes).
+Output written on final_report.pdf (14 pages, 1282342 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
