@@ -15,7 +15,8 @@ We also initially designed the Tracker to be serverless. In this way, the tracke
 Moreover, we set out to have tracker adapt to the users need. The iLost tracker should be able to be smart enough to understand that a user has left behind an item regardless of the item type (luggage, handbag, laptop etc..)
 However, our design plan changed rapidly as we started implementing the tracker and as we consulted with more users and professionals (both in marketing and in engineering).
 
-[image of Tile Mate]
+[image of Tile Mate:]
+source: https://www.google.co.uk/search?biw=1536&bih=734&tbm=isch&sa=1&ei=J2-qWrjGIoP8gAbTpY7gDg&q=tile+mate&oq=tile+mate&gs_l=psy-ab.3..0l10.1914444.1915454.0.1915534.9.9.0.0.0.0.150.530.6j1.7.0....0...1c.1.64.psy-ab..2.7.529...0i67k1.0.n-KhEduGnwA#imgrc=ST_hni3uHx6bUM:
 
 At the computer fair, in which we consulted with various industry professionals, we realised that we should focus on a minimum viable product for duration of this project. Certain product features such as having the tracker as physically small as a sticker (similar to the Tile Mate) is not possible in the scope of the project as we need specialist manufacturers, engineers and funding (we already looked at all the possible routes making the tracker smaller). Most users clearly want a tracker that is small as the Tile Mate, so we looked at next viable use case and the minimum physical size of the tracker that can fit that viable use case, this was baggage use case.
 
