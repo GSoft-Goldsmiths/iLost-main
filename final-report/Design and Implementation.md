@@ -4,7 +4,9 @@ Our final design for the iLost tracker consists of an Android app and a Raspberr
 
 Short range is defined as less than 30 metres from the target and long-range is defined as above 30 metres to 400 km and beyond. 
 
-[insert picture of tracker concept at January ]
+![tracker concept at January - long range](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/iLost_final_concept_v2.0_long_range.jpg)
+
+![tracker concept at january - short range](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/iLost_final_concept_v2.0_short_range.jpg)
 
 This Hybrid approach, compensates for the weaknesses of the Bluetooth range and the weaknesses of accuracy of the Hologram Cellular modem, by leveraging the short-range accuracy of the Bluetooth and extremely long range of the cellular modem. (there are cell towers in nearly every part of the world)
 
@@ -15,8 +17,9 @@ We also initially designed the Tracker to be serverless. In this way, the tracke
 Moreover, we set out to have tracker adapt to the users need. The iLost tracker should be able to be smart enough to understand that a user has left behind an item regardless of the item type (luggage, handbag, laptop etc..)
 However, our design plan changed rapidly as we started implementing the tracker and as we consulted with more users and professionals (both in marketing and in engineering).
 
-[image of Tile Mate:]
-source: https://www.google.co.uk/search?biw=1536&bih=734&tbm=isch&sa=1&ei=J2-qWrjGIoP8gAbTpY7gDg&q=tile+mate&oq=tile+mate&gs_l=psy-ab.3..0l10.1914444.1915454.0.1915534.9.9.0.0.0.0.150.530.6j1.7.0....0...1c.1.64.psy-ab..2.7.529...0i67k1.0.n-KhEduGnwA#imgrc=ST_hni3uHx6bUM:
+![image of Tile Mate ](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/tile_mate.jpg)
+
+image source: https://images-na.ssl-images-amazon.com/images/I/91yCqcF4bxL._SL1500_.jpg
 
 At the computer fair, in which we consulted with various industry professionals, we realised that we should focus on a minimum viable product for duration of this project. Certain product features such as having the tracker as physically small as a sticker (similar to the Tile Mate) is not possible in the scope of the project as we need specialist manufacturers, engineers and funding (we already looked at all the possible routes making the tracker smaller). Most users clearly want a tracker that is small as the Tile Mate, so we looked at next viable use case and the minimum physical size of the tracker that can fit that viable use case, this was baggage use case.
 
@@ -31,13 +34,13 @@ Also, in the design stage we realised that our tracker can be developed into an 
 
 We initially designed the user app to be hosted on the Android platform, instead we implemented the user app on both the iOS and the Android platform. We did this for two reasons. Firstly, from market research, roughly 53% of users do not have an Android smartphone. Secondly, developing the Android app allows us to have a plan B, in case we cannot develop the iOS app in time or if there are compatibility issues with the tracker. The Android and iOS app both have different programming languages and paradigms. 
 
-[makret researc link: https://www.statista.com/statistics/262179/market-share-held-by-mobile-operating-systems-in-the-united-kingdom/]
+![market reseatch](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/statistic_id262179_mobile-os_-market-share-in-the-united-kingdom--uk--2011-2018.png)
+
+source: https://www.statista.com/statistics/262179/market-share-held-by-mobile-operating-systems-in-the-united-kingdom/ 
 
 The reason why we developed an Android/iOS app instead of a web app, is that as part of the iLost design, the user needs notifications in real-time (when an item has been left behind). Real-time notifications are not currently possible with web apps.
 
 Another significant change to the iLost tracker was the discarding of the Bluetooth function. Initially, the iLost tracker was supposed to use the Generic Bluetooth adapter on the Raspberry pi and the user’s smartphone.  
-
-[insert diagram for Bluetooth short range function – explaining paragraph below]
 
 The Bluetooth function is needed for the tracker at short range (less than 30 metres) to remind the user if they have left an item behind, if an individual recently just stole their item or for tracking down the location of an item (to a range +- 5 metres). This is after the long-range function (i.e. the cellular modem) locates a rough location of the item (30-40 metres from actual location)
 
@@ -53,7 +56,7 @@ We also looked at other Bluetooth products on the market, such as most headphone
 
 Moreover, we experimented with other Bluetooth based technologies, to find a replacement. We tested and built mock-ups using the estimote beacon (a Bluetooth tracker, used in upcoming retail and asset tracking), this did not fit our use case, as it increased unnecessary cost and complications to the user. Another novel Bluetooth tracker which failed the use case was the puck.js (a small Bluetooth tracker that can programmed using JavaScript) although a novel concept we did not possess enough technical skill to be able to program the Puck to detect read Bluetooth signals specifically emitting from the raspberry Pi. 
 
-[insert picture of raspberry pi 3 model B with hologram nova attached]
+[insert picture of raspberry pi 3 model B with hologram nova attached, we need to take a picture of this]
 
 Our next step, was to implement the Cellular functionality of the iLost tracker. The cellular functionality consists of a cellular modem (called Hologram Nova) provided by the company Hologram. The Hologram Nova, via USB is attached to the raspberry pi (for testing and early prototyping we used the Raspberry pi 3 model B) and this what we refer to as the iLost tracker. We manged to establish a protocol to communicate with the iLost tracker.
 
@@ -83,7 +86,7 @@ We then decided to use the amazon s3 servers which are scalable (servers can be 
 
 We also encrypt this data using AES-256 servers side encryption keys, each record is encrypted with a unique key, even the key itself is regularly encrypted. This service is provided by amazon.
 
-[insert diagram of current stack: user app – s3 server – Hologram cloud – tracker]
+![current stack](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/current_stack.png)
 
 Post-Snowden age, we understand users are concerned about privacy. All data that is stored on Amazon servers are automatically encrypted AES-256 servers side encryption keys. We only store longitude, latitude and time data, for 14 days. Its saves us space and cost, to not store data permanently.
 
@@ -103,16 +106,29 @@ The iOS team also had previous experience in developing React web applications, 
 
 The Swift API had many noteworthy changes from Swift 2.0 to 4.0 which is the latest version (we were developing with latest version), so whenever we encountered an issue, it was difficult to search for the solution for the latest version of Swift. The official documentation of Swift was also quite ambiguous, it lacked working examples. This led to a steep of learning curve when developing in Swift. On the other hand, React Native had better documentations and community support. The official documentation was explained clearly with good working examples, there were more community-built components can be approached easily as well, this improved the developing experience and made it easier.
 
-[insert screenshots of iOS and android app]
+**Android app**
+![Android app UI](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/android_app_ui_02.png)
+
+**iOS app**
+![iOS app UI](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/iOS_app_ui_02.png)
 
 For our tracker to be useful and satisfy its use cases it had to be portable. When we were testing our tracker, which was a raspberry pi 3 model b, it had be plugged into the mains. We replaced the raspberry pi 3 model b with the raspberry pi zero. The raspberry pi zero is 2x smaller than the raspberry pi 3, uses much less power and still uses the same operating system (so all the Bash scripts and configurations still worked) 
 
-We first tried to use small power banks to power the tracker (normally used for mobile phones) to test the average power consumption of the tracker. The tracker requires 130 mA. Using power banks is not practical for the user, so instead we tested lithium-ion batteries, these were slim and provided more power… [not finished yet]
+We first tried to use small power banks to power the tracker (normally used for mobile phones) to test the average power consumption of the tracker. The tracker requires 130 mA. Using power banks is not practical for the user, so instead we tested lithium-ion batteries, these were slim and provided more power. We used 1200 mAH batteries, current testing shows that the tracker can last....
+
+We have a method of charging the battery, but this requires us to remove the power cable connecting the battery to the raspberry pi zero, there is at the moment no option for the user to charge the device...  
+[not finished yet] 
+
+**combined**
+![final tracker images](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/current_tracker_no_case.jpg)
+
+**all the components**
+![final tracker images](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/current_tracker_no_case_parts_expanded.jpg)
 
 Moreover, a physical case was needed for the tracker which would satisfy the user use cases. The case needed to be durable, simple and functional enough to be attached to a bag. A prototype was created using MDF wood, that was interlocking. [this is not finished yet, not sure if there will be more to come ...]
 
-[insert diagram of concept case]
+[insert image of concept case]
 
-[insert image of prototype case]
+![prototype case](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/prototype_case.png)
 
 [insert image of final case]
