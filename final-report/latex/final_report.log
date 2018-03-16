@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  16 MAR 2018 03:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  16 MAR 2018 03:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -508,13 +508,13 @@ File: ../assets/development-records-teams.png Graphic file (type png)
 Package pdftex.def Info: ../assets/development-records-teams.png used on input 
 line 52.
 (pdftex.def)             Requested size: 496.32925pt x 217.90627pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
  [3 <../assets/development-records-teams.png>]
 <../assets/development-records-slack-ios-channel.png, id=23, 1378.14874pt x 816
 .04875pt>
@@ -522,7 +522,7 @@ File: ../assets/development-records-slack-ios-channel.png Graphic file (type pn
 g)
  <use ../assets/development-records-slack-ios-channel.png>
 Package pdftex.def Info: ../assets/development-records-slack-ios-channel.png us
-ed on input line 80.
+ed on input line 96.
 (pdftex.def)             Requested size: 496.32925pt x 293.88939pt.
  [4 <../assets/development-records-slack-ios-channel.png>]
 <../assets/development-records-slack-scrum-channel.png, id=28, 1555.8125pt x 56
@@ -531,7 +531,7 @@ File: ../assets/development-records-slack-scrum-channel.png Graphic file (type
 png)
  <use ../assets/development-records-slack-scrum-channel.png>
 Package pdftex.def Info: ../assets/development-records-slack-scrum-channel.png 
-used on input line 104.
+used on input line 120.
 (pdftex.def)             Requested size: 496.32925pt x 178.67775pt.
 
 <../assets/development-records-daily-sprint.png, id=29, 1112.155pt x 254.9525pt
@@ -539,49 +539,49 @@ used on input line 104.
 File: ../assets/development-records-daily-sprint.png Graphic file (type png)
  <use ../assets/development-records-daily-sprint.png>
 Package pdftex.def Info: ../assets/development-records-daily-sprint.png used on
- input line 115.
+ input line 131.
 (pdftex.def)             Requested size: 496.32925pt x 113.78221pt.
- [5 <../assets/development-records-slack-scrum-channel.png> <../assets/developm
-ent-records-daily-sprint.png>]
-<../assets/development-records-ios-kanban.png, id=35, 1445.4pt x 864.73062pt>
+ [5 <../assets/development-records-slack-scrum-channel.png>]
+<../assets/development-records-ios-kanban.png, id=34, 1445.4pt x 864.73062pt>
 File: ../assets/development-records-ios-kanban.png Graphic file (type png)
 
 <use ../assets/development-records-ios-kanban.png>
 Package pdftex.def Info: ../assets/development-records-ios-kanban.png used on i
-nput line 125.
+nput line 141.
 (pdftex.def)             Requested size: 496.32925pt x 296.93375pt.
- [6 <../assets/development-records-ios-kanban.png>]
-<../assets/development-records-backlog-example.png, id=41, 1238.6275pt x 245.91
+ [6 <../assets/development-records-daily-sprint.png> <../assets/development-rec
+ords-ios-kanban.png>]
+[7]
+<../assets/development-records-backlog-example.png, id=44, 1238.6275pt x 245.91
 875pt>
 File: ../assets/development-records-backlog-example.png Graphic file (type png)
 
  <use ../assets/development-records-backlog-example.png>
 Package pdftex.def Info: ../assets/development-records-backlog-example.png used
- on input line 188.
+ on input line 212.
 (pdftex.def)             Requested size: 496.32925pt x 98.54211pt.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-
-<../assets/development-records-progress-tracking-diagram.png, id=45, 1221.56375
+[8 <../assets/development-records-backlog-example.png>]
+<../assets/development-records-progress-tracking-diagram.png, id=49, 1221.56375
 pt x 641.39626pt>
 File: ../assets/development-records-progress-tracking-diagram.png Graphic file 
 (type png)
 
 <use ../assets/development-records-progress-tracking-diagram.png>
 Package pdftex.def Info: ../assets/development-records-progress-tracking-diagra
-m.png used on input line 209.
+m.png used on input line 233.
 (pdftex.def)             Requested size: 496.32925pt x 260.60573pt.
- [8 <../assets/development-records-backlog-example.png>] [9 <../assets/developm
-ent-records-progress-tracking-diagram.png>]
+ [9 <../assets/development-records-progress-tracking-diagram.png>]
 <../assets/usability-test-task-list.png, id=54, 1720.4275pt x 594.22pt>
 File: ../assets/usability-test-task-list.png Graphic file (type png)
 
 <use ../assets/usability-test-task-list.png>
 Package pdftex.def Info: ../assets/usability-test-task-list.png used on input l
-ine 235.
+ine 259.
 (pdftex.def)             Requested size: 496.32925pt x 171.42174pt.
  [10 <../assets/usability-test-task-list.png>]
 <../assets/usability-test-success-rates.png, id=59, 1072.005pt x 341.275pt>
@@ -589,32 +589,31 @@ File: ../assets/usability-test-success-rates.png Graphic file (type png)
 
 <use ../assets/usability-test-success-rates.png>
 Package pdftex.def Info: ../assets/usability-test-success-rates.png used on inp
-ut line 272.
+ut line 296.
 (pdftex.def)             Requested size: 496.32925pt x 158.00385pt.
-
-<../assets/usability-test-ios-v010-improvements.png, id=60, 765.86125pt x 618.3
+ [11 <../assets/usability-test-success-rates.png>]
+<../assets/usability-test-ios-v010-improvements.png, id=64, 765.86125pt x 618.3
 1pt>
 File: ../assets/usability-test-ios-v010-improvements.png Graphic file (type png
 )
  <use ../assets/usability-test-ios-v010-improvements.png>
 Package pdftex.def Info: ../assets/usability-test-ios-v010-improvements.png use
-d on input line 283.
+d on input line 307.
 (pdftex.def)             Requested size: 347.42896pt x 280.4918pt.
- [11 <../assets/usability-test-success-rates.png>] [12 <../assets/usability-tes
-t-ios-v010-improvements.png>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+ [12 <../assets/usability-test-ios-v010-improvements.png>] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 []\OT1/cmr/m/n/12 M. Ny-gard, "Blog | Doc-u-ment-ing Ar-chi-tec-ture De-ci-sion
 s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 \OT1/cmr/m/n/12 | Rel-e-vance", Thinkrel-e-vance.com, 2011. [On-line]. Avail-ab
 le:
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 314--315
+Underfull \hbox (badness 1024) in paragraph at lines 338--339
 \OT1/cmr/m/n/12 able: https://www.nngroup.com/articles/success-rate-the-simples
 t-usability-metric/. [Ac-
  []
@@ -624,13 +623,13 @@ File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf used on inp
-ut line 320.
+ut line 344.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf used on inp
-ut line 320.
+ut line 344.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 <../assets/development-records-backlogs.pdf, id=76, page=1, 597.23125pt x 845.1
@@ -638,32 +637,32 @@ ut line 320.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
  <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [14]
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [15 <../assets/development-records-backlogs.pdf>]
 <../assets/development-records-backlogs.pdf, id=94, page=2, 597.23125pt x 845.1
@@ -671,19 +670,19 @@ Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
  <use ../assets/development-records-backlogs.pdf, page 2>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 2>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 2>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
- on input line 320.
+ on input line 344.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [16 <../assets/development-records-backlogs.pdf>] [17]
 <../assets/development-record-progress-tracking-form.pdf, id=102, 597.23125pt x
@@ -692,14 +691,14 @@ File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
  <use ../assets/development-record-progress-tracking-form.pdf>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f used on input line 427.
+f used on input line 451.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f used on input line 427.
+f used on input line 451.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 <../assets/development-record-progress-tracking-form.pdf, id=105, page=1, 597.2
@@ -709,14 +708,14 @@ e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 427.
+f, page1 used on input line 451.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 427.
+f, page1 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [18]
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
@@ -724,21 +723,21 @@ e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 427.
+f, page1 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 427.
+f, page1 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 427.
+f, page1 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [19 <../assets/development-record-progress-tracking-form.pdf>]
 <../assets/development-record-progress-tracking-form.pdf, id=131, page=2, 597.2
@@ -748,21 +747,21 @@ e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 2>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page2 used on input line 427.
+f, page2 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 2>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page2 used on input line 427.
+f, page2 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 2>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page2 used on input line 427.
+f, page2 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [20 <../assets/development-record-progress-tracking-form.pdf>]
 <../assets/development-record-progress-tracking-form.pdf, id=136, page=3, 597.2
@@ -772,21 +771,21 @@ e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 3>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page3 used on input line 427.
+f, page3 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 3>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page3 used on input line 427.
+f, page3 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 3>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page3 used on input line 427.
+f, page3 used on input line 451.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [21 <../assets/development-record-progress-tracking-form.pdf>]
 <../assets/usability-test-consent-form-example.pdf, id=141, 598.235pt x 846.161
@@ -795,14 +794,14 @@ File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 431.
+ on input line 455.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 431.
+ on input line 455.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
 <../assets/usability-test-consent-form-example.pdf, id=144, page=1, 598.235pt x
@@ -811,14 +810,14 @@ File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 431.
+e1 used on input line 455.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 431.
+e1 used on input line 455.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [22]
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
@@ -826,21 +825,21 @@ File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 431.
+e1 used on input line 455.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 431.
+e1 used on input line 455.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 431.
+e1 used on input line 455.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
  [23 <../assets/usability-test-consent-form-example.pdf
 
@@ -849,10 +848,10 @@ f): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', typ
 e <array>); ignored.
 >] [24] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 8075 strings out of 492995
- 133700 string characters out of 6132704
- 216826 words of memory out of 5000000
- 11477 multiletter control sequences out of 15000+600000
+ 8077 strings out of 492995
+ 133750 string characters out of 6132704
+ 217844 words of memory out of 5000000
+ 11479 multiletter control sequences out of 15000+600000
  10771 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,18n,46p,1082b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -862,7 +861,7 @@ blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on final_report.pdf (25 pages, 1829507 bytes).
+Output written on final_report.pdf (25 pages, 1829965 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams

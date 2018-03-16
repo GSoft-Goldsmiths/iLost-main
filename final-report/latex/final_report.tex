@@ -43,9 +43,9 @@
 
     \section{Introduction}
     \section{Development Record}
-      \subsection{Technology Selection} 
+      \subsection{Teams} 
         % 400 - 500 words
-        During in the implementation stage, we setup a organisation {\bf GSoft} on Github and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows on the figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas then he would join two of the teams. 
+        During in the implementation stage, we setup a organisation {\bf GSoft} on Github and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows on the figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas then he would join two of the teams. The list of the team members can be found in table \ref{table:Teams} 
 
         \begin{figure}[H]
           \centering
@@ -53,6 +53,22 @@
           \caption{Development Teams}
           \label{fig:Development Teams}
         \end{figure}
+
+        \begin{table}[H]
+          \centering
+            \begin{tabularx}{\textwidth}{l X}
+              \hline
+               Team & Members \\ \hline
+               iOS app & Jheng-Hao(leader), Muhammad \\
+               Android app & Dyland(leader), Mahmudul, Jheng-Hao \\ 
+               Backend/Tracker  & Hussein(leader), Thairan, Mahmudul, Mariano \\
+              \hline
+            \end{tabularx}
+            \caption[Table caption text]{Teams}
+            \label{table:Teams}
+        \end{table}        
+
+      \subsection{Technology Selection} 
 
         Each team was responsible for how and what technology to use as long as the production could be made on time. We believed this methodology had these advantages in terms of the limited development time:
 
@@ -87,7 +103,7 @@
         Our team tried out two agile development methodology, {\bf Scrum} and {\bf Kanban}.
 
         \subsubsection{Scrum Development}
-          Since we could not actually devote all of our time to develop the application, so it would not be reasonable to do the daily scrum and have a meeting day-to-day for all of us. So in the beginning, we tried to set up a routine to simulate the daily scrum with Slack:
+          Since we could not actually devote all of our time to develop the application, so it would not be reasonable to do the daily scrum and have a meeting day-to-day for all of us. So in the beginning, we tried to set up a routine to simulate the daily scrum with Slack.
 
           We defined 3 days as one sprint and whenever a sprint was finished, the team needed to answer three questions in the Scrum channel on Slack:
           
@@ -97,7 +113,7 @@
             \item Do I see any impediment that could prevent me or the team from meeting our sprint goal?
           \end{itemize}    
 
-          This was another way to keep everyone updated, but unfortunately, not every team could follow the sprint process and make any progress every three days. Sometimes a team might work for this sprint then stopped for two sprints since other modules might have a deadline or coursework. Hence, this scrum process was not actually conducted properly and stopped after few weeks after started. The records show in figure \ref{fig:Slack Scrum Channel}. 
+          Unfortunately, not every team could follow the sprint process and make any progress every three days. Sometimes a team might work for this sprint then stopped for two sprints since other modules might have a deadline or coursework. Hence, this scrum process was not actually conducted properly and stopped after few weeks after started. The example records show in figure \ref{fig:Slack Scrum Channel}. 
 
           \begin{figure}[H]
             \centering
@@ -170,16 +186,24 @@
               \label{table:Backlogs Column}
           \end{table}
           
-          For example, the user story 3 {\bf Track Item: User uses App to see the tracking list and track Item.} had 7 sub-user stories: 
+          For example, the user story 3 {\bf Track Item: User uses App to see the tracking list and track Item.} has 7 sub-user stories, which shows in the table \ref{table:Backlog Example: User Story 3}: 
           
-          \begin{itemize}
-            \item 3-1    As a user I want to view the tracking item list, so that I can view my item and look up more detail if I want.
-            \item 3-2    As a user I want to activate or deactivate tracker, so that I can save my mobile and the tracker's batteries.
-            \item 3-3 As a user I want to see the location history in a map format of the item, so that I can track/look for it if it's lost.
-            \item 3-4    As a user I want to navigate me to my item, so that find it quicker.
-            \item 3-5    As a user I want to edit my item detail, so that I can change the tracking item.
-            \item 3-6    As a user I want to delete the item, so that I can stop tracking the item for good.
-          \end{itemize}    
+          \begin{table}[H]
+            \centering
+              \begin{tabularx}{\textwidth}{l X}
+                \hline
+                 User Story ID & User Story \\ \hline
+                 3-1 & As a user I want to view the tracking item list, so that I can view my item and look up more detail if I want. \\
+                 3-2 & As a user I want to activate or deactivate tracker, so that I can save my mobile and the tracker's batteries. \\
+                 3-3 & As a user I want to see the location history in a map format of the item, so that I can track/look for it if it's lost. \\
+                 3-4 & As a user I want to navigate me to my item, so that find it quicker. \\
+                 3-5 & As a user I want to edit my item detail, so that I can change the tracking item. \\
+                 3-6 & As a user I want to delete the item, so that I can stop tracking the item for good. \\
+                \hline
+              \end{tabularx}
+              \caption[Table caption text]{Backlog Example: User Story 3}
+              \label{table:Backlog Example: User Story 3}
+          \end{table}   
           
           Take sub-user story 3-1 as an example. In order to satisfy this user story, we had 4 backlogs and acceptance criteria to meet the requirements. and each of them had their own priority, estimated development days, phase and process. So this backlog will look like figure \ref{fig:Backlog Example: Sub-user story 3-1}:
           
