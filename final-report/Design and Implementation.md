@@ -125,10 +125,13 @@ We have a method of charging the battery, but this requires us to remove the pow
 **all the components**
 ![final tracker images](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/current_tracker_no_case_parts_expanded.jpg)
 
-Moreover, a physical case was needed for the tracker which would satisfy the user use cases. The case needed to be durable, simple and functional enough to be attached to a bag. A prototype was created using MDF wood, that was interlocking. [this is not finished yet, not sure if there will be more to come ...]
+Moreover, a physical case which would fulfil the user use cases was needed for the tracker. Namely, it needed to be reasonably drop proof, strong enough to withstand day to day life, durable, simple and functional enough to be attached to a bag. A prototype was created using laser-cut cardboard, which was interlocking. As a first iteration, it was useful as it allowed us to show to users how our Physical tracker would look, in terms of size (how it compared to other items a user may carry), this iteration was also low cost as it was made from cardboard. By creating the first iteration, we could also see dimensions required for the internal components of the tracker and how these components would behave inside an enclosed space.
 
-[insert image of concept case]
+Some members of team also undertook 3D printing training. Ideally, we wanted the case to be 3D printed, unfortunately we did not have enough time to progress beyond the cardboard prototype. 
+
+![concept case]()
+
+![concept case]()
 
 ![prototype case](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/prototype_case.png)
-
-[insert image of final case]
+**dimensions  5.6 * 3.6 * 15.5 cm**
