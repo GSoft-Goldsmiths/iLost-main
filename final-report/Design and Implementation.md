@@ -129,9 +129,9 @@ Moreover, a physical case which would fulfil the user use cases was needed for t
 
 Some members of team also undertook 3D printing training. Ideally, we wanted the case to be 3D printed, unfortunately we did not have enough time to progress beyond the cardboard prototype. 
 
-![concept case]()
+![concept case](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/physical_case_concept_01.png)
 
-![concept case]()
+![concept case](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/physical_case_concept_02.png)
 
 ![prototype case](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/prototype_case.png)
 **dimensions  5.6 * 3.6 * 15.5 cm**
