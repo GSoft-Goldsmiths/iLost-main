@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  14 MAR 2018 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  16 MAR 2018 02:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -51,29 +51,107 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count94
 \LT@p@ftn=\toks14
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks16
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen125
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks20
 )
-\lst@mode=\count95
-\lst@gtempboxa=\box30
-\lst@token=\toks16
-\lst@length=\count96
-\lst@currlwidth=\dimen104
-\lst@column=\count97
-\lst@pos=\count98
-\lst@lostspace=\dimen105
-\lst@width=\dimen106
-\lst@newlines=\count99
-\lst@lineno=\count100
-\lst@maxwidth=\dimen107
+\lst@mode=\count111
+\lst@gtempboxa=\box32
+\lst@token=\toks21
+\lst@length=\count112
+\lst@currlwidth=\dimen126
+\lst@column=\count113
+\lst@pos=\count114
+\lst@lostspace=\dimen127
+\lst@width=\dimen128
+\lst@newlines=\count115
+\lst@lineno=\count116
+\lst@maxwidth=\dimen129
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count101
-\lst@skipnumbers=\count102
-\lst@framebox=\box31
+\c@lstnumber=\count117
+\lst@skipnumbers=\count118
+\lst@framebox=\box33
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -82,8 +160,8 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks17
-\verbatim@line=\toks18
+\every@verbatim=\toks22
+\verbatim@line=\toks23
 \verbatim@in@stream=\read1
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -109,29 +187,29 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count103
+\Gread@gobject=\count119
 ))
-\Gin@req@height=\dimen108
-\Gin@req@width=\dimen109
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen110
-\extrarowheight=\dimen111
-\NC@list=\toks19
-\extratabsurround=\skip47
-\backup@length=\skip48
+\col@sep=\dimen132
+\extrarowheight=\dimen133
+\NC@list=\toks24
+\extratabsurround=\skip50
+\backup@length=\skip51
 )
-\TX@col@width=\dimen112
-\TX@old@table=\dimen113
-\TX@old@col=\dimen114
-\TX@target=\dimen115
-\TX@delta=\dimen116
-\TX@cols=\count104
-\TX@ftn=\toks20
+\TX@col@width=\dimen134
+\TX@old@table=\dimen135
+\TX@old@col=\dimen136
+\TX@target=\dimen137
+\TX@delta=\dimen138
+\TX@cols=\count120
+\TX@ftn=\toks25
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
@@ -142,42 +220,49 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen117
-\captionmargin@=\dimen118
-\captionwidth=\dimen119
-\caption@tempdima=\dimen120
-\caption@indent=\dimen121
-\caption@parindent=\dimen122
-\caption@hangindent=\dimen123
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
 )
-\c@ContinuedFloat=\count105
+\c@ContinuedFloat=\count121
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ))
-\c@KVtest=\count106
-\sf@farskip=\skip49
-\sf@captopadj=\dimen124
-\sf@capskip=\skip50
-\sf@nearskip=\skip51
-\c@subfigure=\count107
-\c@subfigure@save=\count108
-\c@lofdepth=\count109
-\c@subtable=\count110
-\c@subtable@save=\count111
-\c@lotdepth=\count112
-\sf@top=\skip52
-\sf@bottom=\skip53
+\c@KVtest=\count122
+\sf@farskip=\skip52
+\sf@captopadj=\dimen146
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count123
+\c@subfigure@save=\count124
+\c@lofdepth=\count125
+\c@subtable=\count126
+\c@subtable@save=\count127
+\c@lotdepth=\count128
+\sf@top=\skip55
+\sf@bottom=\skip56
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count113
-\float@exts=\toks21
-\float@box=\box32
-\@float@everytoks=\toks22
-\@floatcapt=\box33
+\c@float@type=\count129
+\float@exts=\toks26
+\float@box=\box34
+\@float@everytoks=\toks27
+\@floatcapt=\box35
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip57
+\multirow@cntb=\count130
+\multirow@dima=\skip58
+\bigstrutjot=\dimen147
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
@@ -187,16 +272,16 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count114
-\calc@Bcount=\count115
-\calc@Adimen=\dimen125
-\calc@Bdimen=\dimen126
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
+\calc@Acount=\count131
+\calc@Bcount=\count132
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count116
-\calc@Cskip=\skip56
+\calc@Ccount=\count133
+\calc@Cskip=\skip61
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -224,40 +309,40 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\AM@pagewidth=\dimen127
-\AM@pageheight=\dimen128
+\AM@pagewidth=\dimen150
+\AM@pageheight=\dimen151
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box34
-\AM@global@opts=\toks23
-\AM@toc@title=\toks24
-\c@AM@survey=\count117
-\AM@templatesizebox=\box35
+\AM@pagebox=\box36
+\AM@global@opts=\toks28
+\AM@toc@title=\toks29
+\c@AM@survey=\count134
+\AM@templatesizebox=\box37
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csvsimple/csvsimple.sty
 Package: csvsimple 2016/07/01 version 1.20 LaTeX CSV file processing
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks32
 ))) (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count118
+\etb@tempcnta=\count135
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
 \csv@file=\read2
-\c@csvinputline=\count119
-\c@csvrow=\count120
-\c@csvcol=\count121
+\c@csvinputline=\count136
+\c@csvrow=\count137
+\c@csvcol=\count138
 \csv@out=\write3
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
@@ -270,49 +355,49 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count122
-\Gm@cntv=\count123
-\c@Gm@tempcnt=\count124
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
-\Gm@dimlist=\toks28
+\Gm@cnth=\count139
+\Gm@cntv=\count140
+\c@Gm@tempcnt=\count141
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks33
 )
 (./final_report.aux)
 \openout1 = `final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-\c@lstlisting=\count125
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+\c@lstlisting=\count142
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
-\scratchdimen=\dimen137
-\scratchbox=\box36
-\nofMPsegments=\count127
-\nofMParguments=\count128
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count129
-\MPscratchDim=\dimen138
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count143
+\scratchdimen=\dimen160
+\scratchbox=\box38
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen161
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -363,7 +448,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box37
+\AtBeginShipoutBox=\box39
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -411,178 +496,376 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./final_report.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+(./final_report.toc [1])
 \tf@toc=\write4
 \openout4 = `final_report.toc'.
 
- [1]
-<../assets/development-records-teams.png, id=13, 1012.78375pt x 444.66125pt>
+ [2]
+<../assets/development-records-teams.png, id=16, 1012.78375pt x 444.66125pt>
 File: ../assets/development-records-teams.png Graphic file (type png)
 
 <use ../assets/development-records-teams.png>
 Package pdftex.def Info: ../assets/development-records-teams.png used on input 
-line 49.
+line 52.
 (pdftex.def)             Requested size: 496.32925pt x 217.90627pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
-
-<../assets/development-records-slack-ios-channel.png, id=15, 1378.14874pt x 816
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+ [3 <../assets/development-records-teams.png>]
+<../assets/development-records-slack-ios-channel.png, id=23, 1378.14874pt x 816
 .04875pt>
 File: ../assets/development-records-slack-ios-channel.png Graphic file (type pn
 g)
  <use ../assets/development-records-slack-ios-channel.png>
 Package pdftex.def Info: ../assets/development-records-slack-ios-channel.png us
-ed on input line 65.
+ed on input line 80.
 (pdftex.def)             Requested size: 496.32925pt x 293.88939pt.
- [2 <../assets/development-records-teams.png>]
-<../assets/development-records-slack-scrum-channel.png, id=21, 1555.8125pt x 56
+ [4 <../assets/development-records-slack-ios-channel.png>]
+<../assets/development-records-slack-scrum-channel.png, id=28, 1555.8125pt x 56
 0.0925pt>
 File: ../assets/development-records-slack-scrum-channel.png Graphic file (type 
 png)
  <use ../assets/development-records-slack-scrum-channel.png>
 Package pdftex.def Info: ../assets/development-records-slack-scrum-channel.png 
-used on input line 89.
+used on input line 104.
 (pdftex.def)             Requested size: 496.32925pt x 178.67775pt.
- [3 <../assets/development-records-slack-ios-channel.png>]
-<../assets/development-records-daily-sprint.png, id=26, 1112.155pt x 254.9525pt
+
+<../assets/development-records-daily-sprint.png, id=29, 1112.155pt x 254.9525pt
 >
 File: ../assets/development-records-daily-sprint.png Graphic file (type png)
  <use ../assets/development-records-daily-sprint.png>
 Package pdftex.def Info: ../assets/development-records-daily-sprint.png used on
- input line 100.
+ input line 115.
 (pdftex.def)             Requested size: 496.32925pt x 113.78221pt.
-
-<../assets/development-records-ios-kanban.png, id=27, 1445.4pt x 864.73062pt>
+ [5 <../assets/development-records-slack-scrum-channel.png> <../assets/developm
+ent-records-daily-sprint.png>]
+<../assets/development-records-ios-kanban.png, id=35, 1445.4pt x 864.73062pt>
 File: ../assets/development-records-ios-kanban.png Graphic file (type png)
 
 <use ../assets/development-records-ios-kanban.png>
 Package pdftex.def Info: ../assets/development-records-ios-kanban.png used on i
-nput line 110.
+nput line 125.
 (pdftex.def)             Requested size: 496.32925pt x 296.93375pt.
- [4 <../assets/development-records-slack-scrum-channel.png> <../assets/developm
-ent-records-daily-sprint.png>] [5 <../assets/development-records-ios-kanban.png
->] [6]
-<../assets/usability-test-task-list.png, id=41, 1720.4275pt x 594.22pt>
+ [6 <../assets/development-records-ios-kanban.png>]
+<../assets/development-records-backlog-example.png, id=41, 1238.6275pt x 245.91
+875pt>
+File: ../assets/development-records-backlog-example.png Graphic file (type png)
+
+ <use ../assets/development-records-backlog-example.png>
+Package pdftex.def Info: ../assets/development-records-backlog-example.png used
+ on input line 189.
+(pdftex.def)             Requested size: 496.32925pt x 98.54211pt.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+<../assets/development-records-progress-tracking-diagram.png, id=45, 1221.56375
+pt x 641.39626pt>
+File: ../assets/development-records-progress-tracking-diagram.png Graphic file 
+(type png)
+
+<use ../assets/development-records-progress-tracking-diagram.png>
+Package pdftex.def Info: ../assets/development-records-progress-tracking-diagra
+m.png used on input line 210.
+(pdftex.def)             Requested size: 496.32925pt x 260.60573pt.
+ [8 <../assets/development-records-backlog-example.png>] [9 <../assets/developm
+ent-records-progress-tracking-diagram.png>]
+<../assets/usability-test-task-list.png, id=54, 1720.4275pt x 594.22pt>
 File: ../assets/usability-test-task-list.png Graphic file (type png)
 
 <use ../assets/usability-test-task-list.png>
 Package pdftex.def Info: ../assets/usability-test-task-list.png used on input l
-ine 157.
+ine 236.
 (pdftex.def)             Requested size: 496.32925pt x 171.42174pt.
- [7 <../assets/usability-test-task-list.png>]
-<../assets/usability-test-success-rates.png, id=46, 1072.005pt x 341.275pt>
+ [10 <../assets/usability-test-task-list.png>]
+<../assets/usability-test-success-rates.png, id=59, 1072.005pt x 341.275pt>
 File: ../assets/usability-test-success-rates.png Graphic file (type png)
 
 <use ../assets/usability-test-success-rates.png>
 Package pdftex.def Info: ../assets/usability-test-success-rates.png used on inp
-ut line 194.
+ut line 273.
 (pdftex.def)             Requested size: 496.32925pt x 158.00385pt.
 
-<../assets/usability-test-ios-v010-improvements.png, id=47, 765.86125pt x 618.3
+<../assets/usability-test-ios-v010-improvements.png, id=60, 765.86125pt x 618.3
 1pt>
 File: ../assets/usability-test-ios-v010-improvements.png Graphic file (type png
 )
  <use ../assets/usability-test-ios-v010-improvements.png>
 Package pdftex.def Info: ../assets/usability-test-ios-v010-improvements.png use
-d on input line 205.
+d on input line 284.
 (pdftex.def)             Requested size: 347.42896pt x 280.4918pt.
- [8 <../assets/usability-test-success-rates.png>] [9 <../assets/usability-test-
-ios-v010-improvements.png>] [10]
-Underfull \hbox (badness 1024) in paragraph at lines 236--237
+ [11 <../assets/usability-test-success-rates.png>] [12 <../assets/usability-tes
+t-ios-v010-improvements.png>] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+[]\OT1/cmr/m/n/12 M. Ny-gard, "Blog | Doc-u-ment-ing Ar-chi-tec-ture De-ci-sion
+s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+\OT1/cmr/m/n/12 | Rel-e-vance", Thinkrel-e-vance.com, 2011. [On-line]. Avail-ab
+le:
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 315--316
 \OT1/cmr/m/n/12 able: https://www.nngroup.com/articles/success-rate-the-simples
 t-usability-metric/. [Ac-
  []
 
+<../assets/development-records-backlogs.pdf, id=73, 597.23125pt x 845.1575pt>
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
-<../assets/usability-test-consent-form-example.pdf, id=59, 598.235pt x 846.1612
-5pt>
+<use ../assets/development-records-backlogs.pdf>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf used on inp
+ut line 321.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf used on inp
+ut line 321.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+<../assets/development-records-backlogs.pdf, id=76, page=1, 597.23125pt x 845.1
+575pt>
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+ <use ../assets/development-records-backlogs.pdf, page 1>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 1>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [14]
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 1>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 1>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 1>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [15 <../assets/development-records-backlogs.pdf>]
+<../assets/development-records-backlogs.pdf, id=94, page=2, 597.23125pt x 845.1
+575pt>
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+ <use ../assets/development-records-backlogs.pdf, page 2>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 2>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 2>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
+ on input line 321.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [16 <../assets/development-records-backlogs.pdf>] [17]
+<../assets/development-record-progress-tracking-form.pdf, id=102, 597.23125pt x
+ 845.1575pt>
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+ <use ../assets/development-record-progress-tracking-form.pdf>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f used on input line 428.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f used on input line 428.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+<../assets/development-record-progress-tracking-form.pdf, id=105, page=1, 597.2
+3125pt x 845.1575pt>
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 1>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page1 used on input line 428.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 1>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page1 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [18]
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 1>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page1 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 1>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page1 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 1>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page1 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [19 <../assets/development-record-progress-tracking-form.pdf>]
+<../assets/development-record-progress-tracking-form.pdf, id=131, page=2, 597.2
+3125pt x 845.1575pt>
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page2 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page2 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page2 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [20 <../assets/development-record-progress-tracking-form.pdf>]
+<../assets/development-record-progress-tracking-form.pdf, id=136, page=3, 597.2
+3125pt x 845.1575pt>
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 3>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page3 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 3>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page3 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 3>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page3 used on input line 428.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [21 <../assets/development-record-progress-tracking-form.pdf>]
+<../assets/usability-test-consent-form-example.pdf, id=141, 598.235pt x 846.161
+25pt>
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 245.
+ on input line 432.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 245.
+ on input line 432.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<../assets/usability-test-consent-form-example.pdf, id=62, page=1, 598.235pt x 
-846.16125pt>
+<../assets/usability-test-consent-form-example.pdf, id=144, page=1, 598.235pt x
+ 846.16125pt>
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 245.
+e1 used on input line 432.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 245.
+e1 used on input line 432.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [11]
+ [22]
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 245.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
-
-
-<use ../assets/usability-test-consent-form-example.pdf, page 1>
-Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 245.
+e1 used on input line 432.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 245.
+e1 used on input line 432.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [12 <../assets/usability-test-consent-form-example.pdf
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 432.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [23 <../assets/usability-test-consent-form-example.pdf
 
 pdfTeX warning: pdflatex (file ../assets/usability-test-consent-form-example.pd
 f): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', typ
 e <array>); ignored.
->] [13] (./final_report.aux) ) 
+>] [24] (./final_report.aux) ) 
 Here is how much of TeX's memory you used:
- 7321 strings out of 492995
- 122771 string characters out of 6132704
- 203912 words of memory out of 5000000
- 10755 multiletter control sequences out of 15000+600000
- 9750 words of font info for 34 fonts, out of 8000000 for 9000
+ 8075 strings out of 492995
+ 133700 string characters out of 6132704
+ 216826 words of memory out of 5000000
+ 11477 multiletter control sequences out of 15000+600000
+ 10771 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,18n,46p,1082b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,18n,46p,1082b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on final_report.pdf (14 pages, 1282342 bytes).
+Output written on final_report.pdf (25 pages, 1829341 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 202 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

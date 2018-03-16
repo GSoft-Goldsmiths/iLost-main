@@ -1,43 +1,52 @@
-\contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {2}Development Record}{2}
-\contentsline {subsection}{\numberline {2.1}Technology Selection}{2}
-\contentsline {subsection}{\numberline {2.2}Agile Development}{3}
-\contentsline {subsubsection}{\numberline {2.2.1}Scrum Development}{3}
-\contentsline {subsubsection}{\numberline {2.2.2}Kanban}{4}
-\contentsline {subsection}{\numberline {2.3}Development Process}{5}
-\contentsline {subsubsection}{\numberline {2.3.1}User Stories and Backlogs}{5}
-\contentsline {subsubsection}{\numberline {2.3.2}Progress Tracking Form}{5}
-\contentsline {subsection}{\numberline {2.4}Evaluation}{5}
-\contentsline {paragraph}{Technology Selection}{5}
-\contentsline {paragraph}{Agile Development}{6}
-\contentsline {paragraph}{Development Progress}{6}
-\contentsline {section}{\numberline {3}Formative Evaluation}{7}
-\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{7}
-\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{7}
-\contentsline {paragraph}{}{7}
-\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{7}
-\contentsline {paragraph}{}{7}
-\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{8}
-\contentsline {paragraph}{}{8}
-\contentsline {subsubsection}{\numberline {3.1.4}Evaluation}{8}
-\contentsline {paragraph}{v0.10}{8}
-\contentsline {paragraph}{v0.11}{8}
-\contentsline {paragraph}{v0.12}{9}
-\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{9}
-\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{9}
-\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{9}
-\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{9}
-\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{9}
-\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{10}
-\contentsline {subsection}{\numberline {3.3}Conclusion}{10}
-\contentsline {section}{\numberline {4}Design and Implementation}{11}
-\contentsline {section}{\numberline {5}Quality Assurance}{11}
-\contentsline {section}{\numberline {6}Summative Evaluation}{11}
-\contentsline {section}{Appendices}{11}
-\contentsline {section}{\numberline {A}Development Records}{11}
-\contentsline {subsection}{\numberline {A.1}Tasks Divided}{11}
-\contentsline {subsection}{\numberline {A.2}Progress Tracking Form}{11}
-\contentsline {section}{\numberline {B}Formative Evaluation}{11}
-\contentsline {subsection}{\numberline {B.1}consent Form}{11}
-\contentsline {section}{\numberline {C}Design and Implementation}{13}
-\contentsline {section}{\numberline {D}Quality Assurance}{13}
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Development Record}{3}
+\contentsline {subsection}{\numberline {2.1}Technology Selection}{3}
+\contentsline {subsection}{\numberline {2.2}Agile Development}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Scrum Development}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Kanban}{6}
+\contentsline {subsection}{\numberline {2.3}Development Process}{7}
+\contentsline {subsubsection}{\numberline {2.3.1}Backlogs}{7}
+\contentsline {subsubsection}{\numberline {2.3.2}Progress Tracking}{8}
+\contentsline {subsubsection}{\numberline {2.3.3}Evaluation}{9}
+\contentsline {paragraph}{Scrum}{9}
+\contentsline {paragraph}{Kanban}{9}
+\contentsline {paragraph}{Backlogs}{9}
+\contentsline {paragraph}{Progress Tracking}{9}
+\contentsline {section}{\numberline {3}Formative Evaluation}{10}
+\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{10}
+\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsubsection}{\numberline {3.1.4}Evaluation}{11}
+\contentsline {paragraph}{v0.10}{11}
+\contentsline {paragraph}{v0.11}{11}
+\contentsline {paragraph}{v0.12}{12}
+\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{12}
+\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{12}
+\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{12}
+\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{12}
+\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{12}
+\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{13}
+\contentsline {subsection}{\numberline {3.3}Conclusion}{13}
+\contentsline {section}{\numberline {4}Design and Implementation}{14}
+\contentsline {section}{\numberline {5}Quality Assurance}{14}
+\contentsline {section}{\numberline {6}Summative Evaluation}{14}
+\contentsline {section}{Appendices}{14}
+\contentsline {section}{\numberline {A}Development Records}{14}
+\contentsline {subsection}{\numberline {A.1}Backlogs}{14}
+\contentsline {subsection}{\numberline {A.2}Architecture Decision Records}{17}
+\contentsline {subsubsection}{\numberline {A.2.1}Mobile Development}{17}
+\contentsline {subsubsection}{\numberline {A.2.2}iOS Development}{17}
+\contentsline {subsubsection}{\numberline {A.2.3}Android Application Development}{17}
+\contentsline {subsubsection}{\numberline {A.2.4}Tracker Development}{17}
+\contentsline {subsubsection}{\numberline {A.2.5}Build a customised server}{18}
+\contentsline {subsubsection}{\numberline {A.2.6}Transfer iOS Development from Swift to React Native}{18}
+\contentsline {subsection}{\numberline {A.3}Tasks Divided}{18}
+\contentsline {subsection}{\numberline {A.4}Progress Tracking Form}{18}
+\contentsline {section}{\numberline {B}Formative Evaluation}{22}
+\contentsline {subsection}{\numberline {B.1}consent Form}{22}
+\contentsline {section}{\numberline {C}Design and Implementation}{24}
+\contentsline {section}{\numberline {D}Quality Assurance}{24}
