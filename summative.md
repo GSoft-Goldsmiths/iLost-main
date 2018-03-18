@@ -1,6 +1,6 @@
 # SUMMATIVE EVALUATION
 **DESCRIBE THE 9 COMPLETED TASKS OF THE SOFTWARE UP TO DATE**
-Since the beginning our software has been designed for individuals who are always in the
+Since the beginning, our software has been designed for individuals who are always in the
 run and are prone to leave or loose items behind but also for who simply would like to keep track of objects. 
 While developing the software we made sure of it being as user friendly as possible.
 With an informative welcome screen and an overall simple, clear, easy to navigate user interface has made this possible. 
