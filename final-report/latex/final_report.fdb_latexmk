@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1521435148 "/Users/Nyo/uni_works/year2/software_projects/GSoft/final-report/latex/final_report.tex" "final_report.pdf" "final_report" 1521435153
+["pdflatex"] 1521435488 "/Users/Nyo/uni_works/year2/software_projects/GSoft/final-report/latex/final_report.tex" "final_report.pdf" "final_report" 1521435493
   "../assets/black-box-test-cases.pdf" 1521434983 36060 d31936ce1c2aafc3191f4ccb1c7c6f75 ""
   "../assets/development-record-progress-tracking-form.pdf" 1521326525 114870 065596c88168e16b46d54e26951a7857 ""
   "../assets/development-records-backlog-example.png" 1521326525 199153 1f9f85eb072f148814ce18f72a4d0b13 ""
@@ -14,7 +14,7 @@
   "../assets/usability-test-ios-v010-improvements.png" 1521326525 58014 06923e7b103d285dcf9aa9ab2657fd79 ""
   "../assets/usability-test-success-rates.png" 1521326525 40185 90e5ce736d764d7366042ec3fb78b76c ""
   "../assets/usability-test-task-list.png" 1521326525 267986 b8e799054b627a252de68a65d7003206 ""
-  "/Users/Nyo/uni_works/year2/software_projects/GSoft/final-report/latex/final_report.tex" 1521435144 54097 a3c30a7a99fe92893fed58aaae9d4ddd ""
+  "/Users/Nyo/uni_works/year2/software_projects/GSoft/final-report/latex/final_report.tex" 1521435484 54142 f0ae7cabd0e456bdc913699aafa43965 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -115,13 +115,13 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1512273986 4129592 c0a701a63f52419da24e7583527c77fb ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "final_report.aux" 1521435153 16080 d946678421aaf41abb9fbdc08bc71833 ""
-  "final_report.out" 1521435153 3793 6911676b389570dc15ca31b7106bb47d ""
-  "final_report.tex" 1521435144 54097 a3c30a7a99fe92893fed58aaae9d4ddd ""
-  "final_report.toc" 1521435153 6976 863866574c9bfe090a094e419bc45fc9 ""
+  "final_report.aux" 1521435493 16080 d946678421aaf41abb9fbdc08bc71833 ""
+  "final_report.out" 1521435493 3793 6911676b389570dc15ca31b7106bb47d ""
+  "final_report.tex" 1521435484 54142 f0ae7cabd0e456bdc913699aafa43965 ""
+  "final_report.toc" 1521435493 6976 863866574c9bfe090a094e419bc45fc9 ""
   (generated)
-  "final_report.out"
   "final_report.log"
-  "final_report.aux"
-  "final_report.pdf"
   "final_report.toc"
+  "final_report.pdf"
+  "final_report.aux"
+  "final_report.out"
