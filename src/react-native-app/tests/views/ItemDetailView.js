@@ -5,5 +5,5 @@ import ItemDetailView from '../../src/views/ItemDetailView ';
 
 it('renders without crashing', () => {
   const rendered = renderer.create(<ItemDetailView />).toJSON();
-  expect(rendered).toBeTruthy();
+  expect(rendered).toMatchSnapshot();
 });

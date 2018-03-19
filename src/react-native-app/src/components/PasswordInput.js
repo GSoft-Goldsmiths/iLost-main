@@ -37,7 +37,6 @@ export default ({
       placeholder={placeholder}
       value={value}
       onSubmitEditing={(text) => handleSubmit(text)}
-      onFocus={() => {console.log('It\'s focused now');}}
     />,
     <Text
       key='message'
