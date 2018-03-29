@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemListCell /> renders without crashing 1`] = `
+<View
+  style={
+    Object {
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    collapsable={undefined}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 25,
+        "flex": 1,
+        "flexDirection": "column-reverse",
+        "height": 667,
+        "marginVertical": 20,
+        "opacity": 1,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 11,
+          "width": 0,
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 5,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 5,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "bottom": 5,
+            "color": "#0093A8",
+            "fontFamily": "Caviar Dreams Bold",
+            "fontSize": 20,
+            "right": 5,
+            "textAlign": "right",
+          }
+        }
+      >
+        item name
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "borderTopLeftRadius": 25,
+          "borderTopRightRadius": 25,
+          "flex": 5,
+          "height": 667,
+          "maxWidth": 600,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "isStatic": true,
+            "uri": "source",
+          }
+        }
+        style={
+          Object {
+            "height": "100%",
+            "maxWidth": 600,
+            "width": 600,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
