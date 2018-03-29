@@ -48,7 +48,7 @@ export default class AuthSetPasswordView extends React.Component {
   componentWillUpdate(nextProps, nextState) {
 
     if (nextState.stage === 'done') {
-      console.log('is done');
+      // console.log('is done');
       this._setPasswordAsync();
     }
 
@@ -65,7 +65,7 @@ export default class AuthSetPasswordView extends React.Component {
 
         // if both passwords are the same
         if (nextState.reEnterPassword === this.state.password) {
-          console.log('passwords are same');
+          // console.log('passwords are same');
           this.setState({ stage: 'done', reEnterPassword: '' });
         } else {
 
