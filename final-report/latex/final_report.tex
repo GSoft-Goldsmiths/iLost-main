@@ -82,13 +82,13 @@
     \tableofcontents
     \newpage
     \section{Introduction}
-      \paragraph{} Losing belongings is a common problem, roughly £70 worth of items are lost in public each year. \textsuperscript{[1]} We conducted a survey about lost items to find out if we could create a useful application based on this concern. Following our survey, this statement was found to relate to university students as 89\% of our participants claimed to be susceptible to losing items. This information motivated us to reduce the loss of personal belongings; leading to the development of an item tracking application and a portable tracking device. Our app aims to circumvent the loss of bags and valuables. The user will attach the portable tracker to their bag, allowing it to be tracked using our app. The app will notify the user when the distance between the app and tracker reaches 30m.
+      \paragraph{} Losing belongings is a common problem, roughly £70 worth of items are lost in the public per year. \textsuperscript{[1]} We conducted a survey about lost items to find out if we could create a useful application based on this concern. Following our survey, this statement was found to relate to university students as 89\% of our participants claimed to be susceptible to losing items. This information motivated us to reduce the loss of personal belongings; leading to the development of an item tracking application and a portable tracking device. Our app aims to circumvent the loss of bags and valuables. The user will attach the portable tracker to their bag, allowing it to be tracked using our app. The app will notify the user when the distance between the app and tracker reaches 30m.
 
       This report will cover five main categories:
 
       \begin{itemize}
         \item {Development Record}
-          We explain the methodology used by our group to decide the technology with which to implement the app’s functionality and the development methods we used. We also describe the way that the development was handled by the team and provide a reflection on its efficiency.
+          We explain the methodology used by our group to decide the technology with which to implement the app’s functionality alongside the development methods that were used. We also describe the way that the development was handled by the team and provide a reflection on its efficiency.
 
         \item {Formative Evaluation}
           This section of the report describes our assessment with users during development. The formative evaluation details what we did during user testing and its outcomes.
@@ -97,7 +97,7 @@
           An overview of our final design and implementation, including any changes from our initial ideas with justifications for the significant decisions we made.
 
         \item { Quality Assurance}
-          We detail our approach to Quality Assurance and the testing carried out, including our results. An assessment of how well our final system imitates our initial requirements with Justifications of any changes we made to the requirements.
+          We detail our approach to Quality Assurance and the testing carried out, including our results. An assessment of how well our final system imitates our initial requirements with justifications of any changes we made to the requirements.
 
         \item { Summative Evaluation}
           A descriptive evaluation of the methods, results and conclusions of our final software.
@@ -106,7 +106,7 @@
     \section{Development Record}
       \subsection{Teams} 
         % 400 - 500 words
-        \paragraph{}During in the implementation stage, we set up an organisation {\bf GSoft} on GitHub and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows in figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas then he would join two of the teams. The list of the team members can be found in table \ref{table:Teams}. 
+        \paragraph{}During the implementation stage, we set up an organisation {\bf GSoft} on GitHub and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows in figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas, if this was the case; member could join more then one team. The list of the team members can be found in table \ref{table:Teams}. 
         \begin{figure}[H]
           \centering
           \includegraphics[width=1\textwidth]{../assets/development-records-teams.png}
@@ -130,11 +130,11 @@
 
       \subsection{Technology Selection} 
 
-        \paragraph{}Development TeamsEach team was responsible for how and what technology to use as long as the production could be made on time. We believed this methodology had these advantages in terms of the limited development time:
+        \paragraph{}Development Teams: Each team was responsible for how and what technology to use, as long as the production could be made on time. We believed this methodology had these advantages in terms of the limited development time:
 
         \begin{itemize}
           \item {React Agilely}: Compare to have a poll with all members of our group, it was agiler to come to the decision within 2 or 3 people within one team. Since each team could react to the situation and resolve the issues in a more efficient way.
-          \item {Specialities differ}: Our group was divided by our interests and specialities, we trusted each team could make the best decision for the whole team with their research and experience. For example, the iOS app team would not interfere how tracker team implemented the physical components at all, and how Android app was implemented would not be the backend/tracker team's concern. All teams were trusted that they would make the best decisions.
+          \item {Specialities differ}: Our group was divided by our interests and specialities, we trusted each team could make the best decision for the whole team with their research and experience. For example, the iOS app team would not interfere how the tracker team implemented the physical components at all, and how the Android app was implemented would not be the backend/tracker team's concern. All teams were trusted in which they would make the best decisions.
         \end{itemize}
         
         \paragraph{}Even though the team was separated, it was important to keep everyone on the same page. So each technological decision or propose was documented as an architecture decision record(ADR), which enabled us to have an overview of all the technological changes. According to Michael Nygard, each ADR contains five columns\cite{ArchitectureDecisionRecord}: 
@@ -149,7 +149,7 @@
 
         Please find more, complete architecture decision records in \ref{appendix:Architecture Decision Records}.
         
-        To keep the whole group has the latest information, We used several channels on Slack to keep everyone updated. Such as the {\bf iOS channel} was the place containing all updates related to iOS application development, which shows in figure \ref{fig:Slack iOS Channel}. 
+        To make sure that the whole group had the latest information; We used several channels on Slack to keep everyone updated. Such as the {\bf iOS channel} was the place containing all updates related to the iOS application development, which shows in figure \ref{fig:Slack iOS Channel}. 
         
         \begin{figure}[H]
           \centering
@@ -230,7 +230,7 @@
           
           \paragraph{}Here was our development process of BDD:
           
-          \paragraph{1. Requirements specification}Review the backlogs and pick one from them to work on based on the priority and the estimated development time. Please can find the details of the backlogs in section \ref{section:Development Process - Backlogs}, Development Process - Backlogs.
+          \paragraph{1. Requirements specification}Review the backlogs and pick one from them to work on based on the priority and the estimated development time. You can find the details of the backlogs in section \ref{section:Development Process - Backlogs}, Development Process - Backlogs.
           
           \paragraph{2. Design}Review the how was the data storage, data flow and the user interface design, then design how should this requirement be fulfilled. Such as displaying the item list in the item list view, we would need to implement two view components, an item list cell view and an item list table view. The item's properties data, including items id, name and photo, would be stored in the table view's state and the list cell would receive the props from the table view and render the item's properties.
           
@@ -263,7 +263,7 @@
                 Priority & The priority of this backlog, should be {\bf Muse}, {\bf Should} or {\bf Could}. \\                  
                 Dev Days & The estimated developing times in days, 8 hours counted as one day. \\                  
                 Phase & In which phase should the backlog be finished, in our case was {\bf MVP} or {\bf Final}. \\                  
-                Process & The current developing process, which should be {\bf ToDo}, {\bf In Progress}, {\bf Deprecated} or {\bf Done}.  \\                  
+                Process & The current developing process, which should be {\bf To Do}, {\bf In Progress}, {\bf Deprecated} or {\bf Done}.  \\                  
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Backlogs Columns}
@@ -298,7 +298,7 @@
             \label{fig:Backlog Example: Sub-user story 3-1}
           \end{figure}
           
-          The full backlogs can be found in the appendix \ref{appendix:backlogs} and it was used to create our kanban showed in figure \ref{fig:iOS Development Kanban}, which kept the developing process recorded easily to follow.        
+          The full backlogs can be found in the appendix \ref{appendix:backlogs} and it was used to create our Kanban showed in figure \ref{fig:iOS Development Kanban}, which kept the developing process recorded easily to follow.        
           
         \subsubsection{Progress Tracking}
           \paragraph{}To record our progress, we kept using the same progress tracking form as the last term, and this term we did some improvement:
@@ -327,7 +327,7 @@
         
         \paragraph{Backlogs} The backlogs were the most important things we could improve on. We only listed the basic cases while the extreme use stories were not in our backlogs. For example, {\bf "As a user I want my tracker to keep working in the snowing seasons"} could be in our user story as our product should still be functional in the winter season.
 
-        \paragraph{Progress Tracking} In terms of progressing tracking form, it should added one column which links to the contributions, either their GitHub commit or documentation. It was not be nice to record n hours working without any evidence but it did happen. Also, it was not really feasible to use working hours to represent the contributions. With the same task, people spend less time to finish the same job should be rewarded higher compared to who spend longer period to do so. But we were not able to do this since everyone worked on different tasks. It would be fairer if each task could be evaluated by the importance, whoever completes the higher importance means contributing more. We should have a contribution list which records everyone's participation. Then with the list, we could write the peer access form in a more objective point of view.
+        \paragraph{Progress Tracking} In terms of progressing tracking form, it should added one column which links to the contributions, either their GitHub commit or documentation. It was not convienent to record the hours each individual worked without any evidence but this did happen. Also, it was not really feasible to use working hours to represent the contributions. With the same task, people spend less time to finish the same job should be rewarded higher compared to who spend longer period to do so. But we were not able to do this since everyone worked on different tasks. It would be fairer if each task could be evaluated by the importance, whoever completes the higher importance means contributing more. We should have a contribution list which records everyone's participation. Then with the list, we could write the peer access form in a more objective point of view.
 
     \section{Formative Evaluation}
       \label{Chapter:Formative Evaluation}
@@ -368,7 +368,7 @@
 
         \subsubsection{Participants, Location and Setup}
           % 100 words
-          \paragraph{} According to Jakob Nielsen, testing 5 users in a usability study could find almost as many usability problems as testing more participants\cite{HowManyTestUsers}. Following this theory, our application was tested with 5 participants for each version. The study was taken place in the library of the Goldsmiths, University of London, and the participants were the students who used to bring a bag to the campus daily. Totally we have conducted three versions of the application.
+          \paragraph{} According to Jakob Nielsen, testing 5 users in a usability study could find almost as many usability problems as testing more participants\cite{HowManyTestUsers}. Following this theory, our application was tested with 5 participants for each version that was created. The study was taken place in the library of the Goldsmiths, University of London, and the participants were the students who used to bring a bag to the campus daily. Totally we have conducted three versions of the application.
           
         \subsubsection{Methodology and Measures}
           % 100 words
@@ -383,7 +383,7 @@
             \label{fig:iOS App Success Rates Diagram}
           \end{figure}
 
-          \paragraph{v0.10} The tested subject was the application prototype built in {\bf Adobe XD}, which was one of the best design tools to test the prototype. Thanks to the well-designed user interfaces, the goals were easy to achieved and all the tasks were all succeeded. The result could only prove that the user interfaces guided the users to the right view, but it could not actually reflect on the usability of the real application. After all, Adobe XD could only let users walk through each view by clicking, while an actual iOS application should support swipe or other gestures. It was more like a paper prototype usability test.
+          \paragraph{v0.10} The tested subject was the application prototype built in {\bf Adobe XD}, which was one of the best design tools to test the prototype. Thanks to the well-designed user interfaces, the goals were easy to achieved and the  tasks were all successful. The results only proved that the user interfaces guided the users to the right view, however it could not actually reflect on the usability of the real application. After all, Adobe XD could only let users walk through each view by clicking, while an actual iOS application would support swipe or other gestures. It was more like a paper prototype usability test.
           
           \paragraph{v0.11} We benefited most from this test since this test was the native mobile application we where the participants can actually use it like other application. This version was built in React Native and tested in Expo which a tool and service which we used to build the mobile native application with React Native. During this test, we received several comments towards the {\bf add item view}. For example, the camera icon in that view was originally used as a button. But some of the users could not really regard it as a button but a decoration since it was colourful. Also, the placeholder of the item name field was {\bf Item Name} instead of a prompt message which confused some of the participants as well. So after this test, we resolved the issues and the difference shows in figure \ref{fig:usability-test-ios-v010-improvements}. The task 8 and 9 were not developed completely at the moment so there was not any record.
 
