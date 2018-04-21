@@ -106,7 +106,7 @@
     \section{Development Record}
       \subsection{Teams} 
         % 400 - 500 words
-        \paragraph{}During the implementation stage, we set up an organisation {\bf GSoft} on GitHub and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows in figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas, if this was the case; member could join more then one team. The list of the team members can be found in table \ref{table:Teams}. 
+        \paragraph{}During the implementation stage, we set up an organisation {\bf GSoft} on GitHub and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows in figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas, if this was the case; member could join more then one team. The list of the team members can be found in table \ref{table:Teams}.
         \begin{figure}[H]
           \centering
           \includegraphics[width=1\textwidth]{../assets/development-records-teams.png}
@@ -319,16 +319,6 @@
             \label{fig:Progress Tracking Diagram}
           \end{figure}
 
-      \subsubsection{Evaluation}
-
-        \paragraph{Scrum} This methodology is suitable for a team where they tend to work together in a fixed time, day-to-day. Even though we had scheduled the daily sprint time, not everyone would attend since it was not compulsory and registered. Only few sprint sessions at the beginning went well. In terms of time management, not every one of us were able to contribute fixed time every one or two days, so we could not have a daily sprint or even weekly sprint. Unless we have could work full time for this project and everyone is willing to meet at a place and work together, or it would be better not to implement Scrum in our team. 
-        
-        \paragraph{Kanban} Regards of project management, Kanban went well, but it would be better if we could have a workspace where we could combine our backlogs and Kanban. We found that there are two web applications that could provide this kind of services: Clubhouse and Jira They are the web applications where we can add user stories which link to kanbans at the same time. It would be nice to use this kind of tools to save time if the team has enough budget.
-        
-        \paragraph{Backlogs} The backlogs were the most important things we could improve on. We only listed the basic cases while the extreme use stories were not in our backlogs. For example, {\bf "As a user I want my tracker to keep working in the snowing seasons"} could be in our user story as our product should still be functional in the winter season.
-
-        \paragraph{Progress Tracking} In terms of progressing tracking form, it should added one column which links to the contributions, either their GitHub commit or documentation. It was not convienent to record the hours each individual worked without any evidence but this did happen. Also, it was not really feasible to use working hours to represent the contributions. With the same task, people spend less time to finish the same job should be rewarded higher compared to who spend longer period to do so. But we were not able to do this since everyone worked on different tasks. It would be fairer if each task could be evaluated by the importance, whoever completes the higher importance means contributing more. We should have a contribution list which records everyone's participation. Then with the list, we could write the peer access form in a more objective point of view.
-
     \section{Formative Evaluation}
       \label{Chapter:Formative Evaluation}
       % total 1650 words
@@ -396,22 +386,10 @@
 
           \paragraph{v0.12} After the previous test, we not only improved some of the user interfaces but also removed some of the features. It is worth notice that there is no record of task 6, which is {\bf navigating to previous locations of the item's location history}. The reason we removed this task was that this goal was not really helpful. The participants commented that it was not beneficial to navigate to the previous locations, they cared about the current location of the item more. So thanks to the feedback, we removed task 6 and eliminated the functionality of navigating through history locations which made the application more simple. 
         
-        \subsection{Tracker Evaluation}
-            total 700 words
-          \subsubsection{Objectives and Questions}
-            100 words
-          \subsubsection{Location, Setup and Participants}
-            100 words
-          \subsubsection{Methodology and Measures}
-            100 words
-          \subsubsection{Tracker v0.10 Evaluation}
-            150 max words
-          \subsubsection{Tracker v0.11 Evaluation}
-            150 max words
         \subsection{Conclusion}
           % 200 max words
-          Even though the tasks could be completed, but in terms of the user experience, we still had space to improved. 
-      \newpage
+          We found it really helpful to do the testing regularly, because what we thought the users' needs might not be true, it was quicker to hear their acvutal voice by conducting tests with them. In terms of the cycle of agile development, it might be really practical to conduct the tests every half month, to make sure we are on the right track and meet the users' needs.           
+          Due to the time limit, we were not able to conduct the tests for the tracker unfortunately.
       
     \section{Design and Implementation}
       \subsection{Design Stage}
@@ -448,7 +426,9 @@
           \label{fig:Tile Mate}
         \end{figure}
         
-        \paragraph{} At the computer fair, in which we consulted with various industry professionals, we realised that we should focus on a minimum viable product for duration of this project. Certain product features such as having the tracker as physically small as a sticker (similar to the Tile Mate) is not possible in the scope of the project as we need specialist manufacturers, engineers and funding (we already looked at all the possible routes making the tracker smaller). Most users clearly want a tracker that is small as the Tile Mate, so we looked at next viable use case and the minimum physical size of the tracker that can fit that viable use case, this was baggage use case.
+        \paragraph{} At the computer fair, in which we consulted with various industry professionals, we realised that we should focus on a minimum viable product for duration of this project. Certain product features such as having the tracker as physically small as a sticker (similar to the Tile Mate) is not possible in the scope of the project as we need specialist manufacturers, engineers and funding (we already looked at all the possible routes making the tracker smaller). Most users clearly want a tracker that is small as the Tile Mate, so we looked at next viable use case and the minimum physical size of the tracker that can fit that viable use case, this was baggage use case. 
+
+        \paragraph{} The posters for the computer fair can be found in appendix \ref{appendix:computer-fair-posters}. 
         
         \paragraph{} It is feasible in the time frame and available resources in this project, to build a physical tracker that is small enough (insert dimensions here) to fit in the user’s handbag, rucksack and travel luggage (the baggage use case). While also available to fulfil the user criteria in terms of accurate, long range tracking (over 30 metres)
         
@@ -648,7 +628,7 @@
         \begin{figure}[H]
           \centering
           \includegraphics[width=0.7\textwidth]{../assets/design-tracker-case-demo.jpg}
-          \caption{Concept Tracker Demo}
+          \caption{Concept Tracker Demo (Dimensions 5.6 x 3.6 x 15.5 cm)}
           \label{fig:Concept Tracker Demo}
         \end{figure}
 
@@ -675,6 +655,7 @@
                 \hline
                 Column & Description  \\ \hline
                 ID & Unique ID of the test case \\ 
+                Backlog ID & Cross-reference of the Backlog ID \\ 
                 Name & Name of the test case.  \\ 
                 Goal & The detail description of the purpose of the test goal. \\ 
                 Precondition & What need to be satisfied before the test case can be tested.\\
@@ -685,6 +666,7 @@
                 Alternative Flows & The details of alternative ways to different successful ends.\\
                 Frequency of Use & How often has this uses cases been triggered, we use {\bf Rare}, {\bf Normal} and {\bf Often} to represent various level of the frequency since we did not have a proper statics for each use case.\\
                 Assumptions & Any assumptions that were made during the analysis of the use case. \\
+                Pass\/Fail & The result of test, it shuold be {\bf Pass} or {\bf Fail}. \\
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Black-box Test Cases Columns}
@@ -699,6 +681,7 @@
                 \hline
                 Column & Description  \\ \hline
                 ID & 30 \\
+                Blacklog ID & 3-4-1 \\
                 Name &  Item details view: trigger Apple Map. \\
                 Goal &  The application should be able to use the item's location data, pass it to the Apple Map application, and trigger the navigation function and lead the user to the item's location       \\
                 Precondition & User is in the item details view.        \\
@@ -709,13 +692,14 @@
                 Alternative Flows & N/A \\
                 Frequency of Use & Often \\
                 Assumptions & There are item's location data stored in the application already \\
+                Pass\/Fail & Pass \\
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Black-box Test Case: Trigger Apple Map}
               \label{table:Black-box Test Case: Trigger Apple Map}
           \end{table}
 
-          \paragraph{} Please find more details of the black-box test cases in the appendix \ref{appendix:black-box-test-cases}
+          \paragraph{} Please find more details of the black-box test cases in the appendix \ref{appendix:black-box-test-cases}.
 
       \subsection{White-Box Tests}
         % 800 words
@@ -804,7 +788,7 @@
           \paragraph{} This is how we unit test the pure components. Our application used most of the native components provided by Expo SDK and React Native, so only 4 components were needed to be tested: {\bf Button}, {\bf FullPageView}, {\bf ItemListCell} and {\bf PasswordInput}. The other 9 container components were tested if they were rendered properly without crashing only. The source code for unit testing could be found in our public Github repository: \url{https://github.com/GSoft-Goldsmiths/iLost-main/tree/master/src/react-native-app/tests}
 
 
-      \subsection{Evaluations} % 200 words
+      \subsection{Evaluation} % 200 words
         \paragraph{} Both types of tests helped us to maintain the quality of our software before actually conducting the usability tests with the participants, and here are some points could be improved in terms of our quality control:
         \begin{itemize}
           \item {\bf Add extreme cases}: The test cases aimed to test the normal use cases since we did not have much time to test the extreme cases. But in real life, the boundary value analysis is relatively important in terms of the software testing as well apart from the normal use cases.
@@ -814,7 +798,47 @@
         \end{itemize}
        
     \section{Summative Evaluation}
-    
+      \subsection{Development Methodologies}
+
+        \paragraph{Outcomes}During the development we used three developemnt methodologies: {\bf Scrum}, {\bf Kanban} and {\bf Backlogs}, also we used {\bf Progress Tracking form} to record team's time contributions.
+
+        \begin{itemize}
+          \item {\bf Scrum} This methodology is suitable for a team where they tend to work together in a fixed time, day-to-day. Even though we had scheduled the daily sprint time, not everyone would attend since it was not compulsory and registered. Only few sprint sessions at the beginning went well. In terms of time management, not every one of us were able to contribute fixed time every one or two days, so we could not have a daily sprint or even weekly sprint. Unless we have could work full time for this project and everyone is willing to meet at a place and work together, or it would be better not to implement Scrum in our team. 
+          
+          \item {\bf Kanban} Regards of project management, Kanban went well, but it would be better if we could have a workspace where we could combine our backlogs and Kanban. We found that there are two web applications that could provide this kind of services: Clubhouse and Jira They are the web applications where we can add user stories which link to kanbans at the same time. It would be nice to use this kind of tools to save time if the team has enough budget.
+        
+          \item {\bf Backlogs} The backlogs were the most important things we could improve on. We only listed the basic cases while the extreme use stories were not in our backlogs. For example, {\bf "As a user I want my tracker to keep working in the snowing seasons"} could be in our user story as our product should still be functional in the winter season.
+
+          \item {\bf Progress Tracking} In terms of progressing tracking form, it should added one column which links to the contributions, either their GitHub commit or documentation. It was not convienent to record the hours each individual worked without any evidence but this did happen. Also, it was not really feasible to use working hours to represent the contributions. With the same task, people spend less time to finish the same job should be rewarded higher compared to who spend longer period to do so. But we were not able to do this since everyone worked on different tasks. It would be fairer if each task could be evaluated by the importance, whoever completes the higher importance means contributing more. We should have a contribution list which records everyone's participation. Then with the list, we could write the peer access form in a more objective point of view.
+        \end{itemize}
+
+        \paragraph{Overall} Not every development methodology fits our team, in terms of the our team size and working time period, scrum is definitely not suit us, progress tracking was not really helpful, while kanban and backlogs went well and helped us to monitor all the developing process. After having a taste of each methodology then we are able to select the suitable developing methodology for our next project.
+
+      \subsection{Formative Evaluation}
+        \paragraph{Outcomes} Our formative evaluation was focused on the functionalities of our iOS application, we conducted the tests after a certain mount of functionalities were developed. We found it really helpful to observe how the participants interacted with our application, and learned the fact that some of the functionalities might not be that useful, or the user interface might not be very intuitive but confusing. The success rates diagram shows that most of the user could complete the task we assigned them to do, and we need to work on the ones with lower success rate to improve the usabilities. 
+
+        \paragraph{Overall} The tests were conducted with totally 15 participants with three versions of our iOS application within one month, what we could do better is to conduct the test more regularly, such as every half month. We found that some of the functionalities might be not that useful at all, which might already take us half month to develop. We could totally save those time if we did the tests before developing it. In fact, the tests should be scheduled in the Kanban as well and considered as important as the actual development.
+
+      \subsection{Design and Implementation}
+        \paragraph{Outcomes} During the stage, both hardware and softwares technologies were chosen with a lot of researches we did in the first term. But still, not every development steps did not went smoothly. 
+        \begin{itemize}
+          \item {\bf Bluetooth} It turned out that the Bluetooth technologies were not that easy to use and we were not able to integrate it with the application. 
+          \item {\bf iOS Development} Initially we thought it was possible to learn how to build the iOS application from zero experience and develop it within the time frame, but in fact it has a very steep learning curve.
+          \item {\bf Tracker Server} The tracker was designed to host a server and the application could talk to it directly, but apparently it did not work likt this.
+          \item {\bf Tracker Case} The tracker case was designed with a delicated 3D model, but we did not have time to actually print it out. Only a cutboard box was made to show the size of the case.
+        \end{itemize}
+
+        \paragraph{Overall} By encountering various problems and issues during the development, we leart to tackle the issues by finding an alternative way towards the same goal, rather than being stuck and trying to work with the same method. For example, the iOS development process was dramatically slowed down since the iOS team was inexperienced in Swift, so we managed to find an alternative development way, to use React Native, to build it within a short period of time. Be flexible with the confront problems was the most valuable lesson we learnt during the development. 
+        
+      \subsection{Quality Assurance}
+        \paragraph{Outcomes} The quality assueance was devided into two parts: {\bf white-box tests} and {\bf black-box tests}, the first one was conducted before the second one.
+        \begin{itemize}
+          \item {\bf White-box tests} We conducted the unit-tests for every user interface components to make sure that each of them renders correctly. Before each commit of the source code, the components need to pass the unit-tests to ensure that all components would not crash. In fact, the tests could be improved by adding more tests in terms of the functionalities of an components. For now the tests were only aim for testing rendering but not the functionalities, how a button looks like would be tested but not what would happen if it was clicked. 
+          \item {\bf Black-box tests} The black-box tests were cross reference to the blacklogs and tested by the us instead of the actual users. We wrote all the test cases for each backlog, we defined what was the precondition before a test, what triggered the tests, how to determine a test is pass and fail, and so on.  
+        \end{itemize}
+
+        \paragraph{Overall} In terms of the white-box tests, we were able to tests the rendering, and it helped us to prevent someone accidently put a bug in the program during the development. It saved us time to not worry about the safity of the codes. It was really helpful and we learnt the importance of the TDD and why developers need it. In terms of the black-box tests, unfortunately we were not able to pass all the tests because not all functionalities were fully developed. During writing the black-box test cases, we needed to be really clear about how should the application work and how they interacted with the tracker or Hologram Cloud server. It was really important for the person who wote the test cases know the whole arthitect of the service. It might be better to write the tests even before any implementation, because we might end up finding some issues within the program or architect.
+
     \begin{thebibliography}{20}
       \bibitem{ArchitectureDecisionRecord} M. Nygard, "Blog | Documenting Architecture Decisions | Relevance", Thinkrelevance.com, 2011. [Online]. Available: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions. [Accessed: 15- Mar- 2018].
       \bibitem{HowManyTestUsers} "How Many Test Users in a Usability Study?", Nielsen Norman Group, 2012. [Online]. Available: https://www.nngroup.com/articles/how-many-test-users/. [Accessed: 01- Mar- 2018].      
@@ -839,12 +863,11 @@
               \centering
                 \begin{tabularx}{\textwidth}{l X}
                   \hline
-                  Column & Description  \\ \hline
-                  Title & Which mobile OS to work on the mobile application. \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
+                  Title & Which mobile OS to work on the mobile application. \\ \hline
+                  Context & The main stream of mobile operating system are Android and iOS, which platform should we develop for ?\\ 
+                  Decision & In the UK, iOS and Android almost share each half of the market. It is better to develop on both platform to serve more users as possible. Also, if either of the Android or iOS team couldn't delieve the app on time, we could still have the back-up app on the other platform. \\ 
+                  Status & Accepted.\\ 
+                  Consequences & We formed two teams - Android and iOS team to develop on both platfroms.  \\                  
                   \hline
                 \end{tabularx}
                 \caption[Table caption text]{ADR Mobile Application Development}
@@ -856,12 +879,11 @@
               \centering
                 \begin{tabularx}{\textwidth}{l X}
                   \hline
-                  Column & Description  \\ \hline
-                  Title & Which language was used for developing the iOS mobile application. \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
+                  Title & Which language was used for developing the iOS mobile application. \\ \hline
+                  Context & There are two main languages for iOS developing, Swift and Objective-C. While Swift is the latest programming to write iOS applications, more libraries are written in Objective-C. Which language should we choose to use?\\ 
+                  Decision & Since we might only need the basic functionalities provided the generic libraries, the external libraries are not necesarily needed. Besides, the iOS team has no experience in Swift or Objective-C, so we will go for Swift which has a lower learn curve. \\ 
+                  Status & Accepted \\ 
+                  Consequences & The iOS team therefore used Swift to develop the iOS app.  \\     
                   \hline
                 \end{tabularx}
                 \caption[Table caption text]{ADR iOS Application Development}
@@ -873,50 +895,15 @@
               \centering
                 \begin{tabularx}{\textwidth}{l X}
                   \hline
-                  Column & Description  \\ \hline
-                  Title & ... \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
+                  Title & Which language was used for developing the Android mobile application. \\ \hline
+                  Context & There are two main languages for Android developing, Java and Kotlin. Kotlin was released relatively new released by Google while Java has a long history. Which language should we choose to use?\\ 
+                  Decision & Apparently our team is more familiar with Java than Kotlin, in order to finish the application within a limited time, we will go for Java.  \\ 
+                  Status & Accepted \\ 
+                  Consequences & The Android team therefore used Java to develop the Android app.  \\
                   \hline
                 \end{tabularx}
                 \caption[Table caption text]{ADR Android Application Development}
                 \label{table:ADR Android Application Development}
-            \end{table}
-
-          \subsubsection{Tracker Development}
-            \begin{table}[H]
-              \centering
-                \begin{tabularx}{\textwidth}{l X}
-                  \hline
-                  Column & Description  \\ \hline
-                  Title & ... \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
-                  \hline
-                \end{tabularx}
-                \caption[Table caption text]{ADR Tracker Development}
-                \label{table:ADR Tracker Development}
-            \end{table}
-
-          \subsubsection{Build a customised server}
-            \begin{table}[H]
-              \centering
-                \begin{tabularx}{\textwidth}{l X}
-                  \hline
-                  Column & Description  \\ \hline
-                  Title & ... \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
-                  \hline
-                \end{tabularx}
-                \caption[Table caption text]{ADR Customised Server}
-                \label{table:ADR Customised Server}
             \end{table}
 
             \subsubsection{Transfer iOS Development from Swift to React Native}
@@ -924,12 +911,11 @@
                 \centering
                   \begin{tabularx}{\textwidth}{l X}
                     \hline
-                    Column & Description  \\ \hline
-                    Title & ... \\ 
-                    Context & ....  \\ 
-                    Decision & ...  \\ 
-                    Status & ... \\ 
-                    Consequences & ... \\                  
+                    Title & Transfer iOS app from Swift to React Native \\ \hline
+                    Context & The developing process was really slow and the iOS team could not find enough support due to the Swift version issue. React Native is an alternative way to develop the iOS application but it is written with React framework in JavaScript, which is more friendly to the team who is experienced in React. Should we migrate the codes to React Native from Swift? \\ 
+                    Decision & Migrated would not take too much time and it would be way more easier for us to develop in JavaScript, so it would be a great chance for us to catch up the developing schedule. \\ 
+                    Status & Accepted. \\ 
+                    Consequences & The app was migrated from Swift to React Native within half week, and same functionality could be built in one day in React Native while 4 days in Swift.  The developing efficiency increased dramatically.\\                  
                     \hline
                   \end{tabularx}
                   \caption[Table caption text]{ADR Transfer iOS Development from Swift to React Native}
@@ -945,6 +931,10 @@
           \includepdf[pages=-]{../assets/usability-test-consent-form-example.pdf}
           
       \section{Design and Implementation}
+        \subsection{Computer Fair Posters}\label{appendix:computer-fair-posters}
+          \includepdf[pages=-]{../assets/design-computer-fair-poster-1.pdf}
+          \includepdf[pages=-]{../assets/design-computer-fair-poster-2.pdf}
+          \includepdf[pages=-]{../assets/design-computer-fair-poster-3.pdf}
         
       \section{Quality Assurance}
         \subsection{Black-box Test Cases}\label{appendix:black-box-test-cases}

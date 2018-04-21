@@ -9,47 +9,43 @@
 \BOOKMARK [2][-]{subsection.2.4}{Development Process}{section.2}% 9
 \BOOKMARK [3][-]{subsubsection.2.4.1}{Backlogs}{subsection.2.4}% 10
 \BOOKMARK [3][-]{subsubsection.2.4.2}{Progress Tracking}{subsection.2.4}% 11
-\BOOKMARK [3][-]{subsubsection.2.4.3}{Evaluation}{subsection.2.4}% 12
-\BOOKMARK [1][-]{section.3}{Formative Evaluation}{}% 13
-\BOOKMARK [2][-]{subsection.3.1}{iOS App Evaluation}{section.3}% 14
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Objectives and Questions}{subsection.3.1}% 15
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Participants, Location and Setup}{subsection.3.1}% 16
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Methodology and Measures}{subsection.3.1}% 17
-\BOOKMARK [3][-]{subsubsection.3.1.4}{Evaluation}{subsection.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.2}{Tracker Evaluation}{section.3}% 19
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Objectives and Questions}{subsection.3.2}% 20
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Location, Setup and Participants}{subsection.3.2}% 21
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Methodology and Measures}{subsection.3.2}% 22
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Tracker v0.10 Evaluation}{subsection.3.2}% 23
-\BOOKMARK [3][-]{subsubsection.3.2.5}{Tracker v0.11 Evaluation}{subsection.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.3}{Conclusion}{section.3}% 25
-\BOOKMARK [1][-]{section.4}{Design and Implementation}{}% 26
-\BOOKMARK [2][-]{subsection.4.1}{Design Stage}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.2}{Implementation Stage}{section.4}% 28
-\BOOKMARK [1][-]{section.5}{Quality Assurance}{}% 29
-\BOOKMARK [2][-]{subsection.5.1}{Process}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Black-box Tests}{section.5}% 31
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Method and Environment}{subsection.5.2}% 32
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Unit Tests}{subsection.5.2}% 33
-\BOOKMARK [2][-]{subsection.5.3}{White-Box Tests}{section.5}% 34
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Method and Environment}{subsection.5.3}% 35
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Test Cases}{subsection.5.3}% 36
-\BOOKMARK [2][-]{subsection.5.4}{Evaluations}{section.5}% 37
-\BOOKMARK [1][-]{section.6}{Summative Evaluation}{}% 38
-\BOOKMARK [1][-]{section*.132}{Appendices}{}% 39
-\BOOKMARK [1][-]{Appendix.a.A}{Development Records}{}% 40
-\BOOKMARK [2][-]{subsection.a.A.1}{Backlogs}{Appendix.a.A}% 41
-\BOOKMARK [2][-]{subsection.a.A.2}{Architecture Decision Records}{Appendix.a.A}% 42
-\BOOKMARK [3][-]{subsubsection.a.A.2.1}{Mobile Development}{subsection.a.A.2}% 43
-\BOOKMARK [3][-]{subsubsection.a.A.2.2}{iOS Development}{subsection.a.A.2}% 44
-\BOOKMARK [3][-]{subsubsection.a.A.2.3}{Android Application Development}{subsection.a.A.2}% 45
-\BOOKMARK [3][-]{subsubsection.a.A.2.4}{Tracker Development}{subsection.a.A.2}% 46
-\BOOKMARK [3][-]{subsubsection.a.A.2.5}{Build a customised server}{subsection.a.A.2}% 47
-\BOOKMARK [3][-]{subsubsection.a.A.2.6}{Transfer iOS Development from Swift to React Native}{subsection.a.A.2}% 48
-\BOOKMARK [2][-]{subsection.a.A.3}{Tasks Divided}{Appendix.a.A}% 49
-\BOOKMARK [2][-]{subsection.a.A.4}{Progress Tracking Form}{Appendix.a.A}% 50
-\BOOKMARK [1][-]{Appendix.a.B}{Formative Evaluation}{}% 51
-\BOOKMARK [2][-]{subsection.a.B.1}{consent Form}{Appendix.a.B}% 52
-\BOOKMARK [1][-]{Appendix.a.C}{Design and Implementation}{}% 53
-\BOOKMARK [1][-]{Appendix.a.D}{Quality Assurance}{}% 54
-\BOOKMARK [2][-]{subsection.a.D.1}{Black-box Test Cases}{Appendix.a.D}% 55
+\BOOKMARK [1][-]{section.3}{Formative Evaluation}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{iOS App Evaluation}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Objectives and Questions}{subsection.3.1}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Participants, Location and Setup}{subsection.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Methodology and Measures}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Evaluation}{subsection.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Conclusion}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Design and Implementation}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Design Stage}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Implementation Stage}{section.4}% 21
+\BOOKMARK [1][-]{section.5}{Quality Assurance}{}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Process}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Black-box Tests}{section.5}% 24
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Method and Environment}{subsection.5.2}% 25
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Unit Tests}{subsection.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.3}{White-Box Tests}{section.5}% 27
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Method and Environment}{subsection.5.3}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Test Cases}{subsection.5.3}% 29
+\BOOKMARK [2][-]{subsection.5.4}{Evaluation}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Summative Evaluation}{}% 31
+\BOOKMARK [2][-]{subsection.6.1}{Development Methodologies}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.2}{Formative Evaluation}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.3}{Design and Implementation}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.4}{Quality Assurance}{section.6}% 35
+\BOOKMARK [1][-]{section*.137}{Appendices}{}% 36
+\BOOKMARK [1][-]{Appendix.a.A}{Development Records}{}% 37
+\BOOKMARK [2][-]{subsection.a.A.1}{Backlogs}{Appendix.a.A}% 38
+\BOOKMARK [2][-]{subsection.a.A.2}{Architecture Decision Records}{Appendix.a.A}% 39
+\BOOKMARK [3][-]{subsubsection.a.A.2.1}{Mobile Development}{subsection.a.A.2}% 40
+\BOOKMARK [3][-]{subsubsection.a.A.2.2}{iOS Development}{subsection.a.A.2}% 41
+\BOOKMARK [3][-]{subsubsection.a.A.2.3}{Android Application Development}{subsection.a.A.2}% 42
+\BOOKMARK [3][-]{subsubsection.a.A.2.4}{Transfer iOS Development from Swift to React Native}{subsection.a.A.2}% 43
+\BOOKMARK [2][-]{subsection.a.A.3}{Tasks Divided}{Appendix.a.A}% 44
+\BOOKMARK [2][-]{subsection.a.A.4}{Progress Tracking Form}{Appendix.a.A}% 45
+\BOOKMARK [1][-]{Appendix.a.B}{Formative Evaluation}{}% 46
+\BOOKMARK [2][-]{subsection.a.B.1}{consent Form}{Appendix.a.B}% 47
+\BOOKMARK [1][-]{Appendix.a.C}{Design and Implementation}{}% 48
+\BOOKMARK [2][-]{subsection.a.C.1}{Computer Fair Posters}{Appendix.a.C}% 49
+\BOOKMARK [1][-]{Appendix.a.D}{Quality Assurance}{}% 50
+\BOOKMARK [2][-]{subsection.a.D.1}{Black-box Test Cases}{Appendix.a.D}% 51
