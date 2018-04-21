@@ -141,9 +141,7 @@
 \contentsline {subsubsection}{\numberline {A.2.1}Mobile Development}{39}{subsubsection.a.A.2.1}
 \contentsline {subsubsection}{\numberline {A.2.2}iOS Development}{39}{subsubsection.a.A.2.2}
 \contentsline {subsubsection}{\numberline {A.2.3}Android Application Development}{39}{subsubsection.a.A.2.3}
-\contentsline {subsubsection}{\numberline {A.2.4}Tracker Development}{39}{subsubsection.a.A.2.4}
-\contentsline {subsubsection}{\numberline {A.2.5}Build a customised server}{40}{subsubsection.a.A.2.5}
-\contentsline {subsubsection}{\numberline {A.2.6}Transfer iOS Development from Swift to React Native}{40}{subsubsection.a.A.2.6}
+\contentsline {subsubsection}{\numberline {A.2.4}Transfer iOS Development from Swift to React Native}{40}{subsubsection.a.A.2.4}
 \contentsline {subsection}{\numberline {A.3}Tasks Divided}{40}{subsection.a.A.3}
 \contentsline {subsection}{\numberline {A.4}Progress Tracking Form}{40}{subsection.a.A.4}
 \contentsline {section}{\numberline {B}Formative Evaluation}{44}{Appendix.a.B}

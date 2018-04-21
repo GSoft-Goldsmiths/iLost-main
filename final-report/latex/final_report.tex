@@ -106,7 +106,7 @@
     \section{Development Record}
       \subsection{Teams} 
         % 400 - 500 words
-        \paragraph{}During the implementation stage, we set up an organisation {\bf GSoft} on GitHub and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows in figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas, if this was the case; member could join more then one team. The list of the team members can be found in table \ref{table:Teams}. 
+        \paragraph{}During the implementation stage, we set up an organisation {\bf GSoft} on GitHub and we were divided into three teams, {\bf iOS app}, {\bf Android app} and {\bf Backend/Tracker team}, which shows in figure \ref{fig:Development Teams}. Each team was grouped by 2 to 3 people who were more interested in that topic or technology. Some of us were interested in more than two areas, if this was the case; member could join more then one team. The list of the team members can be found in table \ref{table:Teams}.
         \begin{figure}[H]
           \centering
           \includegraphics[width=1\textwidth]{../assets/development-records-teams.png}
@@ -675,6 +675,7 @@
                 \hline
                 Column & Description  \\ \hline
                 ID & Unique ID of the test case \\ 
+                Backlog ID & Cross-reference of the Backlog ID \\ 
                 Name & Name of the test case.  \\ 
                 Goal & The detail description of the purpose of the test goal. \\ 
                 Precondition & What need to be satisfied before the test case can be tested.\\
@@ -685,6 +686,7 @@
                 Alternative Flows & The details of alternative ways to different successful ends.\\
                 Frequency of Use & How often has this uses cases been triggered, we use {\bf Rare}, {\bf Normal} and {\bf Often} to represent various level of the frequency since we did not have a proper statics for each use case.\\
                 Assumptions & Any assumptions that were made during the analysis of the use case. \\
+                Pass\/Fail & The result of test, it shuold be {\bf Pass} or {\bf Fail}. \\
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Black-box Test Cases Columns}
@@ -699,6 +701,7 @@
                 \hline
                 Column & Description  \\ \hline
                 ID & 30 \\
+                Blacklog ID & 3-4-1 \\
                 Name &  Item details view: trigger Apple Map. \\
                 Goal &  The application should be able to use the item's location data, pass it to the Apple Map application, and trigger the navigation function and lead the user to the item's location       \\
                 Precondition & User is in the item details view.        \\
@@ -709,13 +712,14 @@
                 Alternative Flows & N/A \\
                 Frequency of Use & Often \\
                 Assumptions & There are item's location data stored in the application already \\
+                Pass\/Fail & Pass \\
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Black-box Test Case: Trigger Apple Map}
               \label{table:Black-box Test Case: Trigger Apple Map}
           \end{table}
 
-          \paragraph{} Please find more details of the black-box test cases in the appendix \ref{appendix:black-box-test-cases}
+          \paragraph{} Please find more details of the black-box test cases in the appendix \ref{appendix:black-box-test-cases}.
 
       \subsection{White-Box Tests}
         % 800 words
@@ -839,12 +843,11 @@
               \centering
                 \begin{tabularx}{\textwidth}{l X}
                   \hline
-                  Column & Description  \\ \hline
-                  Title & Which mobile OS to work on the mobile application. \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
+                  Title & Which mobile OS to work on the mobile application. \\ \hline
+                  Context & The main stream of mobile operating system are Android and iOS, which platform should we develop for ?\\ 
+                  Decision & In the UK, iOS and Android almost share each half of the market. It is better to develop on both platform to serve more users as possible. Also, if either of the Android or iOS team couldn't delieve the app on time, we could still have the back-up app on the other platform. \\ 
+                  Status & Accepted.\\ 
+                  Consequences & We formed two teams - Android and iOS team to develop on both platfroms.  \\                  
                   \hline
                 \end{tabularx}
                 \caption[Table caption text]{ADR Mobile Application Development}
@@ -856,12 +859,11 @@
               \centering
                 \begin{tabularx}{\textwidth}{l X}
                   \hline
-                  Column & Description  \\ \hline
-                  Title & Which language was used for developing the iOS mobile application. \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
+                  Title & Which language was used for developing the iOS mobile application. \\ \hline
+                  Context & There are two main languages for iOS developing, Swift and Objective-C. While Swift is the latest programming to write iOS applications, more libraries are written in Objective-C. Which language should we choose to use?\\ 
+                  Decision & Since we might only need the basic functionalities provided the generic libraries, the external libraries are not necesarily needed. Besides, the iOS team has no experience in Swift or Objective-C, so we will go for Swift which has a lower learn curve. \\ 
+                  Status & Accepted \\ 
+                  Consequences & The iOS team therefore used Swift to develop the iOS app.  \\     
                   \hline
                 \end{tabularx}
                 \caption[Table caption text]{ADR iOS Application Development}
@@ -873,50 +875,15 @@
               \centering
                 \begin{tabularx}{\textwidth}{l X}
                   \hline
-                  Column & Description  \\ \hline
-                  Title & ... \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
+                  Title & Which language was used for developing the Android mobile application. \\ \hline
+                  Context & There are two main languages for Android developing, Java and Kotlin. Kotlin was released relatively new released by Google while Java has a long history. Which language should we choose to use?\\ 
+                  Decision & Apparently our team is more familiar with Java than Kotlin, in order to finish the application within a limited time, we will go for Java.  \\ 
+                  Status & Accepted \\ 
+                  Consequences & The Android team therefore used Java to develop the Android app.  \\
                   \hline
                 \end{tabularx}
                 \caption[Table caption text]{ADR Android Application Development}
                 \label{table:ADR Android Application Development}
-            \end{table}
-
-          \subsubsection{Tracker Development}
-            \begin{table}[H]
-              \centering
-                \begin{tabularx}{\textwidth}{l X}
-                  \hline
-                  Column & Description  \\ \hline
-                  Title & ... \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
-                  \hline
-                \end{tabularx}
-                \caption[Table caption text]{ADR Tracker Development}
-                \label{table:ADR Tracker Development}
-            \end{table}
-
-          \subsubsection{Build a customised server}
-            \begin{table}[H]
-              \centering
-                \begin{tabularx}{\textwidth}{l X}
-                  \hline
-                  Column & Description  \\ \hline
-                  Title & ... \\ 
-                  Context & ....  \\ 
-                  Decision & ...  \\ 
-                  Status & ... \\ 
-                  Consequences & ... \\                  
-                  \hline
-                \end{tabularx}
-                \caption[Table caption text]{ADR Customised Server}
-                \label{table:ADR Customised Server}
             \end{table}
 
             \subsubsection{Transfer iOS Development from Swift to React Native}
@@ -924,12 +891,11 @@
                 \centering
                   \begin{tabularx}{\textwidth}{l X}
                     \hline
-                    Column & Description  \\ \hline
-                    Title & ... \\ 
-                    Context & ....  \\ 
-                    Decision & ...  \\ 
-                    Status & ... \\ 
-                    Consequences & ... \\                  
+                    Title & Transfer iOS app from Swift to React Native \\ \hline
+                    Context & The developing process was really slow and the iOS team could not find enough support due to the Swift version issue. React Native is an alternative way to develop the iOS application but it is written with React framework in JavaScript, which is more friendly to the team who is experienced in React. Should we migrate the codes to React Native from Swift? \\ 
+                    Decision & Migrated would not take too much time and it would be way more easier for us to develop in JavaScript, so it would be a great chance for us to catch up the developing schedule. \\ 
+                    Status & Accepted. \\ 
+                    Consequences & The app was migrated from Swift to React Native within half week, and same functionality could be built in one day in React Native while 4 days in Swift.  The developing efficiency increased dramatically.\\                  
                     \hline
                   \end{tabularx}
                   \caption[Table caption text]{ADR Transfer iOS Development from Swift to React Native}
