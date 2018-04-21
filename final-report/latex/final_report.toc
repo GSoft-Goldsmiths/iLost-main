@@ -33,108 +33,110 @@
 \contentsline {paragraph}{}{8}{section*.31}
 \contentsline {subsubsection}{\numberline {2.4.2}Progress Tracking}{10}{subsubsection.2.4.2}
 \contentsline {paragraph}{}{10}{section*.35}
-\contentsline {subsubsection}{\numberline {2.4.3}Evaluation}{11}{subsubsection.2.4.3}
-\contentsline {paragraph}{Scrum}{11}{section*.37}
-\contentsline {paragraph}{Kanban}{11}{section*.38}
-\contentsline {paragraph}{Backlogs}{11}{section*.39}
-\contentsline {paragraph}{Progress Tracking}{11}{section*.40}
-\contentsline {section}{\numberline {3}Formative Evaluation}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{12}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{12}{subsubsection.3.1.1}
+\contentsline {section}{\numberline {3}Formative Evaluation}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}iOS App Evaluation}{11}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Objectives and Questions}{11}{subsubsection.3.1.1}
+\contentsline {paragraph}{}{11}{section*.37}
+\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{12}{subsubsection.3.1.2}
+\contentsline {paragraph}{}{12}{section*.40}
+\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{12}{subsubsection.3.1.3}
 \contentsline {paragraph}{}{12}{section*.41}
-\contentsline {subsubsection}{\numberline {3.1.2}Participants, Location and Setup}{13}{subsubsection.3.1.2}
-\contentsline {paragraph}{}{13}{section*.44}
-\contentsline {subsubsection}{\numberline {3.1.3}Methodology and Measures}{13}{subsubsection.3.1.3}
-\contentsline {paragraph}{}{13}{section*.45}
-\contentsline {subsubsection}{\numberline {3.1.4}Evaluation}{13}{subsubsection.3.1.4}
-\contentsline {paragraph}{v0.10}{13}{section*.47}
-\contentsline {paragraph}{v0.11}{13}{section*.48}
-\contentsline {paragraph}{v0.12}{14}{section*.50}
-\contentsline {subsection}{\numberline {3.2}Tracker Evaluation}{14}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Objectives and Questions}{14}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Location, Setup and Participants}{14}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Methodology and Measures}{14}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Tracker v0.10 Evaluation}{15}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}Tracker v0.11 Evaluation}{15}{subsubsection.3.2.5}
-\contentsline {subsection}{\numberline {3.3}Conclusion}{15}{subsection.3.3}
-\contentsline {section}{\numberline {4}Design and Implementation}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}Design Stage}{16}{subsection.4.1}
-\contentsline {paragraph}{}{16}{section*.51}
-\contentsline {paragraph}{}{16}{section*.52}
-\contentsline {paragraph}{}{17}{section*.55}
-\contentsline {paragraph}{}{17}{section*.56}
-\contentsline {paragraph}{}{17}{section*.57}
-\contentsline {paragraph}{}{17}{section*.58}
-\contentsline {paragraph}{}{18}{section*.60}
-\contentsline {paragraph}{}{18}{section*.61}
-\contentsline {paragraph}{}{18}{section*.62}
-\contentsline {paragraph}{}{18}{section*.63}
-\contentsline {paragraph}{}{18}{section*.64}
-\contentsline {subsection}{\numberline {4.2}Implementation Stage}{18}{subsection.4.2}
-\contentsline {paragraph}{}{18}{section*.65}
-\contentsline {paragraph}{}{19}{section*.67}
-\contentsline {paragraph}{}{19}{section*.68}
-\contentsline {paragraph}{}{19}{section*.69}
-\contentsline {paragraph}{}{19}{section*.70}
-\contentsline {paragraph}{}{19}{section*.71}
-\contentsline {paragraph}{}{19}{section*.72}
-\contentsline {paragraph}{}{20}{section*.73}
-\contentsline {paragraph}{}{20}{section*.74}
-\contentsline {paragraph}{}{20}{section*.75}
-\contentsline {paragraph}{}{20}{section*.76}
-\contentsline {paragraph}{}{20}{section*.77}
-\contentsline {paragraph}{}{20}{section*.78}
-\contentsline {paragraph}{}{20}{section*.79}
-\contentsline {paragraph}{}{21}{section*.80}
-\contentsline {paragraph}{}{21}{section*.81}
-\contentsline {paragraph}{}{21}{section*.82}
-\contentsline {paragraph}{}{21}{section*.83}
-\contentsline {paragraph}{}{21}{section*.84}
-\contentsline {paragraph}{}{21}{section*.85}
-\contentsline {paragraph}{}{21}{section*.86}
-\contentsline {paragraph}{}{22}{section*.87}
-\contentsline {paragraph}{}{22}{section*.88}
-\contentsline {paragraph}{}{22}{section*.89}
-\contentsline {paragraph}{}{22}{section*.91}
-\contentsline {paragraph}{}{22}{section*.92}
-\contentsline {paragraph}{}{22}{section*.93}
-\contentsline {paragraph}{}{22}{section*.94}
-\contentsline {paragraph}{}{23}{section*.95}
-\contentsline {paragraph}{}{23}{section*.96}
-\contentsline {paragraph}{}{23}{section*.97}
-\contentsline {paragraph}{}{23}{section*.98}
-\contentsline {paragraph}{}{23}{section*.99}
-\contentsline {paragraph}{}{23}{section*.100}
-\contentsline {paragraph}{}{27}{section*.105}
-\contentsline {paragraph}{}{27}{section*.106}
-\contentsline {paragraph}{}{28}{section*.109}
-\contentsline {paragraph}{}{29}{section*.110}
-\contentsline {section}{\numberline {5}Quality Assurance}{30}{section.5}
-\contentsline {subsection}{\numberline {5.1}Process}{30}{subsection.5.1}
-\contentsline {paragraph}{}{30}{section*.114}
-\contentsline {paragraph}{}{30}{section*.115}
-\contentsline {subsection}{\numberline {5.2}Black-box Tests}{30}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Method and Environment}{30}{subsubsection.5.2.1}
-\contentsline {paragraph}{}{30}{section*.116}
-\contentsline {paragraph}{}{30}{section*.117}
-\contentsline {subsubsection}{\numberline {5.2.2}Unit Tests}{31}{subsubsection.5.2.2}
-\contentsline {paragraph}{}{31}{section*.118}
-\contentsline {paragraph}{}{31}{section*.120}
-\contentsline {paragraph}{}{32}{section*.122}
-\contentsline {subsection}{\numberline {5.3}White-Box Tests}{32}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Method and Environment}{32}{subsubsection.5.3.1}
-\contentsline {paragraph}{}{32}{section*.123}
-\contentsline {paragraph}{}{32}{section*.124}
-\contentsline {paragraph}{}{33}{section*.125}
+\contentsline {subsubsection}{\numberline {3.1.4}Evaluation}{12}{subsubsection.3.1.4}
+\contentsline {paragraph}{v0.10}{13}{section*.43}
+\contentsline {paragraph}{v0.11}{13}{section*.44}
+\contentsline {paragraph}{v0.12}{13}{section*.46}
+\contentsline {subsection}{\numberline {3.2}Conclusion}{14}{subsection.3.2}
+\contentsline {section}{\numberline {4}Design and Implementation}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Design Stage}{14}{subsection.4.1}
+\contentsline {paragraph}{}{14}{section*.47}
+\contentsline {paragraph}{}{14}{section*.48}
+\contentsline {paragraph}{}{15}{section*.51}
+\contentsline {paragraph}{}{15}{section*.52}
+\contentsline {paragraph}{}{15}{section*.53}
+\contentsline {paragraph}{}{15}{section*.54}
+\contentsline {paragraph}{}{16}{section*.56}
+\contentsline {paragraph}{}{16}{section*.57}
+\contentsline {paragraph}{}{16}{section*.58}
+\contentsline {paragraph}{}{16}{section*.59}
+\contentsline {paragraph}{}{16}{section*.60}
+\contentsline {paragraph}{}{16}{section*.61}
+\contentsline {subsection}{\numberline {4.2}Implementation Stage}{16}{subsection.4.2}
+\contentsline {paragraph}{}{16}{section*.62}
+\contentsline {paragraph}{}{17}{section*.64}
+\contentsline {paragraph}{}{17}{section*.65}
+\contentsline {paragraph}{}{17}{section*.66}
+\contentsline {paragraph}{}{17}{section*.67}
+\contentsline {paragraph}{}{17}{section*.68}
+\contentsline {paragraph}{}{17}{section*.69}
+\contentsline {paragraph}{}{18}{section*.70}
+\contentsline {paragraph}{}{18}{section*.71}
+\contentsline {paragraph}{}{18}{section*.72}
+\contentsline {paragraph}{}{18}{section*.73}
+\contentsline {paragraph}{}{18}{section*.74}
+\contentsline {paragraph}{}{18}{section*.75}
+\contentsline {paragraph}{}{18}{section*.76}
+\contentsline {paragraph}{}{19}{section*.77}
+\contentsline {paragraph}{}{19}{section*.78}
+\contentsline {paragraph}{}{19}{section*.79}
+\contentsline {paragraph}{}{19}{section*.80}
+\contentsline {paragraph}{}{19}{section*.81}
+\contentsline {paragraph}{}{19}{section*.82}
+\contentsline {paragraph}{}{19}{section*.83}
+\contentsline {paragraph}{}{20}{section*.84}
+\contentsline {paragraph}{}{20}{section*.85}
+\contentsline {paragraph}{}{20}{section*.86}
+\contentsline {paragraph}{}{20}{section*.88}
+\contentsline {paragraph}{}{20}{section*.89}
+\contentsline {paragraph}{}{20}{section*.90}
+\contentsline {paragraph}{}{20}{section*.91}
+\contentsline {paragraph}{}{21}{section*.92}
+\contentsline {paragraph}{}{21}{section*.93}
+\contentsline {paragraph}{}{21}{section*.94}
+\contentsline {paragraph}{}{21}{section*.95}
+\contentsline {paragraph}{}{21}{section*.96}
+\contentsline {paragraph}{}{21}{section*.97}
+\contentsline {paragraph}{}{25}{section*.102}
+\contentsline {paragraph}{}{25}{section*.103}
+\contentsline {paragraph}{}{26}{section*.106}
+\contentsline {paragraph}{}{27}{section*.107}
+\contentsline {section}{\numberline {5}Quality Assurance}{28}{section.5}
+\contentsline {subsection}{\numberline {5.1}Process}{28}{subsection.5.1}
+\contentsline {paragraph}{}{28}{section*.111}
+\contentsline {paragraph}{}{28}{section*.112}
+\contentsline {subsection}{\numberline {5.2}Black-box Tests}{28}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Method and Environment}{28}{subsubsection.5.2.1}
+\contentsline {paragraph}{}{28}{section*.113}
+\contentsline {paragraph}{}{28}{section*.114}
+\contentsline {subsubsection}{\numberline {5.2.2}Unit Tests}{29}{subsubsection.5.2.2}
+\contentsline {paragraph}{}{29}{section*.115}
+\contentsline {paragraph}{}{29}{section*.117}
+\contentsline {paragraph}{}{30}{section*.119}
+\contentsline {subsection}{\numberline {5.3}White-Box Tests}{30}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Method and Environment}{30}{subsubsection.5.3.1}
+\contentsline {paragraph}{}{30}{section*.120}
+\contentsline {paragraph}{}{30}{section*.121}
+\contentsline {paragraph}{}{31}{section*.122}
+\contentsline {paragraph}{}{31}{section*.123}
+\contentsline {subsubsection}{\numberline {5.3.2}Test Cases}{31}{subsubsection.5.3.2}
+\contentsline {paragraph}{}{31}{section*.124}
+\contentsline {paragraph}{}{31}{section*.125}
 \contentsline {paragraph}{}{33}{section*.126}
-\contentsline {subsubsection}{\numberline {5.3.2}Test Cases}{33}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Evaluation}{33}{subsection.5.4}
 \contentsline {paragraph}{}{33}{section*.127}
-\contentsline {paragraph}{}{33}{section*.128}
-\contentsline {paragraph}{}{35}{section*.129}
-\contentsline {subsection}{\numberline {5.4}Evaluations}{35}{subsection.5.4}
-\contentsline {paragraph}{}{35}{section*.130}
-\contentsline {section}{\numberline {6}Summative Evaluation}{35}{section.6}
-\contentsline {section}{Appendices}{36}{section*.132}
+\contentsline {section}{\numberline {6}Summative Evaluation}{33}{section.6}
+\contentsline {subsection}{\numberline {6.1}Development Methodologies}{33}{subsection.6.1}
+\contentsline {paragraph}{Outcomes}{33}{section*.128}
+\contentsline {paragraph}{Overall}{34}{section*.129}
+\contentsline {subsection}{\numberline {6.2}Formative Evaluation}{34}{subsection.6.2}
+\contentsline {paragraph}{Outcomes}{34}{section*.130}
+\contentsline {paragraph}{Overall}{34}{section*.131}
+\contentsline {subsection}{\numberline {6.3}Design and Implementation}{34}{subsection.6.3}
+\contentsline {paragraph}{Outcomes}{34}{section*.132}
+\contentsline {paragraph}{Overall}{35}{section*.133}
+\contentsline {subsection}{\numberline {6.4}Quality Assurance}{35}{subsection.6.4}
+\contentsline {paragraph}{Outcomes}{35}{section*.134}
+\contentsline {paragraph}{Overall}{35}{section*.135}
+\contentsline {section}{Appendices}{36}{section*.137}
 \contentsline {section}{\numberline {A}Development Records}{36}{Appendix.a.A}
 \contentsline {subsection}{\numberline {A.1}Backlogs}{36}{subsection.a.A.1}
 \contentsline {subsection}{\numberline {A.2}Architecture Decision Records}{39}{subsection.a.A.2}
@@ -147,5 +149,6 @@
 \contentsline {section}{\numberline {B}Formative Evaluation}{44}{Appendix.a.B}
 \contentsline {subsection}{\numberline {B.1}consent Form}{44}{subsection.a.B.1}
 \contentsline {section}{\numberline {C}Design and Implementation}{46}{Appendix.a.C}
-\contentsline {section}{\numberline {D}Quality Assurance}{46}{Appendix.a.D}
-\contentsline {subsection}{\numberline {D.1}Black-box Test Cases}{46}{subsection.a.D.1}
+\contentsline {subsection}{\numberline {C.1}Computer Fair Posters}{46}{subsection.a.C.1}
+\contentsline {section}{\numberline {D}Quality Assurance}{50}{Appendix.a.D}
+\contentsline {subsection}{\numberline {D.1}Black-box Test Cases}{50}{subsection.a.D.1}
