@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  22 APR 2018 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.3)  24 APR 2018 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -598,7 +598,7 @@ LaTeX Info: Redefining \nameref on input line 58.
 (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 ...n Development}{39}{subsubsection.a.A.2.3}
+l.145 ...n Development}{41}{subsubsection.a.A.2.3}
                                                    [1])
 \tf@toc=\write5
 \openout5 = `final_report.toc'.
@@ -606,13 +606,13 @@ l.145 ...n Development}{39}{subsubsection.a.A.2.3}
  [2]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no £ in font cmr12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -622,7 +622,7 @@ File: ../assets/development-records-teams.png Graphic file (type png)
 
 <use ../assets/development-records-teams.png>
 Package pdftex.def Info: ../assets/development-records-teams.png used on input 
-line 112.
+line 113.
 (pdftex.def)             Requested size: 496.32925pt x 217.90627pt.
  [3] [4 <../assets/development-records-teams.png>]
 <../assets/development-records-slack-ios-channel.png, id=302, 1378.14874pt x 81
@@ -631,140 +631,170 @@ File: ../assets/development-records-slack-ios-channel.png Graphic file (type pn
 g)
  <use ../assets/development-records-slack-ios-channel.png>
 Package pdftex.def Info: ../assets/development-records-slack-ios-channel.png us
-ed on input line 156.
+ed on input line 157.
 (pdftex.def)             Requested size: 496.32925pt x 293.88939pt.
  [5 <../assets/development-records-slack-ios-channel.png>]
-<../assets/development-records-slack-scrum-channel.png, id=313, 1555.8125pt x 5
+<../assets/development-records-slack-scrum-channel.png, id=312, 1555.8125pt x 5
 60.0925pt>
 File: ../assets/development-records-slack-scrum-channel.png Graphic file (type 
 png)
  <use ../assets/development-records-slack-scrum-channel.png>
 Package pdftex.def Info: ../assets/development-records-slack-scrum-channel.png 
-used on input line 180.
+used on input line 181.
 (pdftex.def)             Requested size: 496.32925pt x 178.67775pt.
 
-<../assets/development-records-daily-sprint.png, id=315, 1112.155pt x 254.9525p
+<../assets/development-records-daily-sprint.png, id=314, 1112.155pt x 254.9525p
 t>
 File: ../assets/development-records-daily-sprint.png Graphic file (type png)
  <use ../assets/development-records-daily-sprint.png>
 Package pdftex.def Info: ../assets/development-records-daily-sprint.png used on
- input line 191.
+ input line 192.
 (pdftex.def)             Requested size: 496.32925pt x 113.78221pt.
- [6 <../assets/development-records-slack-scrum-channel.png> <../assets/developm
-ent-records-daily-sprint.png>]
-<../assets/development-records-ios-kanban.png, id=330, 1445.4pt x 864.73062pt>
+ [6 <../assets/development-records-slack-scrum-channel.png>]
+<../assets/development-records-ios-kanban.png, id=329, 1445.4pt x 864.73062pt>
 File: ../assets/development-records-ios-kanban.png Graphic file (type png)
 
 <use ../assets/development-records-ios-kanban.png>
 Package pdftex.def Info: ../assets/development-records-ios-kanban.png used on i
-nput line 201.
+nput line 202.
 (pdftex.def)             Requested size: 496.32925pt x 296.93375pt.
- [7 <../assets/development-records-ios-kanban.png>] [8]
-<../assets/development-records-backlog-example.png, id=361, 1238.6275pt x 245.9
+ [7 <../assets/development-records-daily-sprint.png> <../assets/development-rec
+ords-ios-kanban.png>]
+[8]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [9]
+<../assets/development-records-backlog-example.png, id=367, 1238.6275pt x 245.9
 1875pt>
 File: ../assets/development-records-backlog-example.png Graphic file (type png)
 
  <use ../assets/development-records-backlog-example.png>
 Package pdftex.def Info: ../assets/development-records-backlog-example.png used
- on input line 296.
+ on input line 297.
 (pdftex.def)             Requested size: 496.32925pt x 98.54211pt.
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
-
-<../assets/development-records-progress-tracking-diagram.png, id=373, 1221.5637
+[10 <../assets/development-records-backlog-example.png>]
+<../assets/development-records-progress-tracking-diagram.png, id=379, 1221.5637
 5pt x 641.39626pt>
 File: ../assets/development-records-progress-tracking-diagram.png Graphic file 
 (type png)
 
 <use ../assets/development-records-progress-tracking-diagram.png>
 Package pdftex.def Info: ../assets/development-records-progress-tracking-diagra
-m.png used on input line 317.
+m.png used on input line 318.
 (pdftex.def)             Requested size: 496.32925pt x 260.60573pt.
- [10 <../assets/development-records-backlog-example.png>]
-<../assets/usability-test-task-list.png, id=382, 1720.4275pt x 594.22pt>
+
+<../assets/usability-test-task-list.png, id=381, 1720.4275pt x 594.22pt>
 File: ../assets/usability-test-task-list.png Graphic file (type png)
 
 <use ../assets/usability-test-task-list.png>
 Package pdftex.def Info: ../assets/usability-test-task-list.png used on input l
-ine 335.
+ine 336.
 (pdftex.def)             Requested size: 496.32925pt x 171.42174pt.
- [11 <../assets/development-records-progress-tracking-diagram.png> <../assets/u
-sability-test-task-list.png>]
-<../assets/usability-test-success-rates.png, id=397, 1072.005pt x 341.275pt>
+ [11 <../assets/development-records-progress-tracking-diagram.png>]
+<../assets/usability-test-success-rates.png, id=395, 1072.005pt x 341.275pt>
 File: ../assets/usability-test-success-rates.png Graphic file (type png)
 
 <use ../assets/usability-test-success-rates.png>
 Package pdftex.def Info: ../assets/usability-test-success-rates.png used on inp
-ut line 371.
+ut line 372.
 (pdftex.def)             Requested size: 496.32925pt x 158.00385pt.
- [12 <../assets/usability-test-success-rates.png>]
-<../assets/usability-test-ios-v010-improvements.png, id=411, 765.86125pt x 618.
+ [12 <../assets/usability-test-task-list.png>]
+<../assets/usability-test-ios-v010-improvements.png, id=409, 765.86125pt x 618.
 31pt>
 File: ../assets/usability-test-ios-v010-improvements.png Graphic file (type png
 )
  <use ../assets/usability-test-ios-v010-improvements.png>
 Package pdftex.def Info: ../assets/usability-test-ios-v010-improvements.png use
-d on input line 382.
+d on input line 383.
 (pdftex.def)             Requested size: 347.42896pt x 280.4918pt.
- [13 <../assets/usability-test-ios-v010-improvements.png>]
-<../assets/design-concept-v20-long-range.jpg, id=423, 728.7225pt x 466.74374pt>
+ [13 <../assets/usability-test-success-rates.png>]
+<../assets/design-concept-v20-long-range.jpg, id=421, 728.7225pt x 466.74374pt>
 File: ../assets/design-concept-v20-long-range.jpg Graphic file (type jpg)
 <use ../assets/design-concept-v20-long-range.jpg>
 Package pdftex.def Info: ../assets/design-concept-v20-long-range.jpg used on in
-put line 402.
+put line 403.
 (pdftex.def)             Requested size: 397.06491pt x 254.31688pt.
-
-<../assets/design-concept-v20-short-range.jpg, id=424, 728.7225pt x 466.74374pt
+ [14 <../assets/usability-test-ios-v010-improvements.png>]
+<../assets/design-concept-v20-short-range.jpg, id=429, 728.7225pt x 466.74374pt
 >
 File: ../assets/design-concept-v20-short-range.jpg Graphic file (type jpg)
  <use ../assets/design-concept-v20-short-range.jpg>
 Package pdftex.def Info: ../assets/design-concept-v20-short-range.jpg used on i
-nput line 409.
+nput line 410.
 (pdftex.def)             Requested size: 397.06491pt x 254.31688pt.
- [14 <../assets/design-concept-v20-long-range.jpg>]
-<../assets/design-concept-tile-mate.jpg, id=434, 1505.625pt x 502.87875pt>
+ [15 <../assets/design-concept-v20-long-range.jpg> <../assets/design-concept-v2
+0-short-range.jpg>]
+<../assets/design-concept-tile-mate.jpg, id=440, 1505.625pt x 502.87875pt>
 File: ../assets/design-concept-tile-mate.jpg Graphic file (type jpg)
 
 <use ../assets/design-concept-tile-mate.jpg>
 Package pdftex.def Info: ../assets/design-concept-tile-mate.jpg used on input l
-ine 424.
+ine 425.
 (pdftex.def)             Requested size: 347.42896pt x 116.04333pt.
- [15 <../assets/design-concept-v20-short-range.jpg> <../assets/design-concept-t
-ile-mate.jpg>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+ [16 <../assets/design-concept-tile-mate.jpg>]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
 
-<../assets/design-implement-stage-market-research.png, id=447, 1003.75pt x 745.
+
+LaTeX Warning: Reference `fig:Mobile OS Market Research in UK' on page 17 undef
+ined on input line 444.
+
+
+<../assets/design-implement-stage-market-research.png, id=454, 1003.75pt x 745.
 78625pt>
 File: ../assets/design-implement-stage-market-research.png Graphic file (type p
 ng)
  <use ../assets/design-implement-stage-market-research.png>
 Package pdftex.def Info: ../assets/design-implement-stage-market-research.png u
-sed on input line 447.
+sed on input line 448.
 (pdftex.def)             Requested size: 347.42896pt x 258.13864pt.
- [16]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+ [17 <../assets/design-implement-stage-market-research.png>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-[17 <../assets/design-implement-stage-market-research.png>]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [18]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [18]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -775,399 +805,544 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
  [19]
-<../assets/design-implement-stage-current-stack.png, id=497, 596.2275pt x 265.5
+<../assets/design-implement-stage-current-stack.png, id=493, 596.2275pt x 265.5
 9225pt>
 File: ../assets/design-implement-stage-current-stack.png Graphic file (type png
 )
  <use ../assets/design-implement-stage-current-stack.png>
 Package pdftex.def Info: ../assets/design-implement-stage-current-stack.png use
-d on input line 502.
+d on input line 503.
 (pdftex.def)             Requested size: 347.42896pt x 154.76495pt.
+ [20 <../assets/design-implement-stage-current-stack.png>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [20 <../assets/design-implement-stage-current-stack.png>]
-<../assets/android-ui/1-1-welcome-1.jpg, id=513, 361.35pt x 642.4pt>
+ [21]
+<../assets/android-ui/1-1-welcome-1.jpg, id=523, 361.35pt x 642.4pt>
 File: ../assets/android-ui/1-1-welcome-1.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/1-1-welcome-1.jpg>
 Package pdftex.def Info: ../assets/android-ui/1-1-welcome-1.jpg used on input l
-ine 530.
+ine 531.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/1-2-welcome-2.jpg, id=514, 361.35pt x 642.4pt>
+<../assets/android-ui/1-2-welcome-2.jpg, id=524, 361.35pt x 642.4pt>
 File: ../assets/android-ui/1-2-welcome-2.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/1-2-welcome-2.jpg>
 Package pdftex.def Info: ../assets/android-ui/1-2-welcome-2.jpg used on input l
-ine 531.
+ine 532.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/1-3-welcome-3.jpg, id=515, 361.35pt x 642.4pt>
+<../assets/android-ui/1-3-welcome-3.jpg, id=525, 361.35pt x 642.4pt>
 File: ../assets/android-ui/1-3-welcome-3.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/1-3-welcome-3.jpg>
 Package pdftex.def Info: ../assets/android-ui/1-3-welcome-3.jpg used on input l
-ine 532.
+ine 533.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/2-1-register.jpg, id=516, 361.35pt x 642.4pt>
+<../assets/android-ui/2-1-register.jpg, id=526, 361.35pt x 642.4pt>
 File: ../assets/android-ui/2-1-register.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/2-1-register.jpg>
 Package pdftex.def Info: ../assets/android-ui/2-1-register.jpg used on input li
-ne 533.
+ne 534.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/2-2-register-succeed.jpg, id=517, 361.35pt x 642.4pt>
+<../assets/android-ui/2-2-register-succeed.jpg, id=527, 361.35pt x 642.4pt>
 File: ../assets/android-ui/2-2-register-succeed.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/2-2-register-succeed.jpg>
 Package pdftex.def Info: ../assets/android-ui/2-2-register-succeed.jpg used on 
-input line 534.
+input line 535.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/2-3-login.jpg, id=518, 361.35pt x 642.4pt>
+<../assets/android-ui/2-3-login.jpg, id=528, 361.35pt x 642.4pt>
 File: ../assets/android-ui/2-3-login.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/2-3-login.jpg>
 Package pdftex.def Info: ../assets/android-ui/2-3-login.jpg used on input line 
-535.
+536.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/4-1-item-list.jpg, id=519, 361.35pt x 642.4pt>
+<../assets/android-ui/4-1-item-list.jpg, id=529, 361.35pt x 642.4pt>
 File: ../assets/android-ui/4-1-item-list.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/4-1-item-list.jpg>
 Package pdftex.def Info: ../assets/android-ui/4-1-item-list.jpg used on input l
-ine 536.
+ine 537.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/4-2-track-item.jpg, id=520, 361.35pt x 642.4pt>
+<../assets/android-ui/4-2-track-item.jpg, id=530, 361.35pt x 642.4pt>
 File: ../assets/android-ui/4-2-track-item.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/4-2-track-item.jpg>
 Package pdftex.def Info: ../assets/android-ui/4-2-track-item.jpg used on input 
-line 537.
+line 538.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/4-3-menu.jpg, id=521, 361.35pt x 642.4pt>
+<../assets/android-ui/4-3-menu.jpg, id=531, 361.35pt x 642.4pt>
 File: ../assets/android-ui/4-3-menu.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/4-3-menu.jpg>
 Package pdftex.def Info: ../assets/android-ui/4-3-menu.jpg used on input line 5
-38.
+39.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/5-1-add-a-new-item-1-photo.jpg, id=522, 361.35pt x 642.4p
+<../assets/android-ui/5-1-add-a-new-item-1-photo.jpg, id=532, 361.35pt x 642.4p
 t>
 File: ../assets/android-ui/5-1-add-a-new-item-1-photo.jpg Graphic file (type jp
 g)
  <use ../assets/android-ui/5-1-add-a-new-item-1-photo.jpg>
 Package pdftex.def Info: ../assets/android-ui/5-1-add-a-new-item-1-photo.jpg us
-ed on input line 539.
+ed on input line 540.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/5-2-add-a-new-item‚Äì2-name.jpg, id=523, 361.35pt x 642.4
+<../assets/android-ui/5-2-add-a-new-item‚Äì2-name.jpg, id=533, 361.35pt x 642.4
 pt>
 File: ../assets/android-ui/5-2-add-a-new-item‚Äì2-name.jpg Graphic file (type j
 pg)
  <use ../assets/android-ui/5-2-add-a-new-item‚Äì2-name.jpg>
 Package pdftex.def Info: ../assets/android-ui/5-2-add-a-new-item‚Äì2-name.jpg u
-sed on input line 540.
+sed on input line 541.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
- [21]
-<../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg, id=536, 361.35pt
+ [22]
+<../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg, id=539, 361.35pt
  x 642.4pt>
 File: ../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg Graphic file
  (type jpg)
  <use ../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg>
 Package pdftex.def Info: ../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-track
-er.jpg used on input line 547.
+er.jpg used on input line 548.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg, id=537, 
+<../assets/android-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg, id=540, 
 361.35pt x 642.4pt>
 File: ../assets/android-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg Grap
 hic file (type jpg)
 
 <use ../assets/android-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg>
 Package pdftex.def Info: ../assets/android-ui/5-4-add-a-new-item‚Äì4-pair-track
-er-succeed.jpg used on input line 548.
+er-succeed.jpg used on input line 549.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg, id=538, 361
+<../assets/android-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg, id=541, 361
 .35pt x 642.4pt>
 File: ../assets/android-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg Graphic
  file (type jpg)
 
 <use ../assets/android-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg>
 Package pdftex.def Info: ../assets/android-ui/5-5-add-a-new-item‚Äì5-pair-track
-er-fail.jpg used on input line 549.
+er-fail.jpg used on input line 550.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/6-1-settings.jpg, id=539, 361.35pt x 642.4pt>
+<../assets/android-ui/6-1-settings.jpg, id=542, 361.35pt x 642.4pt>
 File: ../assets/android-ui/6-1-settings.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/6-1-settings.jpg>
 Package pdftex.def Info: ../assets/android-ui/6-1-settings.jpg used on input li
-ne 550.
+ne 551.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
 
-<../assets/android-ui/6-2-settings-menu.jpg, id=540, 361.35pt x 642.4pt>
+<../assets/android-ui/6-2-settings-menu.jpg, id=543, 361.35pt x 642.4pt>
 File: ../assets/android-ui/6-2-settings-menu.jpg Graphic file (type jpg)
 
 <use ../assets/android-ui/6-2-settings-menu.jpg>
 Package pdftex.def Info: ../assets/android-ui/6-2-settings-menu.jpg used on inp
-ut line 551.
+ut line 552.
 (pdftex.def)             Requested size: 108.405pt x 192.72148pt.
- [22 <../assets/android-ui/1-1-welcome-1.jpg> <../assets/android-ui/1-2-welcome
+ [23 <../assets/android-ui/1-1-welcome-1.jpg> <../assets/android-ui/1-2-welcome
 -2.jpg> <../assets/android-ui/1-3-welcome-3.jpg> <../assets/android-ui/2-1-regi
 ster.jpg> <../assets/android-ui/2-2-register-succeed.jpg> <../assets/android-ui
 /2-3-login.jpg> <../assets/android-ui/4-1-item-list.jpg> <../assets/android-ui/
 4-2-track-item.jpg> <../assets/android-ui/4-3-menu.jpg> <../assets/android-ui/5
 -1-add-a-new-item-1-photo.jpg> <../assets/android-ui/5-2-add-a-new-item‚Äì2-nam
 e.jpg>]
-<../assets/ios-ui/1-1-welcome-1.jpg, id=558, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/1-1-welcome-1.jpg, id=561, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/1-1-welcome-1.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/1-1-welcome-1.jpg>
 Package pdftex.def Info: ../assets/ios-ui/1-1-welcome-1.jpg used on input line 
-559.
+560.
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/1-2-welcome‚Äì2.jpg, id=559, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/1-2-welcome‚Äì2.jpg, id=562, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/1-2-welcome‚Äì2.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/1-2-welcome‚Äì2.jpg>
 Package pdftex.def Info: ../assets/ios-ui/1-2-welcome‚Äì2.jpg used on input lin
-e 560.
+e 561.
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/1-3-welcome‚Äì3.jpg, id=560, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/1-3-welcome‚Äì3.jpg, id=563, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/1-3-welcome‚Äì3.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/1-3-welcome‚Äì3.jpg>
 Package pdftex.def Info: ../assets/ios-ui/1-3-welcome‚Äì3.jpg used on input lin
-e 561.
+e 562.
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/2-1-register.jpg, id=561, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/2-1-register.jpg, id=564, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/2-1-register.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/2-1-register.jpg>
 Package pdftex.def Info: ../assets/ios-ui/2-1-register.jpg used on input line 5
-62.
+63.
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/2-2-register-passcode.jpg, id=562, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/2-2-register-passcode.jpg, id=565, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/2-2-register-passcode.jpg Graphic file (type jpg)
 <use ../assets/ios-ui/2-2-register-passcode.jpg>
 Package pdftex.def Info: ../assets/ios-ui/2-2-register-passcode.jpg used on inp
-ut line 563.
-(pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
-
-<../assets/ios-ui/2-3-register-touch-ID.jpg, id=563, 376.40625pt x 669.50125pt>
-File: ../assets/ios-ui/2-3-register-touch-ID.jpg Graphic file (type jpg)
-<use ../assets/ios-ui/2-3-register-touch-ID.jpg>
-Package pdftex.def Info: ../assets/ios-ui/2-3-register-touch-ID.jpg used on inp
 ut line 564.
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/2-4-register-touch-ID‚Äìsuccess.jpg, id=564, 376.40625pt x 66
+<../assets/ios-ui/2-3-register-touch-ID.jpg, id=566, 376.40625pt x 669.50125pt>
+File: ../assets/ios-ui/2-3-register-touch-ID.jpg Graphic file (type jpg)
+<use ../assets/ios-ui/2-3-register-touch-ID.jpg>
+Package pdftex.def Info: ../assets/ios-ui/2-3-register-touch-ID.jpg used on inp
+ut line 565.
+(pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
+
+<../assets/ios-ui/2-4-register-touch-ID‚Äìsuccess.jpg, id=567, 376.40625pt x 66
 9.50125pt>
 File: ../assets/ios-ui/2-4-register-touch-ID‚Äìsuccess.jpg Graphic file (type j
 pg)
  <use ../assets/ios-ui/2-4-register-touch-ID‚Äìsuccess.jpg>
 Package pdftex.def Info: ../assets/ios-ui/2-4-register-touch-ID‚Äìsuccess.jpg u
-sed on input line 565.
+sed on input line 566.
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/3-1-login.jpg, id=565, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/3-1-login.jpg, id=568, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/3-1-login.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/3-1-login.jpg>
-Package pdftex.def Info: ../assets/ios-ui/3-1-login.jpg used on input line 566.
+Package pdftex.def Info: ../assets/ios-ui/3-1-login.jpg used on input line 567.
 
 (pdftex.def)             Requested size: 93.95122pt x 167.10928pt.
 
-<../assets/ios-ui/4-1-item-list.jpg, id=566, 376.40625pt x 946.53625pt>
+<../assets/ios-ui/4-1-item-list.jpg, id=569, 376.40625pt x 946.53625pt>
 File: ../assets/ios-ui/4-1-item-list.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/4-1-item-list.jpg>
 Package pdftex.def Info: ../assets/ios-ui/4-1-item-list.jpg used on input line 
-567.
+568.
 (pdftex.def)             Requested size: 93.95122pt x 236.25797pt.
 
-<../assets/ios-ui/4-2-track-item.jpg, id=567, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/4-2-track-item.jpg, id=570, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/4-2-track-item.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/4-2-track-item.jpg>
 Package pdftex.def Info: ../assets/ios-ui/4-2-track-item.jpg used on input line
- 568.
+ 569.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
 
-<../assets/ios-ui/4-3-edit-item.jpg, id=568, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/4-3-edit-item.jpg, id=571, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/4-3-edit-item.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/4-3-edit-item.jpg>
 Package pdftex.def Info: ../assets/ios-ui/4-3-edit-item.jpg used on input line 
-569.
+570.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
 
-<../assets/ios-ui/5-1-add-a-new-item-1-photo.jpg, id=569, 376.40625pt x 669.501
+<../assets/ios-ui/5-1-add-a-new-item-1-photo.jpg, id=572, 376.40625pt x 669.501
 25pt>
 File: ../assets/ios-ui/5-1-add-a-new-item-1-photo.jpg Graphic file (type jpg)
  <use ../assets/ios-ui/5-1-add-a-new-item-1-photo.jpg>
 Package pdftex.def Info: ../assets/ios-ui/5-1-add-a-new-item-1-photo.jpg used o
-n input line 570.
+n input line 571.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
- [23 <../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg> <../assets/
+ [24 <../assets/android-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg> <../assets/
 android-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg> <../assets/android-
 ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg> <../assets/android-ui/6-1-sett
 ings.jpg> <../assets/android-ui/6-2-settings-menu.jpg>]
-<../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg, id=579, 376.40625pt x 669.50
+<../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg, id=583, 376.40625pt x 669.50
 125pt>
 File: ../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg Graphic file (type jpg)
  <use ../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg>
 Package pdftex.def Info: ../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg used 
-on input line 577.
+on input line 578.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
 
-<../assets/ios-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg, id=580, 376.40625pt 
+<../assets/ios-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg, id=584, 376.40625pt 
 x 669.50125pt>
 File: ../assets/ios-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg Graphic file (ty
 pe jpg)
  <use ../assets/ios-ui/5-3-add-a-new-item‚Äì3-pair-tracker.jpg>
 Package pdftex.def Info: ../assets/ios-ui/5-3-add-a-new-item‚Äì3-pair-tracker.j
-pg used on input line 578.
+pg used on input line 579.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
 
-<../assets/ios-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg, id=581, 376.
+<../assets/ios-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg, id=585, 376.
 40625pt x 669.50125pt>
 File: ../assets/ios-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg Graphic 
 file (type jpg)
 
 <use ../assets/ios-ui/5-4-add-a-new-item‚Äì4-pair-tracker-succeed.jpg>
 Package pdftex.def Info: ../assets/ios-ui/5-4-add-a-new-item‚Äì4-pair-tracker-s
-ucceed.jpg used on input line 579.
+ucceed.jpg used on input line 580.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
 
-<../assets/ios-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg, id=582, 376.406
+<../assets/ios-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg, id=586, 376.406
 25pt x 669.50125pt>
 File: ../assets/ios-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg Graphic fil
 e (type jpg)
 
 <use ../assets/ios-ui/5-5-add-a-new-item‚Äì5-pair-tracker-fail.jpg>
 Package pdftex.def Info: ../assets/ios-ui/5-5-add-a-new-item‚Äì5-pair-tracker-f
-ail.jpg used on input line 580.
+ail.jpg used on input line 581.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
 
-<../assets/ios-ui/6-1-settings.jpg, id=583, 376.40625pt x 669.50125pt>
+<../assets/ios-ui/6-1-settings.jpg, id=587, 376.40625pt x 669.50125pt>
 File: ../assets/ios-ui/6-1-settings.jpg Graphic file (type jpg)
 
 <use ../assets/ios-ui/6-1-settings.jpg>
 Package pdftex.def Info: ../assets/ios-ui/6-1-settings.jpg used on input line 5
-81.
+82.
 (pdftex.def)             Requested size: 108.405pt x 192.81212pt.
- [24 <../assets/ios-ui/1-1-welcome-1.jpg> <../assets/ios-ui/1-2-welcome‚Äì2.jpg
+ [25 <../assets/ios-ui/1-1-welcome-1.jpg> <../assets/ios-ui/1-2-welcome‚Äì2.jpg
 > <../assets/ios-ui/1-3-welcome‚Äì3.jpg> <../assets/ios-ui/2-1-register.jpg> <.
 ./assets/ios-ui/2-2-register-passcode.jpg> <../assets/ios-ui/2-3-register-touch
 -ID.jpg> <../assets/ios-ui/2-4-register-touch-ID‚Äìsuccess.jpg> <../assets/ios-
 ui/3-1-login.jpg> <../assets/ios-ui/4-1-item-list.jpg> <../assets/ios-ui/4-2-tr
 ack-item.jpg> <../assets/ios-ui/4-3-edit-item.jpg> <../assets/ios-ui/5-1-add-a-
 new-item-1-photo.jpg>]
-<../assets/design-tracker-without-case.jpg, id=603, 162.936pt x 139.284pt>
+<../assets/design-tracker-without-case.jpg, id=606, 162.936pt x 139.284pt>
 File: ../assets/design-tracker-without-case.jpg Graphic file (type jpg)
 
 <use ../assets/design-tracker-without-case.jpg>
 Package pdftex.def Info: ../assets/design-tracker-without-case.jpg used on inpu
-t line 598.
+t line 599.
 (pdftex.def)             Requested size: 347.42896pt x 297.04889pt.
- [25 <../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg> <../assets/ios-ui/5-3-a
+ [26 <../assets/ios-ui/5-2-add-a-new-item‚Äì2-name.jpg> <../assets/ios-ui/5-3-a
 dd-a-new-item‚Äì3-pair-tracker.jpg> <../assets/ios-ui/5-4-add-a-new-item‚Äì4-pa
 ir-tracker-succeed.jpg> <../assets/ios-ui/5-5-add-a-new-item‚Äì5-pair-tracker-f
 ail.jpg> <../assets/ios-ui/6-1-settings.jpg>]
-<../assets/design-tracker-with-all-components.jpg, id=615, 589.20125pt x 441.65
+<../assets/design-tracker-with-all-components.jpg, id=618, 589.20125pt x 441.65
 pt>
 File: ../assets/design-tracker-with-all-components.jpg Graphic file (type jpg)
  <use ../assets/design-tracker-with-all-components.jpg>
 Package pdftex.def Info: ../assets/design-tracker-with-all-components.jpg used 
-on input line 605.
+on input line 606.
 (pdftex.def)             Requested size: 347.42896pt x 260.42297pt.
- [26 <../assets/design-tracker-without-case.jpg> <../assets/design-tracker-with
+ [27 <../assets/design-tracker-without-case.jpg> <../assets/design-tracker-with
 -all-components.jpg>]
-<../assets/design-tracker-case-design-1.jpg, id=626, 834.11626pt x 473.3685pt>
+<../assets/design-tracker-case-design-1.jpg, id=629, 834.11626pt x 473.3685pt>
 File: ../assets/design-tracker-case-design-1.jpg Graphic file (type jpg)
 
 <use ../assets/design-tracker-case-design-1.jpg>
 Package pdftex.def Info: ../assets/design-tracker-case-design-1.jpg used on inp
-ut line 616.
+ut line 617.
 (pdftex.def)             Requested size: 347.42896pt x 197.17378pt.
 
-<../assets/design-tracker-case-design-2.jpg, id=627, 479.391pt x 307.1475pt>
+<../assets/design-tracker-case-design-2.jpg, id=630, 479.391pt x 307.1475pt>
 File: ../assets/design-tracker-case-design-2.jpg Graphic file (type jpg)
 
 <use ../assets/design-tracker-case-design-2.jpg>
 Package pdftex.def Info: ../assets/design-tracker-case-design-2.jpg used on inp
-ut line 623.
+ut line 624.
 (pdftex.def)             Requested size: 347.42896pt x 222.60358pt.
 
-<../assets/design-tracker-case-demo.jpg, id=628, 797.98125pt x 615.80063pt>
+<../assets/design-tracker-case-demo.jpg, id=631, 797.98125pt x 615.80063pt>
 File: ../assets/design-tracker-case-demo.jpg Graphic file (type jpg)
 
 <use ../assets/design-tracker-case-demo.jpg>
 Package pdftex.def Info: ../assets/design-tracker-case-demo.jpg used on input l
-ine 630.
+ine 631.
 (pdftex.def)             Requested size: 347.42896pt x 268.10602pt.
- [27 <../assets/design-tracker-case-design-1.jpg> <../assets/design-tracker-cas
-e-design-2.jpg>] [28 <../assets/design-tracker-case-demo.jpg>] [29] [30]
+ [28 <../assets/design-tracker-case-design-1.jpg> <../assets/design-tracker-cas
+e-design-2.jpg>] [29 <../assets/design-tracker-case-demo.jpg>]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [30] [31]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 723.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 726.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 724.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 727.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 726.
- [31] [32]
-[33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 843--844
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 727.
+ [32] [33]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+
+[34]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [35]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [36]
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
 []\OT1/cmr/m/n/12 M. Ny-gard, "Blog | Doc-u-ment-ing Ar-chi-tec-ture De-ci-sion
 s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 843--844
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
 \OT1/cmr/m/n/12 | Rel-e-vance", Thinkrel-e-vance.com, 2011. [On-line]. Avail-ab
 le:
  []
 
-[35]
-Underfull \hbox (badness 1024) in paragraph at lines 846--847
+
+Underfull \hbox (badness 1024) in paragraph at lines 847--848
 \OT1/cmr/m/n/12 able: https://www.nngroup.com/articles/success-rate-the-simples
 t-usability-metric/. [Ac-
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 849--850
+Underfull \hbox (badness 7168) in paragraph at lines 850--851
 []\OT1/cmr/m/n/12 "TestFlight - Ap-ple De-vel-oper", De-vel-oper.apple.com, 201
 8. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 851--852
 []\OT1/cmr/m/n/12 "use case test-ing - In-tex-Soft", In-tex-soft.com, 2015. [On
 -line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 851--852
 \OT1/cmr/m/n/12 http://www.intexsoft.com/blog/item/117-use-case-testing.html. [
 Ac-cessed: 18- Mar-
  []
@@ -1181,550 +1356,603 @@ Missing character: There is no è in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ∑ in font cmr12!
 
-<../assets/development-records-backlogs.pdf, id=773, 597.23125pt x 845.1575pt>
+<../assets/development-records-backlogs.pdf, id=776, 597.23125pt x 845.1575pt>
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf used on inp
-ut line 858.
+ut line 859.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf used on inp
-ut line 858.
+ut line 859.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<../assets/development-records-backlogs.pdf, id=776, page=1, 597.23125pt x 845.
+<../assets/development-records-backlogs.pdf, id=779, page=1, 597.23125pt x 845.
 1575pt>
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
  <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [36]
+ [37] [38]
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 858.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
-
-<use ../assets/development-records-backlogs.pdf, page 1>
-Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 1>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [37 <../assets/development-records-backlogs.pdf>]
-<../assets/development-records-backlogs.pdf, id=798, page=2, 597.23125pt x 845.
+File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
+
+<use ../assets/development-records-backlogs.pdf, page 1>
+Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page1 used
+ on input line 859.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [39 <../assets/development-records-backlogs.pdf>]
+<../assets/development-records-backlogs.pdf, id=806, page=2, 597.23125pt x 845.
 1575pt>
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
  <use ../assets/development-records-backlogs.pdf, page 2>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 2>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-records-backlogs.pdf Graphic file (type pdf)
 
 <use ../assets/development-records-backlogs.pdf, page 2>
 Package pdftex.def Info: ../assets/development-records-backlogs.pdf, page2 used
- on input line 858.
+ on input line 859.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [38 <../assets/development-records-backlogs.pdf>] [39]
-<../assets/development-record-progress-tracking-form.pdf, id=812, 597.23125pt x
+ [40 <../assets/development-records-backlogs.pdf>]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+ [41]
+<../assets/development-record-progress-tracking-form.pdf, id=819, 597.23125pt x
  845.1575pt>
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
  <use ../assets/development-record-progress-tracking-form.pdf>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f used on input line 927.
+f used on input line 928.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f used on input line 927.
+f used on input line 928.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<../assets/development-record-progress-tracking-form.pdf, id=815, page=1, 597.2
+<../assets/development-record-progress-tracking-form.pdf, id=822, page=1, 597.2
 3125pt x 845.1575pt>
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 927.
+f, page1 used on input line 928.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 927.
+f, page1 used on input line 928.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [40]
+ [42]
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 927.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
-e pdf)
-
-<use ../assets/development-record-progress-tracking-form.pdf, page 1>
-Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 927.
+f, page1 used on input line 928.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
 <use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page1 used on input line 927.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [41 <../assets/development-record-progress-tracking-form.pdf>]
-<../assets/development-record-progress-tracking-form.pdf, id=843, page=2, 597.2
-3125pt x 845.1575pt>
-File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
-e pdf)
-
-<use ../assets/development-record-progress-tracking-form.pdf, page 2>
-Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page2 used on input line 927.
+f, page1 used on input line 928.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
 e pdf)
 
-<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+<use ../assets/development-record-progress-tracking-form.pdf, page 1>
 Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page2 used on input line 927.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
-e pdf)
-
-<use ../assets/development-record-progress-tracking-form.pdf, page 2>
-Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page2 used on input line 927.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [42 <../assets/development-record-progress-tracking-form.pdf>]
-<../assets/development-record-progress-tracking-form.pdf, id=850, page=3, 597.2
-3125pt x 845.1575pt>
-File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
-e pdf)
-
-<use ../assets/development-record-progress-tracking-form.pdf, page 3>
-Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page3 used on input line 927.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
-e pdf)
-
-<use ../assets/development-record-progress-tracking-form.pdf, page 3>
-Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page3 used on input line 927.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
-e pdf)
-
-<use ../assets/development-record-progress-tracking-form.pdf, page 3>
-Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
-f, page3 used on input line 927.
+f, page1 used on input line 928.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [43 <../assets/development-record-progress-tracking-form.pdf>]
-<../assets/usability-test-consent-form-example.pdf, id=856, 598.235pt x 846.161
+<../assets/development-record-progress-tracking-form.pdf, id=851, page=2, 597.2
+3125pt x 845.1575pt>
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page2 used on input line 928.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page2 used on input line 928.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 2>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page2 used on input line 928.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [44 <../assets/development-record-progress-tracking-form.pdf>]
+<../assets/development-record-progress-tracking-form.pdf, id=857, page=3, 597.2
+3125pt x 845.1575pt>
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 3>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page3 used on input line 928.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 3>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page3 used on input line 928.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ../assets/development-record-progress-tracking-form.pdf Graphic file (typ
+e pdf)
+
+<use ../assets/development-record-progress-tracking-form.pdf, page 3>
+Package pdftex.def Info: ../assets/development-record-progress-tracking-form.pd
+f, page3 used on input line 928.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [45 <../assets/development-record-progress-tracking-form.pdf>]
+<../assets/usability-test-consent-form-example.pdf, id=863, 598.235pt x 846.161
 25pt>
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 931.
+ on input line 932.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf used
- on input line 931.
+ on input line 932.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<../assets/usability-test-consent-form-example.pdf, id=859, page=1, 598.235pt x
+<../assets/usability-test-consent-form-example.pdf, id=866, page=1, 598.235pt x
  846.16125pt>
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
  <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 931.
+e1 used on input line 932.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 931.
+e1 used on input line 932.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [44]
+ [46]
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 931.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
-
-
-<use ../assets/usability-test-consent-form-example.pdf, page 1>
-Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 931.
+e1 used on input line 932.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
 File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
 
 
 <use ../assets/usability-test-consent-form-example.pdf, page 1>
 Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
-e1 used on input line 931.
+e1 used on input line 932.
 (pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
- [45 <../assets/usability-test-consent-form-example.pdf
+File: ../assets/usability-test-consent-form-example.pdf Graphic file (type pdf)
+
+
+<use ../assets/usability-test-consent-form-example.pdf, page 1>
+Package pdftex.def Info: ../assets/usability-test-consent-form-example.pdf, pag
+e1 used on input line 932.
+(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+ [47 <../assets/usability-test-consent-form-example.pdf
 
 pdfTeX warning: pdflatex (file ../assets/usability-test-consent-form-example.pd
 f): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', typ
 e <array>); ignored.
 >]
-<../assets/design-computer-fair-poster-1.pdf, id=896, 862.11888pt x 1212.08841p
+<../assets/design-computer-fair-poster-1.pdf, id=903, 862.11888pt x 1212.08841p
 t>
 File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
  <use ../assets/design-computer-fair-poster-1.pdf>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf used on in
-put line 935.
+put line 936.
 (pdftex.def)             Requested size: 862.11678pt x 1212.08546pt.
 File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-1.pdf>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf used on in
-put line 935.
+put line 936.
 (pdftex.def)             Requested size: 862.11678pt x 1212.08546pt.
 
-<../assets/design-computer-fair-poster-1.pdf, id=899, page=1, 862.11888pt x 121
+<../assets/design-computer-fair-poster-1.pdf, id=906, page=1, 862.11888pt x 121
 2.08841pt>
 File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
  <use ../assets/design-computer-fair-poster-1.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf, page1 use
-d on input line 935.
+d on input line 936.
 (pdftex.def)             Requested size: 862.11678pt x 1212.08546pt.
 File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-1.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf, page1 use
-d on input line 935.
+d on input line 936.
 (pdftex.def)             Requested size: 597.58572pt x 840.17038pt.
- [46]
+ [48]
 File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-1.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf, page1 use
-d on input line 935.
-(pdftex.def)             Requested size: 597.58572pt x 840.17038pt.
-File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
-
-<use ../assets/design-computer-fair-poster-1.pdf, page 1>
-Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf, page1 use
-d on input line 935.
+d on input line 936.
 (pdftex.def)             Requested size: 597.58572pt x 840.17038pt.
 File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-1.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf, page1 use
-d on input line 935.
+d on input line 936.
 (pdftex.def)             Requested size: 597.58572pt x 840.17038pt.
- [47 <../assets/design-computer-fair-poster-1.pdf>]
-<../assets/design-computer-fair-poster-2.pdf, id=953, 614.57909pt x 862.11888pt
+File: ../assets/design-computer-fair-poster-1.pdf Graphic file (type pdf)
+
+<use ../assets/design-computer-fair-poster-1.pdf, page 1>
+Package pdftex.def Info: ../assets/design-computer-fair-poster-1.pdf, page1 use
+d on input line 936.
+(pdftex.def)             Requested size: 597.58572pt x 840.17038pt.
+ [49 <../assets/design-computer-fair-poster-1.pdf>]
+<../assets/design-computer-fair-poster-2.pdf, id=961, 614.57909pt x 862.11888pt
 >
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
  <use ../assets/design-computer-fair-poster-2.pdf>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf used on in
-put line 936.
+put line 937.
 (pdftex.def)             Requested size: 614.57759pt x 862.11678pt.
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-2.pdf>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf used on in
-put line 936.
+put line 937.
 (pdftex.def)             Requested size: 614.57759pt x 862.11678pt.
 
-<../assets/design-computer-fair-poster-2.pdf, id=956, page=1, 614.57909pt x 862
+<../assets/design-computer-fair-poster-2.pdf, id=964, page=1, 614.57909pt x 862
 .11888pt>
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
  <use ../assets/design-computer-fair-poster-2.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf, page1 use
-d on input line 936.
+d on input line 937.
 (pdftex.def)             Requested size: 614.57759pt x 862.11678pt.
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-2.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf, page1 use
-d on input line 936.
+d on input line 937.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-2.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf, page1 use
-d on input line 936.
+d on input line 937.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-2.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf, page1 use
-d on input line 936.
+d on input line 937.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
 File: ../assets/design-computer-fair-poster-2.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-2.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-2.pdf, page1 use
-d on input line 936.
+d on input line 937.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
- [48 <../assets/design-computer-fair-poster-2.pdf>]
-<../assets/design-computer-fair-poster-3.pdf, id=1005, 614.57909pt x 862.11888p
+ [50 <../assets/design-computer-fair-poster-2.pdf>]
+<../assets/design-computer-fair-poster-3.pdf, id=1012, 614.57909pt x 862.11888p
 t>
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
  <use ../assets/design-computer-fair-poster-3.pdf>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf used on in
-put line 937.
+put line 938.
 (pdftex.def)             Requested size: 614.57759pt x 862.11678pt.
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-3.pdf>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf used on in
-put line 937.
+put line 938.
 (pdftex.def)             Requested size: 614.57759pt x 862.11678pt.
 
-<../assets/design-computer-fair-poster-3.pdf, id=1008, page=1, 614.57909pt x 86
+<../assets/design-computer-fair-poster-3.pdf, id=1015, page=1, 614.57909pt x 86
 2.11888pt>
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
  <use ../assets/design-computer-fair-poster-3.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf, page1 use
-d on input line 937.
+d on input line 938.
 (pdftex.def)             Requested size: 614.57759pt x 862.11678pt.
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-3.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf, page1 use
-d on input line 937.
+d on input line 938.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-3.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf, page1 use
-d on input line 937.
+d on input line 938.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-3.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf, page1 use
-d on input line 937.
+d on input line 938.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
 File: ../assets/design-computer-fair-poster-3.pdf Graphic file (type pdf)
 
 <use ../assets/design-computer-fair-poster-3.pdf, page 1>
 Package pdftex.def Info: ../assets/design-computer-fair-poster-3.pdf, page1 use
-d on input line 937.
+d on input line 938.
 (pdftex.def)             Requested size: 598.06343pt x 838.95107pt.
- [49 <../assets/design-computer-fair-poster-3.pdf>]
-<../assets/black-box-test-cases.pdf, id=1070, 845.1575pt x 597.23125pt>
+ [51 <../assets/design-computer-fair-poster-3.pdf>]
+<../assets/black-box-test-cases.pdf, id=1077, 845.1575pt x 597.23125pt>
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
 <use ../assets/black-box-test-cases.pdf>
 Package pdftex.def Info: ../assets/black-box-test-cases.pdf used on input line 
-941.
+942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
 <use ../assets/black-box-test-cases.pdf>
 Package pdftex.def Info: ../assets/black-box-test-cases.pdf used on input line 
-941.
+942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
-<../assets/black-box-test-cases.pdf, id=1073, page=1, 845.1575pt x 597.23125pt>
+<../assets/black-box-test-cases.pdf, id=1080, page=1, 845.1575pt x 597.23125pt>
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 <use ../assets/black-box-test-cases.pdf, page 1>
 Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-
-<use ../assets/black-box-test-cases.pdf, page 1>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
- [50]
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-
-<use ../assets/black-box-test-cases.pdf, page 1>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
-t line 941.
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
 <use ../assets/black-box-test-cases.pdf, page 1>
 Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
-t line 941.
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+ [52]
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+
+<use ../assets/black-box-test-cases.pdf, page 1>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
 <use ../assets/black-box-test-cases.pdf, page 1>
 Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
- [51 <../assets/black-box-test-cases.pdf>]
-<../assets/black-box-test-cases.pdf, id=1093, page=2, 845.1575pt x 597.23125pt>
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-<use ../assets/black-box-test-cases.pdf, page 2>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page2 used on inpu
-t line 941.
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 2>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page2 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-
-<use ../assets/black-box-test-cases.pdf, page 2>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page2 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
- [52 <../assets/black-box-test-cases.pdf>]
-<../assets/black-box-test-cases.pdf, id=1099, page=3, 845.1575pt x 597.23125pt>
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-<use ../assets/black-box-test-cases.pdf, page 3>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page3 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-
-<use ../assets/black-box-test-cases.pdf, page 3>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page3 used on inpu
-t line 941.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-
-<use ../assets/black-box-test-cases.pdf, page 3>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page3 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 1>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page1 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [53 <../assets/black-box-test-cases.pdf>]
-<../assets/black-box-test-cases.pdf, id=1105, page=4, 845.1575pt x 597.23125pt>
+<../assets/black-box-test-cases.pdf, id=1100, page=2, 845.1575pt x 597.23125pt>
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-<use ../assets/black-box-test-cases.pdf, page 4>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page4 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 2>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page2 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 4>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page4 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 2>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page2 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 4>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page4 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 2>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page2 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [54 <../assets/black-box-test-cases.pdf>]
-<../assets/black-box-test-cases.pdf, id=1112, page=5, 845.1575pt x 597.23125pt>
+<../assets/black-box-test-cases.pdf, id=1107, page=3, 845.1575pt x 597.23125pt>
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-<use ../assets/black-box-test-cases.pdf, page 5>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page5 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 3>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page3 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 5>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page5 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 3>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page3 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 5>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page5 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 3>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page3 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [55 <../assets/black-box-test-cases.pdf>]
-<../assets/black-box-test-cases.pdf, id=1119, page=6, 845.1575pt x 597.23125pt>
+<../assets/black-box-test-cases.pdf, id=1113, page=4, 845.1575pt x 597.23125pt>
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-<use ../assets/black-box-test-cases.pdf, page 6>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page6 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 4>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page4 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 6>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page6 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 4>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page4 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 6>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page6 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 4>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page4 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [56 <../assets/black-box-test-cases.pdf>]
-<../assets/black-box-test-cases.pdf, id=1125, page=7, 845.1575pt x 597.23125pt>
+<../assets/black-box-test-cases.pdf, id=1120, page=5, 845.1575pt x 597.23125pt>
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
-<use ../assets/black-box-test-cases.pdf, page 7>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page7 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 5>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page5 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 7>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page7 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 5>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page5 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
 
-<use ../assets/black-box-test-cases.pdf, page 7>
-Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page7 used on inpu
-t line 941.
+<use ../assets/black-box-test-cases.pdf, page 5>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page5 used on inpu
+t line 942.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [57 <../assets/black-box-test-cases.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 944.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 944.
+<../assets/black-box-test-cases.pdf, id=1126, page=6, 845.1575pt x 597.23125pt>
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+<use ../assets/black-box-test-cases.pdf, page 6>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page6 used on inpu
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+
+<use ../assets/black-box-test-cases.pdf, page 6>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page6 used on inpu
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+
+<use ../assets/black-box-test-cases.pdf, page 6>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page6 used on inpu
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+ [58 <../assets/black-box-test-cases.pdf>]
+<../assets/black-box-test-cases.pdf, id=1132, page=7, 845.1575pt x 597.23125pt>
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+<use ../assets/black-box-test-cases.pdf, page 7>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page7 used on inpu
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+
+<use ../assets/black-box-test-cases.pdf, page 7>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page7 used on inpu
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: ../assets/black-box-test-cases.pdf Graphic file (type pdf)
+
+<use ../assets/black-box-test-cases.pdf, page 7>
+Package pdftex.def Info: ../assets/black-box-test-cases.pdf, page7 used on inpu
+t line 942.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+ [59 <../assets/black-box-test-cases.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 945.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 945.
  (./final_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 944.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 944.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 945.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 945.
 Package rerunfilecheck Info: File `final_report.out' has not changed.
-(rerunfilecheck)             Checksum: 39BE15079D7C1E8F234B66BD75D2A29D;3550.
+(rerunfilecheck)             Checksum: 77CBABFD9DE24D1F10342C8953213D16;3550.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 12238 strings out of 492995
- 203906 string characters out of 6132704
- 412560 words of memory out of 5000000
- 15227 multiletter control sequences out of 15000+600000
+ 12241 strings out of 492995
+ 203957 string characters out of 6132704
+ 412561 words of memory out of 5000000
+ 15228 multiletter control sequences out of 15000+600000
  11702 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,20n,51p,1082b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,20n,51p,1080b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1735,10 +1963,10 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on final_report.pdf (58 pages, 10925289 bytes).
+Output written on final_report.pdf (60 pages, 10926387 bytes).
 PDF statistics:
- 1240 PDF objects out of 1440 (max. 8388607)
- 977 compressed objects within 10 object streams
- 344 named destinations out of 1000 (max. 500000)
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 982 compressed objects within 10 object streams
+ 346 named destinations out of 1000 (max. 500000)
  859 words of extra memory for PDF output out of 10000 (max. 10000000)
 
