@@ -138,7 +138,7 @@
           \item {Specialities differ}: Our group was divided by our interests and specialities, we trusted each team could make the best decision for the whole team with their research and experience. For example, the iOS app team would not interfere with how the tracker team implemented the physical components at all; And how the Android app was implemented would not be the backend/tracker team's concern. All teams were trusted in which they would make the best decisions.
         \end{itemize}
         
-        \paragraph{}Even though the team was separated, it was important to keep everyone on the same page. So each technological decision or propose was documented as an architecture decision record(ADR), which enabled us to have an overview of all the technological changes. According to Michael Nygard, each ADR contains five columns\cite{ArchitectureDecisionRecord}: 
+        \paragraph{}Even though the team was separated, it was important to keep everyone on the same page. So each technological decision was documented as an architecture decision record(ADR), which enabled us to have an overview of all the technological changes. According to Michael Nygard, each ADR contains five columns\cite{ArchitectureDecisionRecord}: 
 
         \begin{itemize}
           \item Title: A brief description of the idea proposed.
@@ -174,7 +174,9 @@
             \item Do I see any impediment that could prevent the team or me from meeting our sprint goal?
           \end{itemize}    
 
-          \paragraph{}Unfortunately, not every team could follow the sprint process and make any progress every three days. Sometimes a team might work for a sprint then stopped for two sprints since other modules might have a deadline or coursework. Hence, this scrum process was not actually conducted properly and stopped after few weeks after started. The example records show in figure \ref{fig:Slack Scrum Channel}. 
+          \paragraph{} We have tried to follow the rules, but unfortunately, not every team could follow the daily Scrum and contribute to the project continuously. It was not conducted for a long time but only ran for few weeks. 
+          
+          The example records show in figure \ref{fig:Slack Scrum Channel}. 
 
           \begin{figure}[H]
             \centering
@@ -195,7 +197,7 @@
           \end{figure}
 
         \subsubsection{Kanban}
-          \paragraph{}Apart from the Scrum, Kanban was also implemented with the backlogs in our development to demonstrate the development progress. We tried to keep our project management tool simple and easy to approach, so we not only used GitHub for version control but also for the project feature, which we used it as the Kanban. The iOS  development Kanban was shown in \ref{fig:iOS Development Kanban}.
+          \paragraph{}Apart from the Scrum, Kanban was also implemented with the backlogs in our development to demonstrate the development progress. We tried to keep our project management tool simple and easy to approach, so we not only used GitHub for version control but also for the project feature, but also for Projects feature which was our Kanban. The iOS  development Kanban was shown in \ref{fig:iOS Development Kanban}.
 
           \begin{figure}[H]
             \centering
@@ -231,9 +233,9 @@
           
           \paragraph{}Here was our development process of BDD:
           
-          \paragraph{1. Requirements specification}Review the backlogs and pick one from them to work on based on the priority and the estimated development time. You can find the details of the backlogs in section \ref{section:Development Process - Backlogs}, Development Process - Backlogs.
+          \paragraph{1. Requirements specification} Review the backlogs and pick one from them to work on based on the priority and the estimated development time. You can find the details of the backlogs in section \ref{section:Development Process - Backlogs}, Development Process - Backlogs.
           
-          \paragraph{2. Design}Review the how was the data storage, data flow and the user interface design, then design how should this requirement be fulfilled. Such as displaying the item list in the item list view, we would need to implement two view components, an item list cell view and an item list table view. The item's properties inlcudes the items id, name and photo; This data would be stored in the table view's state and the list cell would receive the props from the table view and render the item's properties.
+          \paragraph{2. Design} Review the data flow and the user interface design, then design how should this requirement be fulfilled. Such as displaying the item list in the item list view, we would need to implement two view components, an item list cell view and an item list table view. The item's properties inlcudes the items id, name and photo; This data would be stored in the table view's state and the list cell would receive the props from the table view and render the item's properties.
           
           \paragraph{3. Development}Put the design into actual codes.
           
@@ -281,7 +283,7 @@
                  3-1 & As a user, I want to view the tracking item list so that I can view my item and look up more details if I want. \\
                  3-2 & As a user, I want to activate or deactivate the tracker, this will allow the user to save both mobile and the trackers battery life. \\
                  3-3 & As a user, I want to see the location history in a map format of the item so that I can track/look for it, if it's lost. \\
-                 3-4 & As a user, I want to navigate me to my item so that find it quicker. \\
+                 3-4 & As a user, I want to use an app to navigate me to my item so that find it quicker. \\
                  3-5 & As a user, I want to edit my item's details so that I can change the tracking item. \\
                  3-6 & As a user, I want to delete the item so that I can stop tracking the item for good. \\
                 \hline
@@ -299,17 +301,14 @@
             \label{fig:Backlog Example: Sub-user story 3-1}
           \end{figure}
           
-          The full backlogs can be found in the appendix \ref{appendix:backlogs} and it was used to create our Kanban showed in figure \ref{fig:iOS Development Kanban}, which kept the developing process recorded easily to follow.        
+          The full backlogs can be found in the appendix \ref{appendix:backlogs} and it was used to create our Kanban showed in figure \ref{fig:iOS Development Kanban}, which kept the developing process recorded easy to follow.        
           
         \subsubsection{Progress Tracking}
-          \paragraph{}To record our progress, we kept using the same progress tracking form as the last term, and this term we did some improvements:
+          \paragraph{}To record our progress, we kept using the same progress tracking form as the last term, and this term we did some improvements.  
 
-          \begin{itemize}
-            \item {Lock every week}: To prevent any team members from modifying the resource hours dishonestly, a range of the form was locked every week. Only records within recent two weeks were allowed to be added. 
-            \item {Status documented in more detail}: To increase the traceability and convincing evidence, each resource hours commitment was asked to provide a more detailed description. Instead of {\it reporting writing}, it was improved to {\it Final report: Formative Evaluation - mobile application test}.
-          \end{itemize}
+          \paragraph{Status documented in more detail}: To increase the traceability and convincing evidence, each resource hours commitment was asked to provide a more detailed description. Instead of {\it reporting writing}, it was improved to {\it Final report: Formative Evaluation - mobile application test}.
 
-          Please find the full progress tracking form in appendix \ref{appendix:progress-tracking-form}.\\
+          \paragraph{} Please find the full progress tracking form in appendix \ref{appendix:progress-tracking-form} and the tasks divided in appendix \ref{appendix:tasks-divided}\\
           
           Until March 16, the total working time during these two terms is {\bf 581.9 hours}. All these hours contributed includes all lab sessions, supervisor meetings, daily Sprint and self-independent working time. 58.7\% was contributed by Hussein and Jheng-Hao as shown in figure \ref{fig:Progress Tracking Diagram}. The top contributor is Jheng-Hao with 222.95 hours contributed, while the last is Chin with 26.5 hours recorded. The line chart displays that the commitment became dramatically different since the start of the second term. Most of the team members stopped to work in the second term, excluding Hussein and Jheng-Hao who still kept working continuously.
           
@@ -347,7 +346,7 @@
                   User Goal & What is the objective we need users to perform.  \\ 
                   Task & The process in terms of completing the goal.  \\ 
                   Scenario & A setup scenario for engaging testers to use the application in a real-life case.   \\ 
-                  Developing Status & Current latest developing status of the functionality of this task, it should be {\bf To do}, {\bf In Progress} and {\bf Done}.\\ 
+                  Developing Status & Latest developing status of the functionality of this task, it should be {\bf To do}, {\bf In Progress} and {\bf Done}.\\ 
                   Can be tested &  Whether the functionality of the application is ready to be tested in each version that was created.\\ 
                   \hline
                 \end{tabularx}
@@ -376,7 +375,7 @@
 
           \paragraph{v0.10} The tested subject was the application prototype built in {\bf Adobe XD}, which was one of the best design tools to test the prototype. Thanks to the well-designed user interfaces, the goals were easily achieved and the  tasks were all successful. The results only proved that the user interfaces guided the users to the right view, however it could not actually reflect on the usability of the real application. After all, Adobe XD could only let users walk through each view by clicking, while an actual iOS application would support swipe or other gestures. It was more like a paper prototype usability test.
           
-          \paragraph{v0.11} We benefited most from this test since this test was the native mobile application, where the participants can actually use it like other applications. This version was built in React Native and tested in Expo which is a tool and service which we used to build the mobile native application with React Native. During this test, we received several comments towards the {\bf add item view}. For example, the camera icon in that view was originally used as a button. But some of the users could not really regard it as a button but a decoration since it was colourful. Also, the placeholder of the item name field was {\bf Item Name} instead of a prompt message which confused some of the participants as well. So after this test, we resolved the issues and the differences show in figure \ref{fig:usability-test-ios-v010-improvements}. Task 8 and 9 were not developed completely at the moment so there was not any record.
+          \paragraph{v0.11} We benefited most from this test since this test was the native mobile application, where the participants can actually use it like other applications. This version was an native iOS application built in React Native and we used Expo to test it. During this test, we received several comments towards the {\bf add item view}. For example, the camera icon in that view was originally used as a button. But some of the users could not really regard it as a button but a decoration since it was colourful. Also, the placeholder of the item name field was {\bf Item Name} instead of a prompt message which confused some of the participants as well. So after this test, we resolved the issues and the differences show in figure \ref{fig:usability-test-ios-v010-improvements}. Task 8 and 9 were not developed completely at the moment so there was not any record.
 
           \begin{figure}[H]
             \centering
@@ -427,7 +426,7 @@
           \label{fig:Tile Mate}
         \end{figure}
         
-        \paragraph{} At the computer fair, in which we consulted with various industry professionals, we realised that we should focus on a minimum viable product for the duration of this project. Certain product features such as having the tracker as physically small as a sticker (similar to the Tile Mate) is not possible in the scope of the project as we need specialist manufacturers, engineers and funding (we already looked at all the possible routes to making the tracker smaller). Most users clearly want a tracker that is as small as Tile Mate, so we looked at the next viable use case and the minimum physical size of the tracker that can fit that viable use case, this was baggage use case. 
+        \paragraph{} At the computer fair, in which we consulted with various industry professionals, we realised that we should focus on a minimum viable product for the duration of this project. Certain product features such as having the tracker as physically small as a sticker (similar to the Tile Mate) is not possible in the scope of the project as we need specialist manufacturers, engineers and funding (we already looked at all the possible routes to making the tracker smaller). Most users clearly want a tracker that is as small as Tile Mate, so we looked at the next viable use case and the minimum physical size of the tracker that can fit that viable use case.
 
         \paragraph{} The posters for the computer fair can be found in appendix \ref{appendix:computer-fair-posters}. 
         
@@ -437,17 +436,17 @@
         
         \paragraph{} Currently the tracker communicates with the Hologram Cloud servers, which in turn communicates with the user’s app.
         
-        \paragraph{} Also, in the design stage we realised that our tracker can be developed into an enterprise framework. If our product is successful at item tracking for consumers and is fully tried and tested, this same technology can be used for enterprise applications, such as asset tracking, shipment tracking, even livestock tracking. However, this is not in the scope of this project.
+        \paragraph{} Also, in the design stage we realised that our tracker can be developed into an enterprise framework. If our product is successful at item tracking for consumers and is fully tried and tested, this same technology can be used for enterprise applications, such as asset tracking, shipment tracking, even livestock tracking. However, this is not in the scope of this project. 
         
       \subsection{Implementation Stage}
 
-        \paragraph{} We initially designed the user app to be hosted on the Android platform, instead we implemented the user app on both the iOS and the Android platform. We did this for two reasons. Firstly, from market research shown in figure \ref{fig:Mobile OS Market Research in UK}, roughly 53\% of users do not have an Android smartphone. Secondly, developing the Android app allows us to have a plan B, in case we cannot develop the iOS app in time or if there are compatibility issues with the tracker. The Android and iOS app both have different programming languages and paradigms. 
+        \paragraph{} We initially designed the user app to be hosted on the Android platform, instead we implemented the user app on both the iOS and the Android platform. We did this for two reasons. Firstly, from market research shown in figure \ref{fig:Mobile OS Market Research in UK}, roughly 53\% of users do not have an Android smartphone. Secondly, developing the Android app allows us to have a plan B, in case we cannot develop the iOS app in time or if there are compatibility issues with the tracker. The Android and iOS app both have different programming languages and paradigms. 
 
         \begin{figure}[H]
           \centering
           \includegraphics[width=0.7\textwidth]{../assets/design-implement-stage-market-research.png}
-          \caption{Mobile OS Market Reseatch in UK \cite{MobileOSMarketShare}}
-          \label{fig:Mobile OS Market Reseatch in UK}
+          \caption{Mobile OS Market Research in UK \cite{MobileOSMarketShare}}
+          \label{fig:Mobile OS Market Research in UK}
         \end{figure}
         
         \paragraph{} The reason why we developed an Android/iOS app instead of a web app, is that as part of the iLost design, the user needs notifications in real-time (when an item has been left behind). Real-time notifications are not currently possible with web apps.
@@ -484,7 +483,7 @@
         
         \paragraph{} We could not find a way around the Hologram cloud servers, in fact the Hologram cloud servers were essential. The reason why their cloud servers are needed is that in order for us to communicate with the Hologram Nova (cellular modem) and be able to triangulate the location of the tracker (i.e. Raspberry pi), the Hologram service as a whole needs to negotiate with multiple mobile network carriers. Being able to triangulate location using cell towers and communicate with a cellular modem internationally at a regular price (it currently costs us \$1 a month) is only possible currently using the Hologram service. Previously developers had to overcome many administrative, legal and economic issues in order to work with cellular networks.  
         
-        \paragraph{} Through all our testing and use the Cloud servers did not fail and reliably delivered any payloads we sent to the tracker. Without the Apache server, we then used Hologram SDK (which includes a Command Line interface) to open a server at port 4010 (on the Raspberry pi), any messages we sent via HTTP were now received (we could view the message on a terminal) we then used Bash scripts to automate useful responses. For example, if the message “RL” was sent (Request Location) then the tracker via the scripts would triangulate its location, store this data (longitude, latitude, altitude) as string data and send this back to the sender. Scripts were also created for the tracker to shut itself down, power itself up, disconnect from cellular networks (use cases such as the user traveling on an airline).
+        \paragraph{} Through all our testing with the Cloud servers, they did not fail and reliably delivered any payloads we sent to the tracker. Without the Apache server, we then used Hologram SDK (which includes a Command Line interface) to open a server at port 4010 (on the Raspberry pi), any messages we sent via HTTP were now received (we could view the message on a terminal) we then used Bash scripts to automate useful responses. For example, if the message “RL” was sent (Request Location) then the tracker via the scripts would triangulate its location, store this data (longitude, latitude, altitude) as string data and send this back to the sender. Scripts were also created for the tracker to shut itself down, power itself up, disconnect from cellular networks (use cases such as the user traveling on an airline).
         
         \paragraph{} We also tried to host a server on Igor instead of the Raspberry pi, however we found a more efficient solution, this was to leverage the Hologram Cloud servers. The Igor servers are not available worldwide and offered limited scalability. 
         
@@ -507,7 +506,7 @@
 
         \paragraph{} Post-Snowden age, we understand users are concerned about privacy. All data that is stored on Amazon servers are automatically encrypted by AES-256 servers side encryption keys. We only store longitude, latitude and time data, for 14 days. It saves us space and cost, to not store data permanently.
         
-        \paragraph{} Location data such as longitude and latitude is metadata, its ambiguous not content that can identify the users personal information. The purpose of the Amazon server is only required to provide data back to the user. Also, each tracker has an unique ID number, personal information is not identifiable from this data. 
+        \paragraph{} Location data such as longitude and latitude is metadata, it is ambiguous and cannot identify the users personal information. The purpose of the Amazon server is only required to provide data back to the user. Also, each tracker has an unique ID number, personal information is not identifiable from this data. 
         
         \paragraph{} We cannot guarantee compliance with UK Data protection act, due to the legal complexity of having the Amazon operating servers globally as well as the Hologram Nova having to operate with many network carriers globally. Ideally, with more funding we would be able to consult with legal professionals. 
         
@@ -637,7 +636,7 @@
       \label{chapter:Quality Assurance}
       
       \subsection{Process} % 100 words
-        \paragraph{} We conducted two types of quality assurance to ensure our mobile application worked as we expected, including black-box testing and white-box testing. The white-box testing focused on the functionalities, such as how the item list view should react when an add new item button was clicked, the black-box testing covered how a view component or a function should be rendered or implemented, such as a button should render a text on it based on what text state passed to it. Usually. The black-box tests were conducted after the white-box tests, since the functionalities could be functional only if the component worked properly. 
+        \paragraph{} We conducted two types of quality assurance to ensure our mobile application worked as we expected, including black-box testing and white-box testing. The white-box testing focused on the functionalities, such as how the item list view should react when an add new item button was clicked, the black-box testing covered how a view component or a function should be rendered or implemented, such as a button should render a text on it based on what text state was passed to it. Usually. The black-box tests were conducted after the white-box tests, since the functionalities could be functional only if the component worked properly. 
 
         \paragraph{} Since the time limitation, only the iOS version was fully tested, but the test cases could be implemented in both versions of the application.
 
@@ -659,15 +658,15 @@
                 Backlog ID & Cross-reference of the Backlog ID. \\ 
                 Name & Name of the test case.  \\ 
                 Goal & The detailed description of the purpose of the test goal. \\ 
-                Precondition & What needs to be satisfied before the test case can be tested.\\
+                Precondition & What needs to be satisfied before the test case can be tested. \\
                 Success End Condition & The definition of how the test case considered as passed. \\
                 Field End Condition & The definition of how the test case considered as failed. \\
-                Trigger & How this use scenario is triggered.\\
-                Normal Flow & The flow of this test case, such as how the stakeholders reacted with the application.\\
-                Alternative Flows & The details of alternative ways to different successful ends.\\
-                Frequency of Use & How often have these use cases been triggered, we use {\bf Rare}, {\bf Normal} and {\bf Often} to represent various levels of the frequency since we did not have proper statistics for each use case.\\
+                Trigger & How this use scenario is triggered. \\
+                Normal Flow & The flow of this test case, such as how the stakeholders reacted with the application. \\
+                Alternative Flows & The details of alternative ways to different successful ends. \\
+                Frequency of Use & How often have these use cases been triggered, we use {\bf Rare}, {\bf Normal} and {\bf Often} to represent various levels of the frequency, since we did not have proper statistics for each use case. \\
                 Assumptions & Any assumptions that were made during the analysis of the use case. \\
-                Pass\/Fail & The result of test, it should be {\bf Pass} or {\bf Fail}. \\
+                Pass Fail & The result of test, it should be {\bf Pass} or {\bf Fail}. \\
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Black-box Test Cases Columns}
@@ -686,14 +685,14 @@
                 Name &  Item details view: trigger Apple Map. \\
                 Goal &  The application should be able to use the item's location data, pass it to the Apple Map application, and trigger the navigation function and lead the user to the item's location.       \\
                 Precondition & User is in the item details view.        \\
-                Success End Condition & The Apple Map application is triggered after the user taps the navigate button. It gets into the navigation mode and leads the user to the location based on the distance. If the user is close to the item, then it will navigate the user to the item in "walking" mode. If the item is far from the user it will be in the "transit" mode.         \\
+                Success End Condition & The Apple Map application is triggered after the user taps the navigate button. It gets into the navigation mode and leads the user to the location based on the distance. If the user is close to the item, then it will navigate the user to the item in {\bf walking} mode. If the item is far from the user it will be in the {\bf transit} mode.         \\
                 Failed End Condition & The Apple Map application is not triggered after the navigate button is tapped. Or the Apple Map application is triggered but it does not receive the correct location data of the item and does not activate the navigate mode either.           \\
                 Trigger & User taps the navigate button. \\
                 Normal Flow & 1. The user taps the navigate button. 2. The application triggers the Apple Map application and passes the geolocation of the item to it. 3. Apple Map automatically activates navigation mode and leads the user to the item. \\
                 Alternative Flows & N/A \\
                 Frequency of Use & Often \\
                 Assumptions & The item's location data is stored in the application already. \\
-                Pass\/Fail & Pass \\
+                Pass Fail & Pass \\
                 \hline
               \end{tabularx}
               \caption[Table caption text]{Black-box Test Case: Trigger Apple Map}
@@ -705,16 +704,11 @@
       \subsection{White-Box Tests}
         % 800 words
         \subsubsection{Method and Environment} % 250 words
-          \paragraph{}The iOS application was developed in a component-based way, and we tested most of the elements whenever a new one was built. In React Native, there are two types of components, pure components and containers. Pure components do not store any data but render whatever data are passed to them only. The passed data in React are called "props". On the other hand, containers are the components that store the data, which is named "state", and render the pure components. In an MVC model, the pure components are more the {\bf View} and the containers are the {\bf Controller}. We were only able to test the pure components at the time limitation. Testing the pure components was relatively easy and quick, and it helped us to debug and boost the developing efficiency.
+          \paragraph{}The iOS application was developed in a component-based way, and we tested most of the elements whenever a new one was built. In React Native, there are two types of components, pure components and containers. Pure components do not store any data but render whatever data are passed to them only. The passed data in React are called {\bf props}. On the other hand, containers are the components that store the data, which is named {\bf state}, and render the pure components. In an MVC model, the pure components are more the {\bf View} and the containers are the {\bf Controller}. We were only able to test the pure components at the time limitation. Testing the pure components was relatively easy and quick, and it helped us to debug and boost the developing efficiency.
           
           \paragraph{}The testing framework we chose was Jest\cite{Jest} and Enzyme\cite{Enzyme}, a JavaScript testing framework developed by Facebook. The main reason we chose Jest rather than other testing frameworks was that it was maintained by the same company, React Native. They were not only a resourceful community that shows support but also the official documents were really welly documented. These reasons made it one of the trendy testing frameworks in the React ecosystem. Mocha, another popular JavaScript unit testing framework, was considered too. However, since the iOS team did not have any previous experience with it, so to meet the deadline we chose to use the most familiar tool.
         
-          \paragraph{}The iOS application was developed in a component-based way, and we tested most of the elements whenever a new one was built. In React Native, there are two types of components, pure components and containers. Pure components do not store any data but render whatever data are passed to them only, The passed data in React are called "props". On the other hand, containers are the components store the data, which is named "state", and render the pure components. In an MVC model, the pure components are more the {\bf View} and the containers are the {\bf Controller}.
-          
-          \paragraph{}We were only able to test the pure components at the time limitation. Testing the pure components was relatively easy and quick, and it helped us to debug and boost the developing efficiency.
-
         \subsubsection{Test Cases} % 550 word
-          \paragraph{}The testing framework we chose were Jest\cite{Jest} and \cite{Enzyme}, Jest was a JavaScript testing framework developed by Facebook and Enzyme was the React component testing utility. There were several reasons made us choose these tools rather than other testing frameworks. Firstly, Jest and Enzyme were developed and maintained by Facebook and the Airbnb developers team. The resourceful community supports and the well-written official documents were all really helpful. These reasons made these tools became the trendy testing frameworks in the React ecosystem. Mocha, another popular JavaScript unit testing framework, was considered too. However, the iOS team did not have any previous experience with it, so we chose to use the most familiar tools in order to meet the deadline.
           
           \paragraph{}Jest and Enzyme were combined together into one testing file and this tested if a component was rendered properly. Button was one of the pure components which has been unit-tested, button contained two props: {\bf text} and {\bf handler}. The {\bf text} was the text rendered on the button, and the {\bf handler} was the function which would be called whenever the button was pressed. The button code shows in Listing \ref{lst:Button.jsx}:
         
@@ -738,7 +732,7 @@
           In terms of the button component, we tested it in four aspects: 
           \begin{itemize}
             \setlength\itemsep{0em}
-            \item{\bf Rendered without crashing}: We used the snapshot API from Jest. A snapshot was JSON string of the component, during the test the newly built component would be converted to JSON and compared with the previously built snapshot. The test would be passed if both snapshots were the same.  
+            \item{\bf Rendered without crashing}: We used the snapshot API from Jest. A snapshot was a JSON string of the component, during the test the newly built component would be converted to JSON and compared with the previously built snapshot. The test would be passed if both snapshots were the same.  
             \item{\bf Rendered with correct elements}: Text and TouchableHighlight should be rendered in the button component, we tested if they existed.
             \item{\bf Rendered with correct props}: The text field was rendered with a text prop, which should be rendered in the Text component inside. So we tested if the Text component was rendered with the correct text.
             \item{\bf The button handler should work if the button is pressed}: Tested if the handler was functional and if the button was pressed simulated.
@@ -804,7 +798,7 @@
         \paragraph{Outcomes}During the development we used three development methodologies: {\bf Scrum}, {\bf Kanban} and {\bf Backlogs}, also we used {\bf Progress Tracking form} to record the team's time contributions.
 
         \begin{itemize}
-          \item {\bf Scrum} This methodology is suitable for a team where they tend to work together in a fixed time, day-to-day. Even though we had scheduled the daily Sprint time, not everyone would attend since it was not compulsory and registered. Only few Sprint sessions at the beginning went well. In terms of time management, not every one of us were able to contribute fixed time every one or two days, so we could not have a daily sprint or even weekly Sprints. Unless we could work full time on this project and everyone is willing to meet at a place and work together, or it would be better not to implement Scrum in our team. 
+          \item {\bf Scrum} This methodology is suitable for a team where they tend to work together in a fixed time, day-to-day. Even though we had scheduled the daily Sprint time, not everyone would attend since it was not compulsory and registered. Only few Sprint sessions at the beginning went well. In terms of time management, not every one of us were able to contribute fixed time such as every one or two days, so we could not have a daily sprint or even weekly Sprints. Unless we could work full time on this project and everyone is willing to meet at a place and work together, or it would be better not to implement Scrum in our team. 
           
           \item {\bf Kanban} Regards of project management, Kanban went well, but it would be better if we could have a workspace where we could combine our backlogs and Kanban. We found that there are two web applications that could provide this kind of services: Clubhouse and Jira. They are the web applications where we can add user stories which link to Kanbans at the same time. It would be nice to use these kind of tools to save time for the team .However, this was not possible as we are students that are currently studying and therefore do not have the budget to use these services.
         
@@ -813,7 +807,7 @@
           \item {\bf Progress Tracking} In terms of the progress tracking form, it should add one column which links to the contributions, either their GitHub commit or documentation. It was not convenient to record the hours each individual worked without any evidence but this did happen. Also, it was not really feasible to use working hours to represent the contributions. For example, with the same task, people spend less time to finish the same job should be rewarded higher compared to those who spend a longer period of time to do so. But we were not able to do this since everyone worked on different tasks. It would be fairer if each task could be evaluated by the importance, whoever completes the higher importance means contributing more. We should have a contribution list which records everyone's participation. Then with the list, we could write the peer access form in a more objective point of view.
         \end{itemize}
 
-        \paragraph{Overall} Not every development methodology fits our team, in terms of our team size and working time period, Scrum definitely did not suit us, the progress tracking form was not really helpful, while Kanban and the backlogs went well and helped us to monitor the development process. After having a taste of each methodology, then we are able to select the suitable developing methodology for our next project.
+        \paragraph{Overall} Not every development methodology fits our team, in terms of our team size and working time period, Scrum definitely did not suit us, the progress tracking form was not really helpful, while Kanban and the backlogs went well and helped us to monitor the development process. After having a taste of each methodology, now we know how to choose a suitable developing methodology for other projects.
 
       \subsection{Formative Evaluation}
         \paragraph{Outcomes} Our formative evaluation was focused on the functionalities of our iOS application, we conducted the tests after a certain amount of functionalities were developed. We found it really helpful to observe how the participants interacted with our application, and learned the fact that some of the functionalities might not be that useful, or the user interface might not be very intuitive but rather confusing. The success rate diagrams show that most of the users could complete the task we assigned them to do, and we needed to work on the ones with lower success rates to improve the usability. 
@@ -826,7 +820,7 @@
           \item {\bf Bluetooth} It turned out that the Bluetooth technologies were not that easy to use and we were not able to integrate it with the application. 
           \item {\bf iOS Development} Initially we thought it was possible to learn how to build the iOS application from zero experience and develop it within the time frame, but in fact it was a very steep learning curve.
           \item {\bf Tracker Server} The tracker was designed to host a server and the application could talk to it directly, but apparently it did not work like this.
-          \item {\bf Tracker Case} The tracker case was designed with a delicated 3D model, but we did not have time to actually print it out. Only a cut-board box was made to show the size of the case.
+          \item {\bf Tracker Case} The tracker case was designed with a 3D model, but we did not have time to actually print it out. Only a cut-board box was made to show the size of the case.
         \end{itemize}
 
         \paragraph{Overall} By encountering various problems and issues during the development, we learned to tackle the issues by finding an alternative way towards the same goal, rather than being stuck and trying to work with the same method. For example, the iOS development process was dramatically slowed down since the iOS team was inexperienced in Swift, so we managed to find an alternative development way, to use React Native, to build it within a short period of time. Being flexible with the confront problems was the most valuable lesson we learnt during the development. 
@@ -834,12 +828,28 @@
       \subsection{Quality Assurance}
         \paragraph{Outcomes} The quality assurance was divided into two parts: {\bf white-box tests} and {\bf black-box tests}, the first one was conducted before the second one.
         \begin{itemize}
-          \item {\bf White-box tests} We conducted the unit-tests for every user interface component to make sure that each of them renders correctly. Before each commit of the source code, the components needed to pass the unit-tests to ensure that all the components would not crash. In fact, the tests could be improved by adding more tests in terms of the functionalities of an component. For now the tests were only aimed for testing rendering but not the functionalities, how a button looks like would be tested but not what would happen if it was clicked. 
+          \item {\bf White-box tests} We conducted the unit-tests for every user interface component to make sure that each of them renders correctly. Before each commit of the source code, the components needed to pass the unit-tests to ensure that all the components would not crash. In fact, the tests could be improved by adding more tests in terms of the functionalities of an component. 
+          
+          For noew the tests cases only covered the user interface rendering, the functionalities wise were not tested. Such as our button component test only covered how should it look like, while what should happen once it was clicked was not covered. 
+
           \item {\bf Black-box tests} The black-box tests were cross reference to the backlogs and tested by us instead of the actual users. We wrote all the test cases for each backlog, we defined what was the precondition before a test, what triggered the tests, how to determine whether a test passed or failed, and so on.  
         \end{itemize}
 
-        \paragraph{Overall} In terms of the white-box tests, we were able to test the rendering, and it helped us to prevent someone accidentally putting a bug in the program during the development. It saved us time to not worry about the safety of the codes. It was really helpful and we learnt the importance of TDD and why developers need it. In terms of the black-box tests, unfortunately we were not able to pass all the tests because not all the functionalities were fully developed. During writing the black-box test cases, we needed to be really clear about how the application should work and how they interacted with the tracker or Hologram Cloud server. It was really important for the person who wrote the test cases to know the whole architect of the service. It might be better to write the tests even before any implementation, because we might end up finding some issues within the program or architect.
+        \paragraph{Overall} In terms of the white-box tests, we were able to test the rendering, and it helped us to prevent someone accidentally putting a bug in the program during the development. It saved us time to not worry about the safety of the codes. It was really helpful and we learnt the importance of TDD and why developers need it. In terms of the black-box tests, unfortunately we were not able to pass all the tests because not all the functionalities were fully developed. During writing the black-box test cases, we needed to be really clear about how the application should work and how they interacted with the tracker or Hologram Cloud server. It was really important for the person who wrote the test cases to know the whole architect of the service. It might be better to write the tests even before any implementation, because we might end up finding some issues within the program or architect.
 
+      \subsection{Conclusion}      
+        \paragraph{} Since the beginning our software has been designed for individuals who are always in the run and are prone to leave or loose items behind but also for who simply would like to keep track of objects. While developing the software we made sure of it being as user friendly as possible. With an informative welcome screen and an overall simple, clear, easy to navigate user interface has made this possible. Users can easily log items of interest by naming them and also add a picture related to these if they wish to, making it fairly easy to understand the kind of item logged. Multiple objects can be logged in the app; whenever a new one is paired to the app it will be added to a list of items. Of course details of these can be altered or updated at a later time, if the user wishes to.
+        
+        \paragraph{} From the beginning, one of our main goals for the software part of our project was to have the ability to track any tagged items. We have made progress since the beginning, as now our application is able to display the item and user’s location in a map format with a simple tap of a finger! Whenever connection is granted and the phone’s location service is on, iPhone users can navigate to the last known location of the item using Apple Map as our software links these two. Keeping in mind the user’s privacy and security, a password system is one of the must have features. Setting up a 4-digit password or touch-ID can be done within the software as well the ability to reset the password.
+        
+        \paragraph{} Our physical hardware up to date, consists of a device which is portable enough as the size of it isn’t too large as it consists of a raspberry pi zero. A battery is in the device for it to be on and functional. Due to lack of time and expertise, we were not able to build a fully functional physical tracker which would meet all of our initial user stories/backlogs.
+
+        \paragraph{} In summary, our development process has been quite an achievement as we managed to self-learn development tools using our knowledge from the programming side of our course as well as various strategies learnt on how to efficiently manage a software project. We accomplished to develop a relatively functional software and a hardware prototype. Nonetheless there is room for a lot of improvements for a future version. For the software side of the project, one of the main features which would improve the usability, is adding a function to notify the user when a tagged item is relatively far from their location. This way, it would be easier for them to retrieve items left behind while being nearby rather than realizing when much further away. A second useful function to include would be the capability for the application to listen for signals at a regular interval from the tracker. This would make recovering lost or stolen items more efficient.
+        
+        \paragraph{} With further research, a future version of the physical tracker can be made more portable by decreasing the size of the case. The case itself it could be designed better for example, by manufacturing it with higher quality material, improving its durability to withstand everyday usage better and more appealing. Usability can be improved as well by adding an on/off button to turn the device on and off whenever the user wishes to. Battery life of the device surely can be bettered with more advanced technologies. Finally, the ability of recharging the battery is a must feature to be added to make the device generally more practical as otherwise the battery would have to be replaced every time.
+        \newpage
+        
+      
     \begin{thebibliography}{20}
       \bibitem{ArchitectureDecisionRecord} M. Nygard, "Blog | Documenting Architecture Decisions | Relevance", Thinkrelevance.com, 2011. [Online]. Available: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions. [Accessed: 15- Mar- 2018].
       \bibitem{HowManyTestUsers} "How Many Test Users in a Usability Study?", Nielsen Norman Group, 2012. [Online]. Available: https://www.nngroup.com/articles/how-many-test-users/. [Accessed: 01- Mar- 2018].      
@@ -854,28 +864,27 @@
     \end{thebibliography}
     
     \begin{appendices}                  
-      \section{Development Records}
-        \subsection{Backlogs}\label{appendix:backlogs}
-          \includepdf[pages=-]{../assets/development-records-backlogs.pdf}
+      \section{Backlogs}\label{appendix:backlogs}
+        \includepdf[pages=-]{../assets/development-records-backlogs.pdf}
           
-        \subsection{Architecture Decision Records}\label{appendix:Architecture Decision Records}
-          \subsubsection{Mobile Development}
-            \begin{table}[H]
-              \centering
-                \begin{tabularx}{\textwidth}{l X}
-                  \hline
-                  Title & Which mobile OS to work on for the mobile application. \\ \hline
-                  Context & The main stream of mobile operating systems are Android and iOS, which platform should we develop for?\\ 
-                  Decision & In the UK, iOS and Android almost share each half of the market. It is better to develop on both platforms to serve more users as possible. Also, if either of the Android or iOS team couldn't deliver the app on time, we could still have the back-up app on the other platform. \\ 
-                  Status & Accepted.\\ 
-                  Consequences & We formed two teams - Android and iOS team to develop on both platforms.  \\                  
-                  \hline
-                \end{tabularx}
-                \caption[Table caption text]{ADR Mobile Application Development}
-                \label{table:ADR Mobile Application Development}
-            \end{table}
+      \section{Architecture Decision Records}\label{appendix:Architecture Decision Records}
+        \subsection{Mobile Development}
+          \begin{table}[H]
+            \centering
+              \begin{tabularx}{\textwidth}{l X}
+                \hline
+                Title & Which mobile OS to work on for the mobile application. \\ \hline
+                Context & The main stream of mobile operating systems are Android and iOS, which platform should we develop for?\\ 
+                Decision & In the UK, iOS and Android almost share each half of the market. It is better to develop on both platforms to serve more users as possible. Also, if either of the Android or iOS team couldn't deliver the app on time, we could still have the back-up app on the other platform. \\ 
+                Status & Accepted.\\ 
+                Consequences & We formed two teams - Android and iOS team to develop on both platforms.  \\                  
+                \hline
+              \end{tabularx}
+              \caption[Table caption text]{ADR Mobile Application Development}
+              \label{table:ADR Mobile Application Development}
+          \end{table}
 
-          \subsubsection{iOS Development}
+          \subsection{iOS Development}
             \begin{table}[H]
               \centering
                 \begin{tabularx}{\textwidth}{l X}
@@ -891,7 +900,7 @@
                 \label{table:ADR iOS Application Development}
             \end{table}
 
-          \subsubsection{Android Application Development}
+          \subsection{Android Application Development}
             \begin{table}[H]
               \centering
                 \begin{tabularx}{\textwidth}{l X}
@@ -907,7 +916,7 @@
                 \label{table:ADR Android Application Development}
             \end{table}
 
-            \subsubsection{Transfer iOS Development from Swift to React Native}
+            \subsection{Transfer iOS Development from Swift to React Native}
               \begin{table}[H]
                 \centering
                   \begin{tabularx}{\textwidth}{l X}
@@ -916,29 +925,50 @@
                     Context & The developing process was really slow and the iOS team could not find enough support due to the Swift version issue. React Native is an alternative way to develop the iOS application but it is written with React framework in JavaScript, which is more friendly to the team who is experienced in React. Should we migrate the codes to React Native from Swift? \\ 
                     Decision & Migrating would not take too much time and it would be way more easier for us to develop in JavaScript, so it would be a great chance for us to catch up on the developing schedule. \\ 
                     Status & Accepted. \\ 
-                    Consequences & The app was migrated from Swift to React Native within a half week, and the same functionality could be built in one day in React Native while 4 days in Swift. The developing efficiency increased dramatically.\\                  
+                    Consequences & The app was migrated from Swift to React Native within a half week, and the same functionality could be built in one day in React Native while 4 days in Swift. The developing efficiency increased dramatically. \\                  
                     \hline
                   \end{tabularx}
                   \caption[Table caption text]{ADR Transfer iOS Development from Swift to React Native}
                   \label{table:ADR Transfer iOS Development from Swift to React Native}
               \end{table}
 
-        \subsection{Tasks Divided}
-        \subsection{Progress Tracking Form}\label{appendix:progress-tracking-form}
-          \includepdf[pages=-]{../assets/development-record-progress-tracking-form.pdf}
-          
-      \section{Formative Evaluation}
-        \subsection{Consent Form}\label{appendix:consent-form}
-          \includepdf[pages=-]{../assets/usability-test-consent-form-example.pdf}
-          
-      \section{Design and Implementation}
-        \subsection{Computer Fair Posters}\label{appendix:computer-fair-posters}
-          \includepdf[pages=-]{../assets/design-computer-fair-poster-1.pdf}
-          \includepdf[pages=-]{../assets/design-computer-fair-poster-2.pdf}
-          \includepdf[pages=-]{../assets/design-computer-fair-poster-3.pdf}
+      \section{Tasks Divided}\label{appendix:tasks-divided}
+        \begin{itemize}
+          \item{Career Fair Posters}: Hussein, Lin
+          \item{Apps UI Design}: Lin
+          \item{Android App Development}: Dylan(Leader), Mahmudul
+          \item{Tracker Development}: Hussein(Leader), Mariano, Thairan
+          \item{iOS App Development}: Lin
+          \item{User testing}: Lin
+          \item{Presentation}: Hussein, Lin
+          \item{Final Report}: 
+          \begin{itemize}
+            \item{Introduction}: Dylan
+            \item{Development Record}: Lin
+            \item{Formative Evaluation}: Lin
+            \item{Design and Implementation}: Hussein, Mariano
+            \item{Quality Assurance}: Lin
+            \item{Summative Evaluation}: Mahmudul, Lin
+            \item{Proofreading}: Thairan
+          \end{itemize}
+        \end{itemize}
+
+      \section{Progress Tracking Form}\label{appendix:progress-tracking-form}
+        \paragraph{} Please see next page.
+        \includepdf[pages=-]{../assets/development-record-progress-tracking-form.pdf}
         
-      \section{Quality Assurance}
-        \subsection{Black-box Test Cases}\label{appendix:black-box-test-cases}
+      \section{Consent Form}\label{appendix:consent-form}
+        \paragraph{} Please see next page.
+        \includepdf[pages=-]{../assets/usability-test-consent-form-example.pdf}
+        
+      \section{Computer Fair Posters}\label{appendix:computer-fair-posters}
+        \paragraph{} Please see next page.
+        \includepdf[pages=-]{../assets/design-computer-fair-poster-1.pdf}
+        \includepdf[pages=-]{../assets/design-computer-fair-poster-2.pdf}
+        \includepdf[pages=-]{../assets/design-computer-fair-poster-3.pdf}
+      
+      \section{Black-box Test Cases}\label{appendix:black-box-test-cases}
+        \paragraph{} Please see next page.
         \includepdf[pages=-, angle=90]{../assets/black-box-test-cases.pdf}
     \end{appendices}
 

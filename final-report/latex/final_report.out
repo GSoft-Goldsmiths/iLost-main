@@ -33,19 +33,16 @@
 \BOOKMARK [2][-]{subsection.6.2}{Formative Evaluation}{section.6}% 33
 \BOOKMARK [2][-]{subsection.6.3}{Design and Implementation}{section.6}% 34
 \BOOKMARK [2][-]{subsection.6.4}{Quality Assurance}{section.6}% 35
-\BOOKMARK [1][-]{section*.137}{Appendices}{}% 36
-\BOOKMARK [1][-]{Appendix.a.A}{Development Records}{}% 37
-\BOOKMARK [2][-]{subsection.a.A.1}{Backlogs}{Appendix.a.A}% 38
-\BOOKMARK [2][-]{subsection.a.A.2}{Architecture Decision Records}{Appendix.a.A}% 39
-\BOOKMARK [3][-]{subsubsection.a.A.2.1}{Mobile Development}{subsection.a.A.2}% 40
-\BOOKMARK [3][-]{subsubsection.a.A.2.2}{iOS Development}{subsection.a.A.2}% 41
-\BOOKMARK [3][-]{subsubsection.a.A.2.3}{Android Application Development}{subsection.a.A.2}% 42
-\BOOKMARK [3][-]{subsubsection.a.A.2.4}{Transfer iOS Development from Swift to React Native}{subsection.a.A.2}% 43
-\BOOKMARK [2][-]{subsection.a.A.3}{Tasks Divided}{Appendix.a.A}% 44
-\BOOKMARK [2][-]{subsection.a.A.4}{Progress Tracking Form}{Appendix.a.A}% 45
-\BOOKMARK [1][-]{Appendix.a.B}{Formative Evaluation}{}% 46
-\BOOKMARK [2][-]{subsection.a.B.1}{Consent Form}{Appendix.a.B}% 47
-\BOOKMARK [1][-]{Appendix.a.C}{Design and Implementation}{}% 48
-\BOOKMARK [2][-]{subsection.a.C.1}{Computer Fair Posters}{Appendix.a.C}% 49
-\BOOKMARK [1][-]{Appendix.a.D}{Quality Assurance}{}% 50
-\BOOKMARK [2][-]{subsection.a.D.1}{Black-box Test Cases}{Appendix.a.D}% 51
+\BOOKMARK [2][-]{subsection.6.5}{Conclusion}{section.6}% 36
+\BOOKMARK [1][-]{section*.141}{Appendices}{}% 37
+\BOOKMARK [1][-]{Appendix.a.A}{Backlogs}{}% 38
+\BOOKMARK [1][-]{Appendix.a.B}{Architecture Decision Records}{}% 39
+\BOOKMARK [2][-]{subsection.a.B.1}{Mobile Development}{Appendix.a.B}% 40
+\BOOKMARK [2][-]{subsection.a.B.2}{iOS Development}{Appendix.a.B}% 41
+\BOOKMARK [2][-]{subsection.a.B.3}{Android Application Development}{Appendix.a.B}% 42
+\BOOKMARK [2][-]{subsection.a.B.4}{Transfer iOS Development from Swift to React Native}{Appendix.a.B}% 43
+\BOOKMARK [1][-]{Appendix.a.C}{Tasks Divided}{}% 44
+\BOOKMARK [1][-]{Appendix.a.D}{Progress Tracking Form}{}% 45
+\BOOKMARK [1][-]{Appendix.a.E}{Consent Form}{}% 46
+\BOOKMARK [1][-]{Appendix.a.F}{Computer Fair Posters}{}% 47
+\BOOKMARK [1][-]{Appendix.a.G}{Black-box Test Cases}{}% 48
