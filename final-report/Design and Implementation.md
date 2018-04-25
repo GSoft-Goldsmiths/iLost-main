@@ -1,8 +1,8 @@
 # Design Stage
 
-Our final design for the iLost tracker consists of an Android app and a Raspberry pi with the attached Hologram Nova. The User interacts with the Android app, whereas the raspberry pi provides the short-range capability of the Bluetooth and the Hologram Nova cellular modem attached to the raspberry pi provides the long-range capability.
+Our final design for the iLost tracker consists of an Android app and a Raspberry pi with an attached Hologram Nova. The User interacts with the Android app, whereas the raspberry pi provides the short-range capability of the Bluetooth and the Hologram Nova cellular modem attached to the raspberry pi provides the long-range capability.
 
-Short range is defined as less than 30 metres from the target and long-range is defined as above 30 metres to 400 km and beyond. 
+Short range is defined as less than 30 metres from the target and long-range is defined as above 30 metres to 400 km and beyond from the target. 
 
 ![tracker concept at January - long range](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/iLost_final_concept_v2.0_long_range.jpg)
 
@@ -114,10 +114,9 @@ The Swift API had many noteworthy changes from Swift 2.0 to 4.0 which is the lat
 
 For our tracker to be useful and satisfy its use cases it had to be portable. When we were testing our tracker, which was a raspberry pi 3 model b, it had be plugged into the mains. We replaced the raspberry pi 3 model b with the raspberry pi zero. The raspberry pi zero is 2x smaller than the raspberry pi 3, uses much less power and still uses the same operating system (so all the Bash scripts and configurations still worked) 
 
-We first tried to use small power banks to power the tracker (normally used for mobile phones) to test the average power consumption of the tracker. The tracker requires 130 mA. Using power banks is not practical for the user, so instead we tested lithium-ion batteries, these were slim and provided more power. We used 1200 mAH batteries, current testing shows that the tracker can last....
+We first tried to use small power banks to power the tracker (normally used for mobile phones) to test the average power consumption of the tracker. The tracker requires 130 mA. Using power banks is not practical for the user, so instead we tested lithium-ion batteries, these were slim and provided more power. We used 1200 mAH batteries, current testing shows that the tracker can last approximately 3 hours depending on how many location requests are made by the user. 
 
-We have a method of charging the battery, but this requires us to remove the power cable connecting the battery to the raspberry pi zero, there is at the moment no option for the user to charge the device...  
-[not finished yet] 
+We have a method of charging the battery, but this requires us to remove the power cable connecting the battery to the raspberry pi zero, there is at the moment no option for the user to charge the device, what we have now is a proof of concept device.
 
 **combined**
 ![final tracker images](https://github.com/GSoft-Goldsmiths/iLost-main/blob/master/final-report/Sources/Ch4%20Design%20and%20Implemenation/current_tracker_no_case.jpg)
